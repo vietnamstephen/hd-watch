@@ -116,6 +116,61 @@ LEADERSHIP = {
     ],
 }
 
+# ---------------------------------------------------------------- 自有品牌
+# 来源分级：A = 公司官方披露（SEC 文件 / IR 材料原文）；B = 第三方估计或本项目
+# 渠道抓取归纳（非公司披露，仅供参考）。HD 不在财报中披露自有品牌销售占比。
+PRIVATE_BRANDS = {
+    "note": "Home Depot 不在财报中披露自有品牌（Private / Exclusive Brands）的销售占比，"
+            "本节只汇总可核实的官方信息与明确标注的第三方估计。",
+    "trademark": {
+        "grade": "A",
+        "src": "最新财年 10-K「知识产权」章节（ir.homedepot.com）",
+        "url": "https://ir.homedepot.com/~/media/Files/H/HomeDepot-IR/reports-and-presentations/quarterly-earnings/2025/q4-2025-10-k.pdf",
+        "brands": ["HDX", "Husky", "Hampton Bay", "Home Decorators Collection",
+                   "Glacier Bay", "Vigoro", "Everbilt", "LifeProof"],
+        "desc": "10-K 列名的注册自有品牌商标，覆盖工具、浴室厨房、灯扇、地板、园艺、五金等核心品类；"
+                "公司声明「定期评估扩充自有品牌组合」。",
+    },
+    "licensed": {
+        "grade": "A",
+        "src": "公司年报 / 公开资料",
+        "brands": [
+            {"name": "Ridgid / Ryobi", "desc": "电动工具独家授权（Ridgid 为 Emerson 商标、Ryobi 为 TTI 旗下）"},
+            {"name": "BEHR", "desc": "涂料独家销售品牌（商标属 Masco，仅在 HD 渠道销售）"},
+        ],
+        "desc": "非自有但 HD 独家：授权工具平台与独家涂料，形成电池生态与油漆品类粘性。",
+    },
+    "outdoor_matrix": {
+        "grade": "B",
+        "src": "本项目 Walmart 渠道抓取归纳（data/buzz_analysis.json）",
+        "items": [
+            {"name": "Hampton Bay", "pos": "户外家具主力品牌"},
+            {"name": "Stylewell", "pos": "性价比线"},
+            {"name": "Home Decorators Collection", "pos": "高端线"},
+            {"name": "Martha Stewart", "pos": "联名线"},
+        ],
+        "desc": "户外家具以自有品牌为主（与 Amazon 以国民品牌为主的结构形成反差）；"
+                "结论来自渠道在架商品的品牌抽样，非公司披露。",
+    },
+    "bastek": {
+        "grade": "A",
+        "src": "8-K Item 5.02（filed 2026-08-21）+ 电话会",
+        "desc": "商品 EVP Billy Bastek 自 2026-08 起增管「产品开发与自有品牌」，"
+                "并获 $50 万限制性股票（两年归属）——管理层将自有品牌提到更高优先级的治理信号。",
+    },
+    "third_party": [
+        {"grade": "B",
+         "src": "Orply（引行业估计）",
+         "url": "https://orply.com/articles/acquired/home-depot-5d215538",
+         "fact": "house brands（自有 + 独家品牌）约占销售额 15%–25%"},
+        {"grade": "B",
+         "src": "Datavations 品类监测（Q1 2026，浴室面盆龙头）",
+         "url": "https://www.datavations.ai/post/bathroom-sink-faucet-category-home-depot-lowes",
+         "fact": "Glacier Bay 占 HD 该品类销售额 30%（约 $4,250 万、ASP $55，比 Kohler 低 40%），"
+                 "为该品类第一品牌，高于 Delta（22%）与 Kohler（15%）"},
+    ],
+}
+
 # ---------------------------------------------------------------- 门店与扩张
 STORES = {
     "retail": 2364,

@@ -146,8 +146,29 @@ UI = {
     "risk.tail": ("支撑与机会", "Support & opportunities"),
     "c.follow": ("下一阶段重点跟踪", "What to watch next"),
 
-    # ---- 九、来源
-    "sec9": ("九、市场反馈与数据来源", "9. Market Reaction & Sources"),
+    # ---- 九、自有品牌
+    "sec9": ("九、自有品牌（Private / Exclusive Brands）",
+             "9. Private & Exclusive Brands"),
+    "pb.note": ("口径说明：Home Depot 不在财报中披露自有品牌销售占比。本节来源分级 —— "
+                "A＝公司官方披露（SEC 文件 / IR 材料原文）；B＝第三方估计或本项目渠道抓取归纳"
+                "（非公司披露，仅供参考）。",
+                "Scope note: The Home Depot does not disclose private-brand sales share in its "
+                "financial reports. Source grading here — A = company official disclosure "
+                "(SEC filings / IR materials); B = third-party estimates or this project's "
+                "channel-scrape summaries (not company-disclosed, for reference only)."),
+    "pb.trademark": ("10-K 列名注册自有品牌商标（来源：最新财年 10-K 知识产权章节）",
+                     "Registered proprietary-brand trademarks named in the 10-K (from the IP section of the latest annual report)"),
+    "pb.licensed": ("独家授权 / 独家销售品牌（非自有，但 HD 渠道独占）",
+                    "Licensed / exclusive-sold brands (not owned, exclusive to Home Depot)"),
+    "pb.outdoor": ("户外线自有品牌矩阵（来源：本项目 Walmart 渠道抓取归纳）",
+                   "Outdoor private-brand matrix (from this project's Walmart channel scrape)"),
+    "pb.bastek": ("治理信号：自有品牌优先级提升",
+                  "Governance signal: private brands get a higher priority"),
+    "pb.est": ("第三方估计（非公司披露，仅供参考）",
+               "Third-party estimates (not company-disclosed, for reference only)"),
+
+    # ---- 十、来源
+    "sec10": ("十、市场反馈与数据来源", "10. Market Reaction & Sources"),
     "c.filings": ("监管文件（SEC EDGAR，CIK 0000354950）",
                   "Regulatory filings (SEC EDGAR, CIK 0000354950)"),
     "fil.h1": ("提交日", "Filed"), "fil.h2": ("类型", "Form"), "fil.h3": ("报告期", "Period"),
@@ -250,9 +271,6 @@ UI = {
     # 网评分 / 畅销榜 / buzz 分析（2026-10-05 追加）
     # ================================================================
 
-    # ---- 章节十：网评分与畅销榜
-    "sec10": ("十、网评分与畅销榜（Amazon 一手数据）",
-              "10. Ratings & Best Sellers (first-party Amazon data)"),
     "sec10.note": (
         "本节的评分、评论数、名次全部来自亚马逊官方榜单页的原始字段，直抓所得，未经二次加工。"
         "两个必须知道的口径：① 畅销榜按**销售件数**排名，不是销售额，因此低单价、高复购的耗材"
@@ -298,7 +316,6 @@ UI = {
         "not retrieved — never filled in with an estimate."),
 
     # ---- 章节十一：Patio 明星产品 buzz 分析
-    "sec11": ("十一、Patio 明星产品 buzz 分析", "11. Patio Star Products — a Buzz Analysis"),
     "sec11.note": (
         "「明星产品」不等于最贵或最好，而是**声量、口碑、当下动能**三者综合最强。"
         "三个分量各自归一化后在榜内加权，因此不同榜单的商品之间不做直接比较 —— "
@@ -345,8 +362,6 @@ UI = {
         "figures. Its value is showing who has just arrived, not who has already won."),
 
     # ---- 章节十二：双渠道对标
-    "sec12": ("十二、双渠道对标：Amazon vs Walmart（均为一手直抓）",
-              "12. Two-Channel Comparison: Amazon vs Walmart (both first-party)"),
     "sec12.note": (
         "本节只对标**能站内直抓的两家** —— Amazon（8 个畅销榜）与 Walmart（7 个品类页 +"
         "评论页）。之所以不做多渠道并列，是因为另三家的站内数据根本拿不到，"
@@ -390,8 +405,6 @@ UI = {
     "srctier.firstparty": ("一手直抓", "First-party scrape"),
 
     # ---- 章节十三：品类档次对标（Amazon × Walmart 一手）
-    "sec13": ("十三、HD 主流品类档次对标（Amazon × Walmart 一手）",
-              "13. Benchmarking HD's Core Categories (first-party Amazon × Walmart)"),
     "sec13.note": (
         "这一节回答一个具体问题：**Home Depot 的主打品类，放到全渠道上是什么档次？**"
         " 口径按 Home Depot 的 patio 类目体系划成 7 类（成套家具 / 单件组合家具 / 遮阳伞 / "
@@ -711,6 +724,48 @@ FACT_STORES = {
                   "10 Canadian provinces + Mexico"),
     "expansion_note": ("Retail expansion has entered a low-growth phase (~15 stores a year); incremental "
                        "growth is mainly in SRS distribution branches (40–50 a year)."),
+}
+
+FACT_PRIVATE_BRANDS = {
+    "note": ("Scope note: The Home Depot does not disclose private-brand sales share in its financial "
+             "reports. Source grading — A = company official disclosure (SEC filings / IR materials); "
+             "B = third-party estimates or this project's channel-scrape summaries (not company-disclosed, "
+             "for reference only)."),
+    "trademark": {
+        "desc": ("Registered proprietary-brand trademarks named in the 10-K, covering core categories such as "
+                 "tools, bath & kitchen, lighting & fans, flooring, lawn and hardware; the company states it "
+                 "\"regularly assesses merchandising departments and product lines for opportunities to expand "
+                 "the proprietary and exclusive brand portfolio\"."),
+        "src": "Latest fiscal-year 10-K, Intellectual Property section (ir.homedepot.com)",
+    },
+    "licensed": {
+        "desc": ("Not owned but exclusive to Home Depot: licensed tool platforms and the exclusive paint brand, "
+                 "creating battery-ecosystem and paint-category stickiness."),
+        "items": [
+            {"desc": "Power tools sold exclusively (Ridgid is an Emerson trademark; Ryobi belongs to TTI)"},
+            {"desc": "Exclusive paint brand (trademark owned by Masco; sold only through Home Depot)"},
+        ],
+    },
+    "outdoor_matrix": {
+        "desc": ("Outdoor furniture is led by private brands (in contrast to Amazon's national-brand-led "
+                 "structure); the conclusion comes from brand sampling of on-shelf items in the channel scrape, "
+                 "not company disclosure."),
+        "src": "This project's Walmart channel scrape (data/buzz_analysis.json)",
+        "pos": ["Outdoor furniture flagship", "Value line", "Premium line", "Collaboration line"],
+    },
+    "bastek": {
+        "desc": ("Merchandising EVP Billy Bastek additionally took on product development and private brands "
+                 "from August 2026, with a $500,000 restricted-stock grant vesting over two years — a governance "
+                 "signal that private brands are being prioritized."),
+        "src": "8-K Item 5.02 (filed 2026-08-21) + earnings call",
+    },
+    "third_party": [
+        {"src": "Orply (citing industry estimates)",
+         "fact": "House brands (private + exclusive) account for roughly 15%–25% of sales"},
+        {"src": "Datavations category tracking (Q1 2026, bathroom sink faucets)",
+         "fact": ("Glacier Bay held a 30% share of Home Depot's faucet category dollars (~$42.5M, ASP $55, "
+                  "40% below Kohler) — the category's #1 brand, ahead of Delta (22%) and Kohler (15%)")},
+    ],
 }
 
 FACT_TARIFF = {

@@ -281,6 +281,68 @@ def _leadership_html() -> str:
     return "".join(out)
 
 
+def _pb_html() -> str:
+    """第九章：自有品牌。来源分级 A=官方披露 / B=第三方估计或本项目归纳。"""
+    pb = C.PRIVATE_BRANDS
+    en = I.FACT_PRIVATE_BRANDS
+
+    def grade_badge(g: str) -> str:
+        if g == "A":
+            return "<span class='badge'>来源 A · 官方披露</span>"
+        return "<span class='badge w'>来源 B · 第三方/项目归纳</span>"
+
+    out = ["<p class='note'>" + bi(pb["note"], en["note"]) + "</p>"]
+
+    # ① 10-K 商标
+    tm = pb["trademark"]
+    out.append("<div class='card'><h3>" + S("pb.trademark") + " " + grade_badge(tm["grade"]) + "</h3>")
+    out.append("<div class='badges'>" + "".join("<span class='badge'>" + _esc(b) + "</span>" for b in tm["brands"]) + "</div>")
+    out.append("<p class='note'>" + bi(tm["desc"], en["trademark"]["desc"]) + "</p>")
+    out.append("<p class='src'>" + I.src_bi("来源：" + tm["src"]) +
+               " · <a href='" + tm["url"] + "' target='_blank'>10-K 原文</a></p></div>")
+
+    # ② 独家授权
+    li = pb["licensed"]
+    out.append("<div class='card'><h3>" + S("pb.licensed") + " " + grade_badge(li["grade"]) + "</h3>")
+    out.append("<table><tbody>")
+    en_li = en["licensed"]["items"]
+    for i, b in enumerate(li["brands"]):
+        e = en_li[i] if i < len(en_li) else {}
+        out.append("<tr><th class='row-h'>" + _esc(b["name"]) + "</th><td>" +
+                   bi(b["desc"], e.get("desc", b["desc"])) + "</td></tr>")
+    out.append("</tbody></table>")
+    out.append("<p class='note'>" + bi(li["desc"], en["licensed"]["desc"]) + "</p>")
+    out.append("<p class='src'>" + I.src_bi("来源：" + li["src"]) + "</p></div>")
+
+    # ③ 户外矩阵
+    om = pb["outdoor_matrix"]
+    out.append("<div class='card'><h3>" + S("pb.outdoor") + " " + grade_badge(om["grade"]) + "</h3>")
+    out.append("<table><thead><tr><th>品牌</th><th>" + bi("定位", "Positioning") + "</th></tr></thead><tbody>")
+    for i, it in enumerate(om["items"]):
+        pos_en = en["outdoor_matrix"]["pos"][i] if i < len(en["outdoor_matrix"].get("pos", [])) else it["pos"]
+        out.append("<tr><td><b>" + _esc(it["name"]) + "</b></td><td>" +
+                   bi(it["pos"], pos_en) + "</td></tr>")
+    out.append("</tbody></table>")
+    out.append("<p class='note'>" + bi(om["desc"], en["outdoor_matrix"]["desc"]) + "</p>")
+    out.append("<p class='src'>" + I.src_bi("来源：" + om["src"]) + "</p></div>")
+
+    # ④ Bastek 信号
+    bk = pb["bastek"]
+    out.append("<div class='card'><h3>" + S("pb.bastek") + " " + grade_badge(bk["grade"]) + "</h3>")
+    out.append("<p class='note' style='font-size:13.4px'>" + bi(bk["desc"], en["bastek"]["desc"]) + "</p>")
+    out.append("<p class='src'>" + I.src_bi("来源：" + bk["src"]) + "</p></div>")
+
+    # ⑤ 第三方估计
+    out.append("<div class='card'><h3>" + S("pb.est") + "</h3><ul class='list quote'>")
+    for t in pb["third_party"]:
+        src_html = ("<a href='" + t["url"] + "' target='_blank'>" + _esc(t["src"]) + "</a>"
+                    if t.get("url") else _esc(t["src"]))
+        out.append("<li><span class='badge w'>B</span> " + _esc(t["fact"]) +
+                   "<div class='src'>" + I.src_bi("来源：") + src_html + "</div></li>")
+    out.append("</ul></div>")
+    return "".join(out)
+
+
 def _tariff_table() -> str:
     facts = C.TARIFF["facts"]
     en_facts = I.FACT_TARIFF["facts"]
@@ -945,6 +1007,9 @@ __STORES__
 </div>
 
 <h2>{{sec9}}</h2>
+__PB__
+
+<h2>{{sec10}}</h2>
 <div class="card">
   <h3>{{c.filings}}</h3>
   __FILINGS__
@@ -1458,6 +1523,7 @@ def build() -> str:
                            I.FACT_STRATEGY_TAM["note"] + " " + I.FACT_STRATEGY_TAM["share"]),
         "__SCENARIO__": _scenario_table(),
         "__RISK__": _risk_html(),
+        "__PB__": _pb_html(),
         "__FOLLOWUP__": _followup_html(),
         "__FILINGS__": _filings_html(fil),
         "__IRDOCS__": _ir_quarters_html(ir),
