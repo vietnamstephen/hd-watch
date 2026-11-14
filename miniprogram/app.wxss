@@ -1,0 +1,232 @@
+/* ===== 主题变量（浅色） ===== */
+page {
+  --bg: #F5F5F7;
+  --card: #FFFFFF;
+  --card2: #FAFAFC;
+  --fg: #1A1A1D;
+  --fg2: #55555E;
+  --sub: #8A8A94;
+  --line: #E4E4EA;
+  --accent: #C8102E;   /* 品牌红：Home Depot 橙红 */
+  --brand: #F96302;
+  --up: #C8102E;       /* 涨 —— 红 */
+  --down: #0F9D58;     /* 跌 —— 绿 */
+  --chip: #EFEFF4;
+  --shadow: 0 2rpx 12rpx rgba(0, 0, 0, 0.05);
+
+  background: var(--bg);
+  color: var(--fg);
+  font-size: 28rpx;
+  line-height: 1.55;
+  font-family: -apple-system, "PingFang SC", "Helvetica Neue", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ===== 主题变量（深色，跟随系统） ===== */
+@media (prefers-color-scheme: dark) {
+  page {
+    --bg: #101012;
+    --card: #1C1C20;
+    --card2: #232327;
+    --fg: #F2F2F5;
+    --fg2: #B9B9C2;
+    --sub: #85858F;
+    --line: #2E2E34;
+    --accent: #FF5C6E;
+    --brand: #FF8A3D;
+    --up: #FF5C6E;
+    --down: #34C77B;
+    --chip: #26262B;
+    --shadow: none;
+  }
+}
+
+view, text, scroll-view { box-sizing: border-box; }
+
+/* ===== 通用容器 ===== */
+.wrap { padding: 24rpx 24rpx 60rpx; }
+.card {
+  background: var(--card);
+  border-radius: 20rpx;
+  padding: 28rpx;
+  margin-bottom: 24rpx;
+  box-shadow: var(--shadow);
+}
+.card.tight { padding: 20rpx 24rpx; }
+.card.tap { transition: transform .12s; }
+.card.tap:active { transform: scale(0.985); }
+
+/* ===== 文本 ===== */
+.h1 { font-size: 40rpx; font-weight: 700; letter-spacing: -.3rpx; }
+.h2 { font-size: 32rpx; font-weight: 700; }
+.sec {
+  font-size: 26rpx; font-weight: 700; color: var(--sub);
+  letter-spacing: 2rpx; margin: 8rpx 0 16rpx 4rpx;
+}
+.lbl { font-size: 24rpx; color: var(--sub); }
+.txt { font-size: 28rpx; color: var(--fg2); }
+.small { font-size: 22rpx; color: var(--sub); }
+.mono { font-variant-numeric: tabular-nums; font-feature-settings: "tnum"; }
+.b { font-weight: 700; }
+.c-up { color: var(--up); }
+.c-down { color: var(--down); }
+.c-sub { color: var(--sub); }
+.ell2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* ===== 价格头条 ===== */
+.px { font-size: 76rpx; font-weight: 700; line-height: 1.1; letter-spacing: -2rpx; }
+.px-s { font-size: 30rpx; font-weight: 600; }
+
+/* ===== 指标网格 ===== */
+.grid { display: flex; flex-wrap: wrap; }
+.grid .g-item {
+  width: 50%;
+  padding: 14rpx 0;
+}
+.grid3 .g-item { width: 33.3333%; }
+.g-v { font-size: 34rpx; font-weight: 700; }
+.g-k { font-size: 22rpx; color: var(--sub); margin-top: 2rpx; }
+
+/* ===== 徽标 ===== */
+.bdg {
+  display: inline-block;
+  font-size: 20rpx;
+  padding: 2rpx 12rpx;
+  border-radius: 999rpx;
+  background: var(--chip);
+  color: var(--fg2);
+  margin-right: 8rpx;
+}
+.bdg.red { background: rgba(200, 16, 46, 0.12); color: var(--accent); }
+.bdg.blue { background: rgba(10, 110, 200, 0.14); color: #0A6EC8; }
+
+/* ===== 分段控件 ===== */
+.seg {
+  display: flex;
+  background: var(--chip);
+  border-radius: 16rpx;
+  padding: 6rpx;
+  margin-bottom: 24rpx;
+}
+.seg .s-item {
+  flex: 1;
+  text-align: center;
+  font-size: 26rpx;
+  padding: 14rpx 0;
+  border-radius: 12rpx;
+  color: var(--fg2);
+}
+.seg .s-item.on {
+  background: var(--card);
+  color: var(--fg);
+  font-weight: 700;
+  box-shadow: 0 1rpx 4rpx rgba(0, 0, 0, 0.08);
+}
+
+/* ===== 排行榜条目 ===== */
+.rk { display: flex; padding: 22rpx 0; border-top: 1rpx solid var(--line); }
+.rk:first-child { border-top: none; }
+.rk .n {
+  width: 52rpx; flex: none;
+  font-size: 30rpx; font-weight: 700; color: var(--sub);
+  line-height: 1.35;
+}
+.rk.top .n { color: var(--accent); }
+.rk .body { flex: 1; min-width: 0; }
+.rk .ttl { font-size: 27rpx; font-weight: 600; line-height: 1.4; }
+.rk .meta { display: flex; flex-wrap: wrap; align-items: center; margin-top: 6rpx; }
+.rk .meta .small { margin-right: 16rpx; }
+
+/* ===== buzz 值条 ===== */
+.bar { height: 8rpx; background: var(--chip); border-radius: 999rpx; margin-top: 12rpx; overflow: hidden; }
+.bar .fill { height: 100%; border-radius: 999rpx; background: var(--brand); }
+.bar .fill.hi { background: linear-gradient(90deg, var(--brand), var(--accent)); }
+
+/* ===== 3 分量快照 ===== */
+.trio { display: flex; margin-top: 10rpx; }
+.trio .t {
+  flex: 1; margin-right: 12rpx;
+  background: var(--chip); border-radius: 10rpx;
+  padding: 8rpx 10rpx;
+}
+.trio .t:last-child { margin-right: 0; }
+.trio .t .k { font-size: 19rpx; color: var(--sub); }
+.trio .t .v { font-size: 24rpx; font-weight: 700; }
+
+/* ===== 表格式列表（小程序无 table 标签，用 flex 模拟） ===== */
+.tb { width: 100%; }
+.tb .tr {
+  display: flex;
+  align-items: flex-start;
+  padding: 16rpx 0;
+  border-top: 1rpx solid var(--line);
+}
+.tb .tr:first-child { border-top: none; }
+.tb .tr.head { padding-bottom: 8rpx; }
+.tb .tr.head .td {
+  font-size: 21rpx; color: var(--sub); font-weight: 600;
+}
+.tb .td { font-size: 24rpx; color: var(--fg2); }
+.tb .td.nm { flex: 1; min-width: 0; padding-right: 12rpx; }
+.tb .td.v {
+  width: 112rpx; flex: none; text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+/* ===== 折叠说明 ===== */
+.acc { border-top: 1rpx solid var(--line); margin-top: 20rpx; padding-top: 20rpx; }
+.acc-h {
+  display: flex; justify-content: space-between; align-items: center;
+  font-size: 27rpx; font-weight: 600;
+}
+.acc-h .arw { color: var(--sub); font-size: 24rpx; transition: transform .2s; }
+.acc-h .arw.on { transform: rotate(90deg); }
+.acc-b { margin-top: 16rpx; }
+
+/* ===== 提示条 ===== */
+.note {
+  background: var(--card2);
+  border-left: 6rpx solid var(--brand);
+  border-radius: 10rpx;
+  padding: 20rpx 22rpx;
+  font-size: 24rpx;
+  color: var(--fg2);
+  line-height: 1.6;
+}
+
+/* ===== 概览要点（bullet） ===== */
+.hl { margin-top: 6rpx; }
+.hl .hl-i {
+  display: flex;
+  align-items: flex-start;
+  padding: 9rpx 0;
+}
+.hl .hl-d {
+  width: 10rpx; height: 10rpx; flex: none;
+  border-radius: 50%;
+  background: var(--brand);
+  margin: 13rpx 16rpx 0 2rpx;
+}
+.hl .hl-t {
+  flex: 1; min-width: 0;
+  font-size: 25rpx;
+  line-height: 1.62;
+  color: var(--fg2);
+}
+
+/* ===== 免责声明 ===== */
+.disc {
+  font-size: 21rpx; color: var(--sub);
+  line-height: 1.7; margin-top: 8rpx;
+}
+
+/* ===== 空态 ===== */
+.empty { text-align: center; color: var(--sub); font-size: 26rpx; padding: 60rpx 0; }
+
+/* ===== canvas ===== */
+.chart { width: 100%; height: 360rpx; }

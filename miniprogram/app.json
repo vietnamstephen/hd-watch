@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/patio/patio",
+    "pages/cats/cats",
+    "pages/compare/compare"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#F5F5F7",
+    "navigationBarTitleText": "HD 户外周报",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#F5F5F7"
+  },
+  "tabBar": {
+    "color": "#8A8A94",
+    "selectedColor": "#C8102E",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "概览",
+        "iconPath": "images/tab-home.png",
+        "selectedIconPath": "images/tab-home-on.png"
+      },
+      {
+        "pagePath": "pages/patio/patio",
+        "text": "明星产品",
+        "iconPath": "images/tab-star.png",
+        "selectedIconPath": "images/tab-star-on.png"
+      },
+      {
+        "pagePath": "pages/cats/cats",
+        "text": "品类对标",
+        "iconPath": "images/tab-cats.png",
+        "selectedIconPath": "images/tab-cats-on.png"
+      },
+      {
+        "pagePath": "pages/compare/compare",
+        "text": "渠道对标",
+        "iconPath": "images/tab-compare.png",
+        "selectedIconPath": "images/tab-compare-on.png"
+      }
+    ]
+  },
+  "darkmode": true,
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

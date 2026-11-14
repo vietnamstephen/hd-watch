@@ -1,0 +1,148 @@
+<view class="wrap">
+  <view wx:if="{{!ready}}" class="empty">加载中…</view>
+
+  <block wx:else>
+    <view class="card">
+      <view class="h1">HD 主流品类档次对标</view>
+      <view class="small" style="margin-top:8rpx">
+        把 Home Depot 的主打 patio 品类放到全渠道上看处于什么档次 —— 供给密度与口碑取自
+        Walmart 一手品类页与 Amazon 畅销榜；差评主题取自 Walmart「最低分优先」评论页
+      </view>
+    </view>
+
+    <!-- 口径说明 -->
+    <view class="card tight" bindtap="toggleNote">
+      <view class="acc-h" style="border:none;margin:0;padding:0">
+        <view class="mh-t b">口径与限制（先看这里）</view>
+        <view class="arw {{openNote ? 'on' : ''}}">›</view>
+      </view>
+      <view class="note" wx:if="{{openNote}}" style="margin-top:16rpx">{{note}}</view>
+    </view>
+
+    <!-- 档次阶梯 -->
+    <view class="card">
+      <view class="h2">品类档次阶梯</view>
+      <view class="small" style="margin-bottom:14rpx">
+        定位分是这 7 类之间的相对排名，不是绝对好坏
+      </view>
+      <view class="read" wx:if="{{reading.length}}">
+        <view class="read-i" wx:for="{{reading}}" wx:key="zh">
+          <text class="bdg red">{{item.zh}}</text>
+          <text class="b">{{item.cat}}</text>
+          <text class="small c-sub">{{item.val}}</text>
+        </view>
+      </view>
+      <view class="lad" wx:for="{{ladder}}" wx:key="cat">
+        <view class="lad-h">
+          <text class="rk-n">{{item.rk}}</text>
+          <text class="b cat">{{item.cat}}</text>
+          <text class="bdg {{item.tierCls}}">{{item.tier}}</text>
+          <text class="bdg {{item.riskCls}}">抱怨{{item.risk}}</text>
+          <text class="pos mono {{item.posCls}}">{{item.pos}}</text>
+        </view>
+        <view class="bar slim">
+          <view class="fill {{item.posCls}}" style="width:{{item.posW}}%"></view>
+        </view>
+        <view class="lad-m small">
+          <text>累计评价 {{item.rev}}</text>
+          <text>Walmart {{item.wm}} 件</text>
+          <text>Amazon {{item.amz}} 件</text>
+          <text>加权星级 {{item.wrat}}</text>
+          <text>差评率 {{item.neg}}</text>
+        </view>
+        <view class="small c-sub">主要抱怨：{{item.themes}}</view>
+        <view class="small c-sub" wx:if="{{item.lowconf}}">
+          * 该品类抽样评论不足 1,000 条，差评率与加权星级误差较大
+        </view>
+      </view>
+    </view>
+
+    <!-- 渠道供给对照 -->
+    <view class="card">
+      <view class="h2">渠道 × 品类：供给厚度</view>
+      <view class="small" style="margin-bottom:14rpx">
+        蓝 = Amazon，紫 = Walmart。看「成套家具」：Amazon 0 件 —— 大件家具几乎不上亚马逊榜
+      </view>
+      <view class="cc" wx:for="{{cmp}}" wx:key="cat">
+        <view class="cc-h">
+          <text class="b">{{item.cat}}</text>
+          <text class="small">Amazon {{item.an}} 件 · Walmart {{item.wn}} 件</text>
+        </view>
+        <view class="bar slim"><view class="fill amz" style="width:{{item.amz_w}}%"></view></view>
+        <view class="bar slim"><view class="fill wm" style="width:{{item.wm_w}}%"></view></view>
+        <view class="small c-sub">
+          中位评价数 Amazon {{item.amz_mr}} / Walmart {{item.wm_mr}} · 中位评分 {{item.amz_rt}} / {{item.wm_rt}}
+        </view>
+      </view>
+    </view>
+
+    <!-- 品类冠军（实物图） -->
+    <view class="card">
+      <view class="h2">各品类明星产品（实物图）</view>
+      <view class="small" style="margin-bottom:14rpx">
+        每个品类并列两个渠道各自的榜首。两渠道分数各自在榜内归一化，数值不可直接比较，故只并列不排序。
+        配图为 Walmart 公开商品图（Amazon 商品主图三路皆被封）
+      </view>
+      <view class="champ" wx:for="{{champs}}" wx:key="cat">
+        <view class="champ-cat">{{item.cat}}</view>
+        <view class="champ-row">
+          <view class="champ-cell" wx:for="{{item.ch}}" wx:for-item="c" wx:key="ch"
+                data-u="{{c.u}}" bindtap="copy">
+            <view class="small cc-tag {{c.wm ? 'wm' : ''}}">{{c.ch}}</view>
+            <image wx:if="{{c.img}}" class="pimg" src="{{c.img}}" mode="aspectFit" />
+            <view wx:else class="pimg ph">无图</view>
+            <view class="champ-t ell2">{{c.t}}</view>
+            <view class="small c-sub">{{c.meta}}</view>
+          </view>
+        </view>
+      </view>
+      <view class="small" style="margin-top:12rpx">点任一条可复制该商品链接</view>
+    </view>
+
+    <!-- 差评归纳 -->
+    <view class="card">
+      <view class="h2">客户负面反馈归纳</view>
+      <view class="small" style="margin-bottom:14rpx">
+        {{nProducts}} 款商品 · {{nNegative}} 条 1–2 星评论（Walmart 平台自带「最低分优先」排序）
+      </view>
+      <view class="thm" wx:for="{{themes}}" wx:key="t">
+        <view class="thm-h">
+          <text class="b">{{item.t}}</text>
+          <text class="small">命中 {{item.n}} · 覆盖 {{item.p}} 款</text>
+        </view>
+        <view class="bar slim"><view class="fill hi" style="width:{{item.w}}%"></view></view>
+        <view class="note q" wx:if="{{item.q}}">{{item.q}}…</view>
+      </view>
+    </view>
+
+    <!-- 品类 × 痛点矩阵 -->
+    <view class="card" wx:if="{{matrix.rows.length}}">
+      <view class="h2">品类 × 痛点：抱怨集中在哪里</view>
+      <view class="small" style="margin-bottom:12rpx">颜色越深＝该品类在这个痛点上被提及越多</view>
+      <scroll-view scroll-x="true" class="mx-scroll">
+        <view class="mx">
+          <view class="mx-r mx-head">
+            <view class="mx-c0"></view>
+            <view class="mx-c" wx:for="{{matrix.cols}}" wx:key="*this">{{item}}</view>
+          </view>
+          <view class="mx-r" wx:for="{{matrix.rows}}" wx:key="cat">
+            <view class="mx-c0">
+              <view class="b small">{{item.cat}}</view>
+              <view class="small c-sub">{{item.total}}</view>
+            </view>
+            <view class="mx-c lv{{cell.lvl}}" wx:for="{{item.cells}}" wx:for-item="cell" wx:key="i">
+              {{cell.v ? cell.v : '·'}}
+            </view>
+          </view>
+        </view>
+      </scroll-view>
+    </view>
+
+    <view class="card">
+      <view class="disc">
+        数据来源：Walmart 品类页与评论页、Amazon 公开畅销榜（每期重新抓取）。本内容仅供参考，
+        不构成投资或采购建议。
+      </view>
+    </view>
+  </block>
+</view>

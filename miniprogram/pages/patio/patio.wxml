@@ -1,0 +1,136 @@
+<view class="wrap">
+  <view wx:if="{{!ready}}" class="empty">加载中…</view>
+
+  <block wx:else>
+    <view class="card">
+      <view class="h1">Patio 明星产品</view>
+      <view class="small" style="margin-top:8rpx">
+        不按销量排序，按「声量」排序 —— 数据来自 Amazon 庭院户外各榜单的公开排名、评分与累计评价数
+      </view>
+    </view>
+
+    <!-- 易误读点 -->
+    <view class="card" wx:if="{{notes.length}}">
+      <view class="h2">先看容易误读的地方</view>
+      <view class="acc" wx:for="{{notes}}" wx:key="t">
+        <view class="acc-h">{{item.t}}</view>
+        <view class="acc-b txt">{{item.b}}</view>
+      </view>
+    </view>
+
+    <!-- 方法 -->
+    <view class="card">
+      <view class="acc-h" bindtap="toggleMethod">
+        <view class="mh-t">评分方法：buzz = {{method.w_v}}% 声量 + {{method.w_q}}% 口碑 + {{method.w_m}}% 动能</view>
+        <view class="arw {{openMethod ? 'on' : ''}}">›</view>
+      </view>
+      <view class="acc-b" wx:if="{{openMethod}}">
+        <view class="txt">{{method.formula}}</view>
+        <view class="small" style="margin-top:18rpx">口径限制（不掩盖）</view>
+        <view class="txt" wx:for="{{method.limits}}" wx:key="*this" style="margin-top:8rpx">· {{item}}</view>
+      </view>
+    </view>
+
+    <!-- 三层分组 -->
+    <view class="seg">
+      <view class="s-item {{gtab === index ? 'on' : ''}}"
+            wx:for="{{groups}}" wx:key="key"
+            data-i="{{index}}" bindtap="tab">{{item.name}}</view>
+    </view>
+
+    <view class="card" wx:if="{{cur}}">
+      <view class="h2">{{cur.name}}</view>
+      <view class="small" style="margin-bottom:6rpx">{{cur.desc}} · 按 buzz 降序</view>
+      <view class="rk {{item.top ? 'top' : ''}}"
+            wx:for="{{cur.items}}" wx:key="t"
+            data-u="{{item.u}}" bindtap="copy">
+        <view class="n">{{item.rk}}</view>
+        <view class="body">
+          <view class="ttl">{{item.t}}</view>
+          <view class="meta">
+            <text class="small" wx:if="{{item.rating}}">{{item.rating}}</text>
+            <text class="small" wx:if="{{item.reviews}}">{{item.reviews}}</text>
+            <text class="small" wx:if="{{item.price}}">{{item.price}}</text>
+            <text class="bdg" wx:if="{{item.cat}}">{{item.cat}}</text>
+          </view>
+          <view class="bar">
+            <view class="fill {{item.top ? 'hi' : ''}}" style="width:{{item.bw}}%"></view>
+          </view>
+          <view class="trio">
+            <view class="t"><view class="k">buzz</view><view class="v mono">{{item.buzz}}</view></view>
+            <view class="t"><view class="k">声量</view><view class="v mono">{{item.v}}</view></view>
+            <view class="t"><view class="k">口碑</view><view class="v mono">{{item.q}}</view></view>
+            <view class="t"><view class="k">动能</view><view class="v mono">{{item.m}}</view></view>
+          </view>
+        </view>
+      </view>
+      <view class="small" style="margin-top:16rpx">点击任意一条可复制该商品在 Amazon 的页面链接</view>
+    </view>
+
+    <!-- 综合明星榜 -->
+    <view class="card" wx:if="{{stars.length}}">
+      <view class="h2">跨品类综合明星榜</view>
+      <view class="small" style="margin-bottom:6rpx">全部榜单里 buzz 最高的 {{stars.length}} 件，不分类别</view>
+      <view class="rk {{item.top ? 'top' : ''}}"
+            wx:for="{{stars}}" wx:key="t"
+            data-u="{{item.u}}" bindtap="copy">
+        <view class="n">{{item.rk}}</view>
+        <view class="body">
+          <view class="ttl">{{item.t}}</view>
+          <view class="meta">
+            <text class="small" wx:if="{{item.rating}}">{{item.rating}}</text>
+            <text class="small" wx:if="{{item.reviews}}">{{item.reviews}}</text>
+            <text class="bdg" wx:if="{{item.cat}}">{{item.cat}}</text>
+            <text class="bdg blue" wx:if="{{item.board}}">{{item.board}}</text>
+          </view>
+          <view class="bar">
+            <view class="fill {{item.top ? 'hi' : ''}}" style="width:{{item.bw}}%"></view>
+          </view>
+        </view>
+      </view>
+    </view>
+
+    <!-- 新星榜 -->
+    <view class="card" wx:if="{{newcomers.length}}">
+      <view class="h2">新星榜</view>
+      <view class="small" style="margin-bottom:6rpx">
+        来自新品榜。新品评价数天然少，和畅销榜不可比，所以单独成榜 —— 这里看的是「正在变热」
+      </view>
+      <view class="rk {{item.top ? 'top' : ''}}"
+            wx:for="{{newcomers}}" wx:key="t"
+            data-u="{{item.u}}" bindtap="copy">
+        <view class="n">{{item.rk}}</view>
+        <view class="body">
+          <view class="ttl">{{item.t}}</view>
+          <view class="meta">
+            <text class="small" wx:if="{{item.rating}}">{{item.rating}}</text>
+            <text class="small" wx:if="{{item.reviews}}">{{item.reviews}}</text>
+            <text class="bdg" wx:if="{{item.cat}}">{{item.cat}}</text>
+          </view>
+          <view class="bar">
+            <view class="fill {{item.top ? 'hi' : ''}}" style="width:{{item.bw}}%"></view>
+          </view>
+        </view>
+      </view>
+    </view>
+
+    <!-- 品类分布 -->
+    <view class="card" wx:if="{{cats.length}}">
+      <view class="h2">榜单里的品类构成</view>
+      <view class="small" style="margin-bottom:12rpx">全部榜单合计，按商品件数</view>
+      <view class="catrow" wx:for="{{cats}}" wx:key="label">
+        <view class="catrow-h">
+          <text class="b">{{item.label}}</text>
+          <text class="small">{{item.n}} 件 · {{item.share}}% · 累计 {{item.reviews}} 条评价</text>
+        </view>
+        <view class="bar"><view class="fill" style="width:{{item.bw}}%"></view></view>
+      </view>
+    </view>
+
+    <view class="card">
+      <view class="disc">
+        数据来源为 Amazon 公开畅销榜与新品榜（每期重新抓取）。本内容仅供参考，不构成投资或采购建议。
+      </view>
+    </view>
+  </block>
+</view>

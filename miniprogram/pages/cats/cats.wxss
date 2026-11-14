@@ -1,0 +1,107 @@
+.mh-t { flex: 1; padding-right: 16rpx; font-size: 27rpx; line-height: 1.45; }
+
+/* 细分值条 */
+.bar.slim { height: 6rpx; margin-top: 8rpx; }
+.bar .fill.amz { background: #0A6EC8; }
+.bar .fill.wm { background: #7A5CD6; }
+.bar .fill.up { background: var(--accent); }
+.bar .fill.down { background: var(--down); }
+
+/* 档次阶梯 */
+.read {
+  background: var(--card2);
+  border-radius: 12rpx;
+  padding: 16rpx 18rpx;
+  margin-bottom: 18rpx;
+}
+.read-i { display: flex; align-items: baseline; flex-wrap: wrap; padding: 6rpx 0; }
+.read-i .bdg { flex: none; margin-right: 10rpx; }
+.read-i .b { margin-right: 10rpx; font-size: 26rpx; }
+
+.lad { padding: 20rpx 0; border-top: 1rpx solid var(--line); }
+.lad:first-child { border-top: none; }
+.lad-h { display: flex; align-items: center; flex-wrap: wrap; }
+.lad-h .rk-n {
+  width: 44rpx; flex: none; font-size: 26rpx; font-weight: 700; color: var(--sub);
+}
+.lad-h .cat { font-size: 28rpx; margin-right: 10rpx; }
+.lad-h .bdg { margin-right: 8rpx; }
+.lad-h .pos { margin-left: auto; font-size: 27rpx; font-weight: 700; }
+.pos.up, .c-up { color: var(--up); }
+.pos.down { color: var(--down); }
+.lad-m { display: flex; flex-wrap: wrap; margin-top: 8rpx; }
+.lad-m text { margin-right: 18rpx; }
+
+/* 渠道供给对照 */
+.cc { margin-bottom: 22rpx; }
+.cc:last-child { margin-bottom: 0; }
+.cc-h {
+  display: flex; justify-content: space-between; align-items: baseline;
+  flex-wrap: wrap; margin-bottom: 4rpx;
+}
+.cc-h .small { margin-left: 12rpx; }
+
+/* 品类冠军 */
+.champ { margin-bottom: 26rpx; }
+.champ:last-of-type { margin-bottom: 0; }
+.champ-cat { font-size: 27rpx; font-weight: 700; margin-bottom: 12rpx; }
+.champ-row { display: flex; }
+.champ-cell {
+  flex: 1; min-width: 0;
+  background: var(--card2);
+  border-radius: 14rpx;
+  padding: 16rpx;
+  margin-right: 14rpx;
+}
+.champ-cell:last-child { margin-right: 0; }
+.cc-tag { display: block; margin-bottom: 8rpx; font-weight: 600; }
+.cc-tag.wm { color: #7A5CD6; }
+.pimg {
+  width: 100%; height: 200rpx; border-radius: 10rpx;
+  background: #FFFFFF;
+}
+.pimg.ph {
+  display: flex; align-items: center; justify-content: center;
+  color: var(--sub); font-size: 22rpx; background: var(--chip);
+  height: 200rpx; line-height: 200rpx; text-align: center;
+}
+.champ-t { font-size: 24rpx; margin-top: 10rpx; line-height: 1.4; }
+
+/* 差评主题 */
+.thm { padding: 18rpx 0; border-top: 1rpx solid var(--line); }
+.thm:first-of-type { border-top: none; }
+.thm-h {
+  display: flex; justify-content: space-between; align-items: baseline;
+  flex-wrap: wrap;
+}
+.thm-h .b { font-size: 27rpx; }
+.thm-h .small { margin-left: 12rpx; }
+.note.q {
+  margin-top: 12rpx;
+  font-size: 23rpx;
+  border-left-width: 6rpx;
+  border-left-color: var(--accent);
+}
+
+/* 品类 × 痛点矩阵 */
+.mx-scroll { width: 100%; }
+.mx { display: inline-block; min-width: 100%; }
+.mx-r { display: flex; align-items: stretch; }
+.mx-head .mx-c { color: var(--sub); font-size: 20rpx; }
+.mx-c0 {
+  width: 150rpx; flex: none; padding: 10rpx 8rpx 10rpx 0;
+  display: flex; flex-direction: column; justify-content: center;
+}
+.mx-c {
+  width: 96rpx; flex: none;
+  text-align: center;
+  font-size: 22rpx;
+  padding: 14rpx 0;
+  margin: 2rpx;
+  border-radius: 8rpx;
+  font-variant-numeric: tabular-nums;
+}
+.mx-c.lv1 { background: rgba(200, 16, 46, 0.10); }
+.mx-c.lv2 { background: rgba(200, 16, 46, 0.22); }
+.mx-c.lv3 { background: rgba(200, 16, 46, 0.36); color: #fff; }
+.mx-c.lv4 { background: rgba(200, 16, 46, 0.55); color: #fff; }

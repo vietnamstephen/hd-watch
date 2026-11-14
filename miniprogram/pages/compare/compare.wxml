@@ -1,0 +1,51 @@
+<view class="wrap">
+  <view wx:if="{{!ready}}" class="empty">加载中…</view>
+
+  <block wx:else>
+    <view class="card">
+      <view class="h1">渠道对标</view>
+      <view class="small" style="margin-top:8rpx">
+        Amazon vs Walmart —— 只对标能站内直抓的两家，同口径可比
+      </view>
+    </view>
+
+    <!-- 数据边界（必须说清楚） -->
+    <view class="card">
+      <view class="h2">先说数据边界</view>
+      <view class="txt" style="margin-top:12rpx">
+        本页只对标 Amazon 与 Walmart：这两家的榜单 / 品类页 / 评论页可以站内直抓，
+        能给出同口径的排名、评分与评论数，页面上所有数值都出自这两家。
+      </view>
+      <view class="txt" style="margin-top:12rpx" wx:if="{{dropped.length}}">
+        另 {{dropped.length}} 家 —— {{droppedText}} —— 站内数据根本拿不到，已整体移出对比：
+        硬凑进来只会让「可比性」变成幻觉。移出的是渠道对比，不是研究覆盖，
+        Home Depot 仍是本看板的研究主体（见「概览」「财报」两个 tab）。
+      </view>
+    </view>
+
+    <!-- 渠道对比 -->
+    <view class="card" wx:for="{{channels}}" wx:key="key">
+      <view class="ch-h">
+        <view class="h2">{{item.name}}</view>
+        <text class="bdg {{item.tier === '一手直抓' ? 'red' : 'blue'}}">{{item.tier}}</text>
+      </view>
+      <view class="txt" style="margin-top:12rpx">{{item.strength}}</view>
+      <view class="kv">
+        <view class="kv-k">可达性</view>
+        <view class="kv-v">{{item.access}}</view>
+      </view>
+      <view class="kv">
+        <view class="kv-k">品牌格局</view>
+        <view class="kv-v">{{item.brand}}</view>
+      </view>
+      <view class="kv">
+        <view class="kv-k">数据来源</view>
+        <view class="kv-v mono">{{item.src}}</view>
+      </view>
+    </view>
+
+    <view class="card">
+      <view class="disc">{{disclaimer}}</view>
+    </view>
+  </block>
+</view>

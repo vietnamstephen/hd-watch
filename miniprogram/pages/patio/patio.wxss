@@ -1,0 +1,23 @@
+.mh-t {
+  flex: 1;
+  padding-right: 16rpx;
+  font-size: 26rpx;
+  line-height: 1.45;
+}
+
+.rk { padding: 24rpx 0; }
+
+/* 品类构成行 */
+.catrow { margin-bottom: 18rpx; }
+.catrow:last-child { margin-bottom: 0; }
+.catrow-h {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+.catrow-h .b { font-size: 26rpx; }
+.catrow-h .small { margin-left: 12rpx; }
+
+/* 分组列表顶部留白 */
+.seg { margin-top: 4rpx; }

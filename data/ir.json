@@ -1,0 +1,336 @@
+{
+  "asof": "2026-11-15 01:51:32",
+  "errors": [],
+  "pdfs": [
+    {
+      "kind": "press_release",
+      "kind_zh": "新闻稿",
+      "kind_en": "Press Release",
+      "url": "https://ir.homedepot.com/~/media/Files/H/HomeDepot-IR/press-release/q1-2026-earnings-release.pdf",
+      "dateline": "ATLANTA, May 19, 2026",
+      "date": "2026-05-19",
+      "title": "The Home Depot Announces First Quarter Fiscal 2026 Results; Reaffirms Fiscal 2026 Guidance",
+      "quarter": "Q1",
+      "fiscal_year": 2026,
+      "qlabel": "FY2026 Q1",
+      "weekday": "Tue",
+      "headline": "The Home Depot Announces First Quarter Fiscal 2026 Results; Reaffirms Fiscal 2026 Guidance",
+      "publisher": "The Home Depot, Inc.",
+      "publisher_zh": "家得宝公司（IR 官方）"
+    },
+    {
+      "kind": "sec_filing",
+      "kind_zh": "10-Q / 10-K 报表",
+      "kind_en": "10-Q / 10-K Filing",
+      "url": "https://ir.homedepot.com/~/media/Files/H/HomeDepot-IR/reports-and-presentations/quarterly-earnings/2026/hd-q1-2026-10q.pdf",
+      "quarter": "Q1",
+      "fiscal_year": 2026,
+      "qlabel": "FY2026 Q1",
+      "date": "2026-05-19",
+      "weekday": "Tue",
+      "headline": "The Home Depot Announces First Quarter Fiscal 2026 Results; Reaffirms Fiscal 2026 Guidance",
+      "publisher": "The Home Depot, Inc.",
+      "publisher_zh": "家得宝公司（IR 官方）"
+    },
+    {
+      "kind": "webcast",
+      "kind_zh": "电话会直播",
+      "kind_en": "Earnings Webcast",
+      "url": "https://event.choruscall.com/mediaframe/webcast.html?webcastid=prbb0CKb",
+      "quarter": "Q1",
+      "fiscal_year": 2026,
+      "qlabel": "FY2026 Q1",
+      "date": "2026-05-19",
+      "weekday": "Tue",
+      "headline": "The Home Depot Announces First Quarter Fiscal 2026 Results; Reaffirms Fiscal 2026 Guidance",
+      "publisher": "The Home Depot, Inc.",
+      "publisher_zh": "家得宝公司（IR 官方）"
+    },
+    {
+      "kind": "transcript",
+      "kind_zh": "电话会记录",
+      "kind_en": "Call Transcript",
+      "url": "https://ir.homedepot.com/~/media/Files/H/HomeDepot-IR/2026/hd-1q26-transcript.pdf",
+      "title": "HD – Q1’26 Home Depot Earnings Call",
+      "dateline": "May 19, 2026",
+      "date": "2026-05-19",
+      "time_et": "09:00AM ET",
+      "quarter": "Q1",
+      "fiscal_year": 2026,
+      "qlabel": "FY2026 Q1",
+      "weekday": "Tue",
+      "headline": "The Home Depot Announces First Quarter Fiscal 2026 Results; Reaffirms Fiscal 2026 Guidance",
+      "publisher": "The Home Depot, Inc.",
+      "publisher_zh": "家得宝公司（IR 官方）"
+    },
+    {
+      "kind": "non_gaap",
+      "kind_zh": "非 GAAP 调节表",
+      "kind_en": "Non-GAAP Reconciliation",
+      "url": "https://ir.homedepot.com/~/media/Files/H/HomeDepot-IR/reports-and-presentations/quarterly-earnings/2026/q1-2026-earnings-reconciliation-of-non-gaap-measures.pdf",
+      "quarter": "Q1",
+      "fiscal_year": 2026,
+      "qlabel": "FY2026 Q1",
+      "date": "2026-05-19",
+      "weekday": "Tue",
+      "headline": "The Home Depot Announces First Quarter Fiscal 2026 Results; Reaffirms Fiscal 2026 Guidance",
+      "publisher": "The Home Depot, Inc.",
+      "publisher_zh": "家得宝公司（IR 官方）"
+    },
+    {
+      "kind": "infographic",
+      "kind_zh": "财报信息图",
+      "kind_en": "Earnings Infographic",
+      "url": "https://ir.homedepot.com/~/media/Files/H/HomeDepot-IR/reports-and-presentations/quarterly-earnings/2026/2026-q1-infographic.pdf",
+      "quarter": "Q1",
+      "fiscal_year": 2026,
+      "qlabel": "FY2026 Q1",
+      "date": "2026-05-19",
+      "weekday": "Tue",
+      "headline": "The Home Depot Announces First Quarter Fiscal 2026 Results; Reaffirms Fiscal 2026 Guidance",
+      "publisher": "The Home Depot, Inc.",
+      "publisher_zh": "家得宝公司（IR 官方）"
+    },
+    {
+      "kind": "press_release",
+      "kind_zh": "新闻稿",
+      "kind_en": "Press Release",
+      "url": "https://ir.homedepot.com/~/media/Files/H/HomeDepot-IR/press-release/q2-2026-earnings-release.pdf",
+      "dateline": "ATLANTA, August 18, 2026",
+      "date": "2026-08-18",
+      "title": "The Home Depot Announces Second Quarter Fiscal 2026 Results; Reaffirms Fiscal 2026 Guidance",
+      "quarter": "Q2",
+      "fiscal_year": 2026,
+      "qlabel": "FY2026 Q2",
+      "weekday": "Tue",
+      "headline": "The Home Depot Announces Second Quarter Fiscal 2026 Results; Reaffirms Fiscal 2026 Guidance",
+      "publisher": "The Home Depot, Inc.",
+      "publisher_zh": "家得宝公司（IR 官方）"
+    },
+    {
+      "kind": "sec_filing",
+      "kind_zh": "10-Q / 10-K 报表",
+      "kind_en": "10-Q / 10-K Filing",
+      "url": "https://ir.homedepot.com/~/media/Files/H/HomeDepot-IR/reports-and-presentations/quarterly-earnings/2026/hd-q2-2026-10q.pdf",
+      "quarter": "Q2",
+      "fiscal_year": 2026,
+      "qlabel": "FY2026 Q2",
+      "date": "2026-08-18",
+      "weekday": "Tue",
+      "headline": "The Home Depot Announces Second Quarter Fiscal 2026 Results; Reaffirms Fiscal 2026 Guidance",
+      "publisher": "The Home Depot, Inc.",
+      "publisher_zh": "家得宝公司（IR 官方）"
+    },
+    {
+      "kind": "webcast",
+      "kind_zh": "电话会直播",
+      "kind_en": "Earnings Webcast",
+      "url": "https://event.choruscall.com/mediaframe/webcast.html?webcastid=tvsYzfmo",
+      "quarter": "Q2",
+      "fiscal_year": 2026,
+      "qlabel": "FY2026 Q2",
+      "date": "2026-08-18",
+      "weekday": "Tue",
+      "headline": "The Home Depot Announces Second Quarter Fiscal 2026 Results; Reaffirms Fiscal 2026 Guidance",
+      "publisher": "The Home Depot, Inc.",
+      "publisher_zh": "家得宝公司（IR 官方）"
+    },
+    {
+      "kind": "transcript",
+      "kind_zh": "电话会记录",
+      "kind_en": "Call Transcript",
+      "url": "https://ir.homedepot.com/~/media/Files/H/HomeDepot-IR/2026/hd-2q26-transcript.pdf",
+      "title": "HD – Q2’26 Home Depot Earnings Call",
+      "dateline": "August 18, 2026",
+      "date": "2026-08-18",
+      "time_et": "09:00AM ET",
+      "quarter": "Q2",
+      "fiscal_year": 2026,
+      "qlabel": "FY2026 Q2",
+      "weekday": "Tue",
+      "headline": "The Home Depot Announces Second Quarter Fiscal 2026 Results; Reaffirms Fiscal 2026 Guidance",
+      "publisher": "The Home Depot, Inc.",
+      "publisher_zh": "家得宝公司（IR 官方）"
+    },
+    {
+      "kind": "non_gaap",
+      "kind_zh": "非 GAAP 调节表",
+      "kind_en": "Non-GAAP Reconciliation",
+      "url": "https://ir.homedepot.com/~/media/Files/H/HomeDepot-IR/reports-and-presentations/quarterly-earnings/2026/q2-2026-earnings-reconciliation-of-non-gaap-measures.pdf",
+      "quarter": "Q2",
+      "fiscal_year": 2026,
+      "qlabel": "FY2026 Q2",
+      "date": "2026-08-18",
+      "weekday": "Tue",
+      "headline": "The Home Depot Announces Second Quarter Fiscal 2026 Results; Reaffirms Fiscal 2026 Guidance",
+      "publisher": "The Home Depot, Inc.",
+      "publisher_zh": "家得宝公司（IR 官方）"
+    },
+    {
+      "kind": "infographic",
+      "kind_zh": "财报信息图",
+      "kind_en": "Earnings Infographic",
+      "url": "https://ir.homedepot.com/~/media/Files/H/HomeDepot-IR/reports-and-presentations/quarterly-earnings/2026/2026-q2-infographic.pdf",
+      "quarter": "Q2",
+      "fiscal_year": 2026,
+      "qlabel": "FY2026 Q2",
+      "date": "2026-08-18",
+      "weekday": "Tue",
+      "headline": "The Home Depot Announces Second Quarter Fiscal 2026 Results; Reaffirms Fiscal 2026 Guidance",
+      "publisher": "The Home Depot, Inc.",
+      "publisher_zh": "家得宝公司（IR 官方）"
+    },
+    {
+      "kind": "webcast",
+      "kind_zh": "电话会直播",
+      "kind_en": "Earnings Webcast",
+      "url": "https://event.choruscall.com/mediaframe/webcast.html?webcastid=tz6tzaIE",
+      "quarter": "Q3",
+      "fiscal_year": null,
+      "qlabel": "FY— Q3",
+      "date": "2025-11-24",
+      "weekday": "Mon",
+      "headline": null,
+      "publisher": "The Home Depot, Inc.",
+      "publisher_zh": "家得宝公司（IR 官方）"
+    }
+  ],
+  "quarters": [
+    {
+      "quarter": 1,
+      "label": "FY2026 Q1",
+      "items": [
+        {
+          "kind": "press_release",
+          "kind_zh": "新闻稿",
+          "kind_en": "Press Release",
+          "url": "https://ir.homedepot.com/~/media/Files/H/HomeDepot-IR/press-release/q1-2026-earnings-release.pdf",
+          "dateline": "ATLANTA, May 19, 2026",
+          "date": "2026-05-19",
+          "title": "The Home Depot Announces First Quarter Fiscal 2026 Results; Reaffirms Fiscal 2026 Guidance"
+        },
+        {
+          "kind": "sec_filing",
+          "kind_zh": "10-Q / 10-K 报表",
+          "kind_en": "10-Q / 10-K Filing",
+          "url": "https://ir.homedepot.com/~/media/Files/H/HomeDepot-IR/reports-and-presentations/quarterly-earnings/2026/hd-q1-2026-10q.pdf"
+        },
+        {
+          "kind": "webcast",
+          "kind_zh": "电话会直播",
+          "kind_en": "Earnings Webcast",
+          "url": "https://event.choruscall.com/mediaframe/webcast.html?webcastid=prbb0CKb"
+        },
+        {
+          "kind": "transcript",
+          "kind_zh": "电话会记录",
+          "kind_en": "Call Transcript",
+          "url": "https://ir.homedepot.com/~/media/Files/H/HomeDepot-IR/2026/hd-1q26-transcript.pdf",
+          "title": "HD – Q1’26 Home Depot Earnings Call",
+          "dateline": "May 19, 2026",
+          "date": "2026-05-19",
+          "time_et": "09:00AM ET"
+        },
+        {
+          "kind": "non_gaap",
+          "kind_zh": "非 GAAP 调节表",
+          "kind_en": "Non-GAAP Reconciliation",
+          "url": "https://ir.homedepot.com/~/media/Files/H/HomeDepot-IR/reports-and-presentations/quarterly-earnings/2026/q1-2026-earnings-reconciliation-of-non-gaap-measures.pdf"
+        },
+        {
+          "kind": "infographic",
+          "kind_zh": "财报信息图",
+          "kind_en": "Earnings Infographic",
+          "url": "https://ir.homedepot.com/~/media/Files/H/HomeDepot-IR/reports-and-presentations/quarterly-earnings/2026/2026-q1-infographic.pdf"
+        }
+      ],
+      "date": "2026-05-19",
+      "headline": "The Home Depot Announces First Quarter Fiscal 2026 Results; Reaffirms Fiscal 2026 Guidance",
+      "call_time_et": "09:00AM ET",
+      "dateline": "ATLANTA, May 19, 2026",
+      "fiscal_year": 2026,
+      "label_zh": "2026财年 第1季度",
+      "weekday": "Tue",
+      "date_display": "2026-05-19（Tue）"
+    },
+    {
+      "quarter": 2,
+      "label": "FY2026 Q2",
+      "items": [
+        {
+          "kind": "press_release",
+          "kind_zh": "新闻稿",
+          "kind_en": "Press Release",
+          "url": "https://ir.homedepot.com/~/media/Files/H/HomeDepot-IR/press-release/q2-2026-earnings-release.pdf",
+          "dateline": "ATLANTA, August 18, 2026",
+          "date": "2026-08-18",
+          "title": "The Home Depot Announces Second Quarter Fiscal 2026 Results; Reaffirms Fiscal 2026 Guidance"
+        },
+        {
+          "kind": "sec_filing",
+          "kind_zh": "10-Q / 10-K 报表",
+          "kind_en": "10-Q / 10-K Filing",
+          "url": "https://ir.homedepot.com/~/media/Files/H/HomeDepot-IR/reports-and-presentations/quarterly-earnings/2026/hd-q2-2026-10q.pdf"
+        },
+        {
+          "kind": "webcast",
+          "kind_zh": "电话会直播",
+          "kind_en": "Earnings Webcast",
+          "url": "https://event.choruscall.com/mediaframe/webcast.html?webcastid=tvsYzfmo"
+        },
+        {
+          "kind": "transcript",
+          "kind_zh": "电话会记录",
+          "kind_en": "Call Transcript",
+          "url": "https://ir.homedepot.com/~/media/Files/H/HomeDepot-IR/2026/hd-2q26-transcript.pdf",
+          "title": "HD – Q2’26 Home Depot Earnings Call",
+          "dateline": "August 18, 2026",
+          "date": "2026-08-18",
+          "time_et": "09:00AM ET"
+        },
+        {
+          "kind": "non_gaap",
+          "kind_zh": "非 GAAP 调节表",
+          "kind_en": "Non-GAAP Reconciliation",
+          "url": "https://ir.homedepot.com/~/media/Files/H/HomeDepot-IR/reports-and-presentations/quarterly-earnings/2026/q2-2026-earnings-reconciliation-of-non-gaap-measures.pdf"
+        },
+        {
+          "kind": "infographic",
+          "kind_zh": "财报信息图",
+          "kind_en": "Earnings Infographic",
+          "url": "https://ir.homedepot.com/~/media/Files/H/HomeDepot-IR/reports-and-presentations/quarterly-earnings/2026/2026-q2-infographic.pdf"
+        }
+      ],
+      "date": "2026-08-18",
+      "headline": "The Home Depot Announces Second Quarter Fiscal 2026 Results; Reaffirms Fiscal 2026 Guidance",
+      "call_time_et": "09:00AM ET",
+      "dateline": "ATLANTA, August 18, 2026",
+      "fiscal_year": 2026,
+      "label_zh": "2026财年 第2季度",
+      "weekday": "Tue",
+      "date_display": "2026-08-18（Tue）"
+    },
+    {
+      "quarter": 3,
+      "label": "FY— Q3",
+      "items": [
+        {
+          "kind": "webcast",
+          "kind_zh": "电话会直播",
+          "kind_en": "Earnings Webcast",
+          "url": "https://event.choruscall.com/mediaframe/webcast.html?webcastid=tz6tzaIE"
+        }
+      ],
+      "date": "2025-11-24",
+      "headline": null,
+      "call_time_et": null,
+      "date_src": "SEC 8-K 申报日",
+      "label_zh": "—财年 第3季度",
+      "weekday": "Mon",
+      "date_display": "2025-11-24（Mon）"
+    }
+  ],
+  "publisher": "The Home Depot, Inc.",
+  "publisher_zh": "家得宝公司（IR 官方）",
+  "table_url": "https://ir.homedepot.com/financial-reports/quarterly-earnings"
+}

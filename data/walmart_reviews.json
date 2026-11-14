@@ -1,0 +1,4765 @@
+{
+ "source": "walmart.com/reviews?sort=rating-asc",
+ "captured_at": "2026-11-03",
+ "note": "差评样本取自每个商品「最低分优先」前 2 页；痛点主题由关键词表对 1–2 星正文命中统计，仅供定性参考。",
+ "products": [
+  {
+   "avg_rating": 4.7,
+   "total_reviews": 8096,
+   "with_text": 1826,
+   "recommended_pct": 95,
+   "dist_n": {
+    "1": 278,
+    "2": 91,
+    "3": 177,
+    "4": 518,
+    "5": 7032
+   },
+   "dist_pct": {
+    "1": 3,
+    "2": 1,
+    "3": 2,
+    "4": 6,
+    "5": 87
+   },
+   "aspects": [
+    {
+     "name": "Value For Money",
+     "mentions": 256
+    },
+    {
+     "name": "Build Quality",
+     "mentions": 187
+    },
+    {
+     "name": "Sturdiness",
+     "mentions": 148
+    },
+    {
+     "name": "Chair Comfort",
+     "mentions": 127
+    },
+    {
+     "name": "Ease Of Assembly",
+     "mentions": 115
+    },
+    {
+     "name": "Size",
+     "mentions": 81
+    },
+    {
+     "name": "Table Size",
+     "mentions": 81
+    },
+    {
+     "name": "Look",
+     "mentions": 70
+    },
+    {
+     "name": "Color",
+     "mentions": 54
+    },
+    {
+     "name": "Porch Use",
+     "mentions": 34
+    },
+    {
+     "name": "For Small Spaces",
+     "mentions": 31
+    },
+    {
+     "name": "Ease Of Storage",
+     "mentions": 29
+    },
+    {
+     "name": "Balcony Use",
+     "mentions": 22
+    },
+    {
+     "name": "Ease Of Folding",
+     "mentions": 23
+    },
+    {
+     "name": "Durability",
+     "mentions": 21
+    },
+    {
+     "name": "Packaging",
+     "mentions": 19
+    },
+    {
+     "name": "Material",
+     "mentions": 19
+    },
+    {
+     "name": "For Apartments",
+     "mentions": 14
+    },
+    {
+     "name": "Tabletop Glass",
+     "mentions": 12
+    }
+   ],
+   "bullets": [
+    {
+     "polarity": "Positive",
+     "pill": "No assembly required",
+     "aspect": "ease of assembly",
+     "summary": "The set arrives ready to use out of the box."
+    },
+    {
+     "polarity": "Positive",
+     "pill": "Smooth textured look",
+     "aspect": "look",
+     "summary": "Has a visually appealing appearance."
+    },
+    {
+     "polarity": "Positive",
+     "pill": "Compact size",
+     "aspect": "size",
+     "summary": "Ideal for small spaces with proportionate design."
+    },
+    {
+     "polarity": "Positive",
+     "pill": "Durable materials build",
+     "aspect": "build quality",
+     "summary": "Made with sturdy and long-lasting components."
+    },
+    {
+     "polarity": "Positive",
+     "pill": "Adequately supportive chair",
+     "aspect": "chair comfort",
+     "summary": "Provides support for extended sitting periods."
+    },
+    {
+     "polarity": "Positive",
+     "pill": "High-quality value",
+     "aspect": "value for money",
+     "summary": "Offers premium features at a reasonable price."
+    }
+   ],
+   "top_negative": {
+    "rating": 1,
+    "title": "",
+    "text": "Been trying for a month to get my two year warranty to get my chairs replaced because they are ripping nobody can seem to find the number to get a hold of the company. I have tried contacting Walmart at least five times.. do not purchase. These only lasted three months and rarely even get used..",
+    "date": "1/16/2026",
+    "helpful": 2
+   },
+   "top_positive": {
+    "rating": 5,
+    "title": "",
+    "text": "Perfect fit for our little townhome and the back porch area we are given to use. I love how easily it all folds up and how compact it looks when stacked together! Makes it easy to bring inside for those torrential rainy days. Great price, great quality, happy customer!",
+    "date": "6/10/2025",
+    "helpful": 12
+   },
+   "neg_samples": [
+    {
+     "rating": 1,
+     "title": "",
+     "text": "i ordered this for my parents in their 80s birthday. i ordered black and they sent me white and blue which was a lower price than the black. they cant do a return they dnt drive much and im 3 hours away. so no im not happy with what i ordered because i didnt receive it.",
+     "date": "8/7/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "i ordered a tan one and a red one both as presents to people. and the tan one when they opened it today a chair was broken.",
+     "date": "7/27/2025",
+     "helpful": 2
+    },
+    {
+     "rating": 1,
+     "title": "Another damaged product…",
+     "text": "It came with deep gouges in the arms of the chairs.",
+     "date": "5/22/2025",
+     "helpful": 2
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "Never received item and haven’t gotten my refund back yet",
+     "date": "6/14/2025",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "How hard is it to send the right item? It’s not the color I ordered.",
+     "date": "3/26/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "did not receive item",
+     "date": "3/12/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "Also never received",
+     "date": "4/8/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "Had it a couple weeks and the leg broke",
+     "date": "5/20/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "Quality is poor, Hardly used the chair but it started tearing apart",
+     "date": "5/18/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "Table was broken and a chair was missing.",
+     "date": "6/21/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "Never received it….",
+     "date": "5/8/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "although the frame quality is good, the fabric stiching is not. its already starting to tear and we have only sat on it for a 5 -10 times. we are all under the waight limit for this product.",
+     "date": "7/2/2025",
+     "helpful": 7
+    },
+    {
+     "rating": 1,
+     "title": "Breaks easily poorly made.",
+     "text": "Chair broke in 1 week",
+     "date": "7/24/2025",
+     "helpful": 1
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "I have no idea bc it hasn't arrived yet",
+     "date": "5/14/2025",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "The delivery people left the delivery in the street, took me two days to realize, luckily no one took it, and it was so heavy (I asked to leave it by door),",
+     "date": "10/5/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "I got this product in August of 2025 and the netting on the chairs are coming apart",
+     "date": "3/2/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "My item was missing the table",
+     "date": "8/15/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "Ripped stitching loose and tread came apart table wobbly",
+     "date": "10/6/2026",
+     "helpful": 0
+    }
+   ],
+   "id": "6849163353",
+   "title": "Mainstays Albany Lane 3-Piece Outdoor Bistro Set, Red",
+   "short": "Mainstays Albany Lane 3-Piece Outdoor Bistro Set, Red",
+   "rating": 4.7,
+   "reviews": 8096.0,
+   "image": "https://i5.walmartimages.com/seo/Mainstays-Albany-Lane-3-Piece-Bistro-Set-Red_ae36779d-1237-467f-b746-e667507d65ad.415208dc9acd312775204a774a318807.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF",
+   "cat": "patio_set",
+   "cat_label_zh": "成套家具",
+   "cat_label_en": "Patio Sets",
+   "url": "https://www.walmart.com/ip/Mainstays-Albany-Lane-3-Piece-Bistro-Set-Red/6849163353?classType=VARIANT"
+  },
+  {
+   "avg_rating": 4.3,
+   "total_reviews": 4237,
+   "with_text": 2159,
+   "recommended_pct": 19,
+   "dist_n": {
+    "1": 416,
+    "2": 151,
+    "3": 172,
+    "4": 353,
+    "5": 3145
+   },
+   "dist_pct": {
+    "1": 10,
+    "2": 4,
+    "3": 4,
+    "4": 8,
+    "5": 74
+   },
+   "aspects": [
+    {
+     "name": "Quality",
+     "mentions": 432
+    },
+    {
+     "name": "Seating Comfort",
+     "mentions": 417
+    },
+    {
+     "name": "Value For Money",
+     "mentions": 311
+    },
+    {
+     "name": "Look",
+     "mentions": 284
+    },
+    {
+     "name": "Ease Of Assembly",
+     "mentions": 275
+    },
+    {
+     "name": "Cover Quality",
+     "mentions": 177
+    },
+    {
+     "name": "Cushion Comfort",
+     "mentions": 173
+    },
+    {
+     "name": "Sturdiness",
+     "mentions": 99
+    },
+    {
+     "name": "Assembly Instructions",
+     "mentions": 73
+    },
+    {
+     "name": "Color",
+     "mentions": 70
+    },
+    {
+     "name": "Screw Assembly",
+     "mentions": 39
+    },
+    {
+     "name": "Style",
+     "mentions": 38
+    },
+    {
+     "name": "Table",
+     "mentions": 36
+    },
+    {
+     "name": "Fit",
+     "mentions": 34
+    },
+    {
+     "name": "Durability",
+     "mentions": 30
+    },
+    {
+     "name": "Frame Construction",
+     "mentions": 26
+    },
+    {
+     "name": "Swivel Motion",
+     "mentions": 26
+    },
+    {
+     "name": "Hole Alignment",
+     "mentions": 25
+    },
+    {
+     "name": "Porch Use",
+     "mentions": 24
+    },
+    {
+     "name": "Packaging",
+     "mentions": 24
+    }
+   ],
+   "bullets": [
+    {
+     "polarity": "Positive",
+     "pill": "Easy to assemble",
+     "aspect": "ease of assembly",
+     "summary": "The set's installation is straightforward and quick."
+    },
+    {
+     "polarity": "Positive",
+     "pill": "Great value for money",
+     "aspect": "value for money",
+     "summary": "The product delivers quality and features at a reasonable price."
+    },
+    {
+     "polarity": "Positive",
+     "pill": "Excellent build quality",
+     "aspect": "quality",
+     "summary": "The furniture appears durable and comparable to higher-end sets."
+    },
+    {
+     "polarity": "Positive",
+     "pill": "Very comfortable seating",
+     "aspect": "seating comfort",
+     "summary": "The cushions provide thick, supportive padding for lounging and naps."
+    }
+   ],
+   "top_negative": {
+    "rating": 1,
+    "title": "Not happy with customer service",
+    "text": "I received this item and was shorted a back pillow from one of the chairs... We have been trying to contact walmart/Better Homes & Gardens for 3 weeks now and keep getting the run around. They told us that we did receive the delivery and we needed to ask our neighbors if they have our shipment. At no point did I say we did not receive the shipment. Then i got in touch with someone that said they are reached out to the warehouse to see if they can reship the whole order and that I would hear back within 10 days. 10 days went by and I reached out again. And how they are trying to get us a refund and said we should hear back in 10 days.. Still no response. I do not want a refund I just want one cushion that we were shorted....",
+    "date": "11/10/2025",
+    "helpful": 4
+   },
+   "top_positive": {
+    "rating": 5,
+    "title": "Pleasantly surprised! Love my new set!",
+    "text": "I was skeptical of purchasing this set online due to a *few* of the reviews and how it’d come packaged but it exceeded my expectations! Great quality, super quick shipping AND was packaged so well. Can’t wait to use it this summer ☀️",
+    "date": "3/5/2026",
+    "helpful": 2
+   },
+   "neg_samples": [
+    {
+     "rating": 1,
+     "title": "Do not be like me.",
+     "text": "Terrible quality. I can’t believe so many social media influencers are pushing these. Must be quite a kickback. Do not be like me. Do not believe that the box you receive will be any different than the boxes the reviewers, who warned you about the bad quality, screws not lining up, hard uncomfortable pads, .would be. I followed directions exactly. I did not tighten screws until all were in place. The problem is, some will never be in place - it’s just welded that poorly. I regret this purchase so much. They know they have you because returning items this large is implausible and nearly impossible.",
+     "date": "5/21/2023",
+     "helpful": 3
+    },
+    {
+     "rating": 1,
+     "title": "DO NOT BUY",
+     "text": "Warning!! Do not order this or any other large item from Walmart. It's been a nightmare trying to return the items which were received damaged. We ordered the sofa, nesting tables and the 2 swivel chairs which all came as a set. The frame of one chair was bent so badly we could barely put it together and once we did it was unsafe to sit in. Also one of the sofa cushions had a giant slash in it like it had been cut with a knife (the box was not damaged and I did not use anything sharp to open the box). I did not want to return them and asked for replacements but customer service kept telling me different stories. One person said I could get a replacement chair and a cushion, the next person said I couldn't then returned everything when I didn't want to return them. Then the chairs sold out and they said they would send me a replacement sofa but could not guaranteed the chairs would ever be back in stock so I agreed to return the entire set and the customer service person I was talking to said they had processed the return. Then out of the blue they tried to ship me another sofa which I had to cancel myself through the shipping company. After a month of this headache I returned everything via the shipping method and company Walmart chose. Now Walmart is saying I only returned the sofa set and refuses to refund me for the chairs which were returned along with the sofa. I literally helped the driver load all of the items into his truck! I have even spoken with the shipping company and they assured me they received all of the pieces, including the chairs, and turned them over to Walmart the following day. Walmart is still refusing to refund my money and is no longer answering my emails to customer service. I know this is a popular item with Instagram influencers and my experience has proved that Walmart doesn't care about its normal customers only those that advertise for them.",
+     "date": "7/13/2024",
+     "helpful": 3
+    },
+    {
+     "rating": 1,
+     "title": "Not water proof or stain proof",
+     "text": "Have had outside less than 2 months almost all cushions of set (sofa and 2 arm chairs) are stained and all covers are stained. Mildew and water spots. We always cover when not in use and we have NEVER left cushions out in the rain - simply not water proof or stain proof.",
+     "date": "7/9/2023",
+     "helpful": 16
+    },
+    {
+     "rating": 1,
+     "title": "Long wait then received a damaged product.",
+     "text": "I purchase these chairs about a month ago. I was contacted by the shipper to see if I received them. Since I did not receive them they ordered a replacement. I received the chairs within a few days after that. However, the box was badly smashed. I have been trying to put the chairs together but, because some of the metal pieces were bent out of shape all the holes do not line up. When I try to bend them into place and put the screws in some of them get stripped or simply will not go all the way in. We are unable to assemble these chairs because of bent parts. I should be sent a replace for this. or be given a refund.",
+     "date": "5/5/2023",
+     "helpful": 14
+    },
+    {
+     "rating": 1,
+     "title": "Beware, serious quality issues.",
+     "text": "This set had such potential to be amazing. We purchased three of these sets for our backyard and each one had problems. The sofa itself is sturdy but the frames are so bent it makes assembly terrible and then the final product is not straight and has gaps where the arms and the seat meet. The couch frame is totally askew which you can see in the photos. I wish there would have had more quality control in the construction, it could have been an incredible set. See the photos I have attached. We are keeping the sets because it is such a hassle to return, but I cannot with a good conscience recommend them to others.",
+     "date": "2/28/2022",
+     "helpful": 12
+    },
+    {
+     "rating": 1,
+     "title": "Walmart needs to step up delivery services",
+     "text": "I knew it was too god to be true… packages delivered today and were damaged. Haven't even opened the box (but didn't really have to) because the box the sofa is was delivered all mangled and can already see the wicker is broken. So disappointing. Will definitely be returning this",
+     "date": "6/1/2023",
+     "helpful": 15
+    },
+    {
+     "rating": 1,
+     "title": "2 chairs broken Walmart did nothing",
+     "text": "I ordered 4 of these chairs. 2 chairs came broken, one with busted cushions, the other with mechanical issues. Contacted Walmart customer service and got the run around, several times. They lied and said they scheduled pick up for the item and ordered the replacement. This was in August and after several phone calls I still have not gotten the issue resolved. Walmart pretty much ripped me off for 2 chairs. Very disappointed.",
+     "date": "10/1/2025",
+     "helpful": 4
+    },
+    {
+     "rating": 1,
+     "title": "Wouldn't repurchase",
+     "text": "Poorly constructed. The arm didn't attach well to the seat because it arrived bent. I also purchased the chairs and one rocks side to side because it isn't level. Emailed the company several times but never heard back. Also I would look for another set where the cushions tie on so they are secure. This set was really pushed by influencers. I wish I hadn't purchased it. Too much work to take apart and send back.",
+     "date": "6/12/2023",
+     "helpful": 7
+    },
+    {
+     "rating": 1,
+     "title": "Not worth the headache.",
+     "text": "Highly, highly advise against ordering this set. First, when we received the chairs and began to put them in together we found that the right arm of one of the chairs was defective to where none of the holes lined up correctly and was impossible to put together. I immediately called the customer service number and the rep sent me an email to confirm the warranty issue and to mail out a replacement part. Once received a few days later, we opened the package to find the arm to be the wrong color. I called customer service again, went through the whole spiel with a new rep who looked up the item (which apparently they do not have in the system, only a conversation set that includes the glider chairs which is NOT what we have) and once confirmed which part we needed, she sent an email for shipping. Received that part (3 days later) to find that THE WRONG ARM TO THE WRONG CHAIR was sent. So now here I am on phone with customer service for the THIRD time trying to get the correct part for the defective piece. When I asked if we could just save time and get a new chair, I was told that the customer service company is not part of the vendor, only associated, and they could not send the whole item. So now we wait a few more days to see if we actually get the piece so we can complete the chair. Save yourself the headache and spend your money elsewhere.",
+     "date": "4/28/2025",
+     "helpful": 3
+    },
+    {
+     "rating": 1,
+     "title": "Don't Let Influencers Fool You",
+     "text": "Buyer Beware! This set is promoted by every influencer on Instagram and Tiktok. Let me be the one to tell you this set is JUNK! We purchased the River Oaks sofa/table set along with the chairs in May. Every morning all the cushions are damp. Product description says repels water and stains and that it is 3M Scotchguarded. I cover our set when it's not in use which is about 90% of the time. We typically sit out and have coffee in the morning and maybe sit outside in the evening if the weather is bareable. We kept noticing light stains on some of the tops of the back cushions. I kept saying to my husband it looks like mold, but how could it be, it's brand new! Well today I lifted a cushion and sure enough on the bottom was a huge patch of mold. I'm utterly disappointed in the quality of this set. This is an outdoor set! Why on earth would an outdoor set not be water resistant. When I unzipped the cushion the material inside is exactly like my indoor furniture. It is a sponge foam covered in white cheap cover. I've honestly never been so disappointed in a product! I am working with the manufacturer now as I believe this is a quality issue. My neighbors have this same set and bought it in 2020 and they do not have this issue. I've included just a few photos for reference.",
+     "date": "9/5/2024",
+     "helpful": 14
+    },
+    {
+     "rating": 1,
+     "title": "flimsy material, cheaply made.",
+     "text": "Bought this because of a FB influencer. Mistake. The materials are cheaply made and flimsy. A pain to return when you don't have a vehicle that it will fit in. I would definitely find a way to see these in person before ordering online and getting stuck with them.",
+     "date": "8/3/2022",
+     "helpful": 6
+    }
+   ],
+   "id": "18974664688",
+   "title": "Better Homes & Gardens River Oaks Outdoor 5-Piece Wicker Conversation Set with Patio Cover, Natural",
+   "short": "Better Homes & Gardens River Oaks Outdoor 5-Piece Wicker Conversation Set with",
+   "rating": 4.3,
+   "reviews": 4237.0,
+   "image": "https://i5.walmartimages.com/seo/Better-Homes-Gardens-River-Oaks-Outdoor-5-Piece-Wicker-Conversation-Set-with-Patio-Cover-Natural_63beedc1-560d-4487-9e2f-1ff353a76601.d842ee42f896f5bc981726d0b11c9fe6.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF",
+   "cat": "patio_set",
+   "cat_label_zh": "成套家具",
+   "cat_label_en": "Patio Sets",
+   "url": "https://www.walmart.com/ip/Better-Homes-Gardens-River-Oaks-Outdoor-5-Piece-Wicker-Conversation-Set-with-Patio-Cover-Natural/18974664688?classType=VARIANT&athbdg=L1105"
+  },
+  {
+   "avg_rating": 4.4,
+   "total_reviews": 791,
+   "with_text": 410,
+   "recommended_pct": 71,
+   "dist_n": {
+    "1": 50,
+    "2": 23,
+    "3": 32,
+    "4": 128,
+    "5": 558
+   },
+   "dist_pct": {
+    "1": 6,
+    "2": 3,
+    "3": 4,
+    "4": 16,
+    "5": 71
+   },
+   "aspects": [
+    {
+     "name": "Comfort",
+     "mentions": 74
+    },
+    {
+     "name": "Ease Of Assembly",
+     "mentions": 69
+    },
+    {
+     "name": "Value For Money",
+     "mentions": 59
+    },
+    {
+     "name": "Appearance",
+     "mentions": 45
+    },
+    {
+     "name": "Instruction Clarity",
+     "mentions": 44
+    },
+    {
+     "name": "Sturdiness",
+     "mentions": 33
+    },
+    {
+     "name": "Build Quality",
+     "mentions": 28
+    },
+    {
+     "name": "For Porches",
+     "mentions": 26
+    },
+    {
+     "name": "Glide Smoothness",
+     "mentions": 25
+    },
+    {
+     "name": "Screw Quality",
+     "mentions": 19
+    },
+    {
+     "name": "Size",
+     "mentions": 17
+    },
+    {
+     "name": "Color Accuracy",
+     "mentions": 16
+    },
+    {
+     "name": "For Patio",
+     "mentions": 15
+    },
+    {
+     "name": "Hole Alignment",
+     "mentions": 11
+    },
+    {
+     "name": "Squeaking Noise",
+     "mentions": 8
+    },
+    {
+     "name": "Relaxation",
+     "mentions": 7
+    },
+    {
+     "name": "Hardware",
+     "mentions": 7
+    }
+   ],
+   "bullets": [
+    {
+     "polarity": "Neutral",
+     "pill": "Assembly guidance",
+     "aspect": "instruction clarity",
+     "summary": "Can be clear and easy to follow, but may also be vague or inconsistent."
+    },
+    {
+     "polarity": "Positive",
+     "pill": "Easy to assemble",
+     "aspect": "ease of assembly",
+     "summary": "Clear instructions make assembly straightforward."
+    },
+    {
+     "polarity": "Positive",
+     "pill": "Sturdy frame",
+     "aspect": "sturdiness",
+     "summary": "Made with steel, providing a solid structure."
+    },
+    {
+     "polarity": "Positive",
+     "pill": "Visually appealing design",
+     "aspect": "appearance",
+     "summary": "Has a nice and attractive look."
+    },
+    {
+     "polarity": "Positive",
+     "pill": "Good balance quality",
+     "aspect": "value for money",
+     "summary": "Offers quality at an affordable price."
+    },
+    {
+     "polarity": "Positive",
+     "pill": "Cozy seating",
+     "aspect": "comfort",
+     "summary": "Provides a relaxing experience."
+    }
+   ],
+   "top_negative": {
+    "rating": 1,
+    "title": "This is a BIG NO!",
+    "text": "Hardware and the frame and glider would be seriously a dangerous place to sit! If everything fit the bolts are way to thin to support 1 regular sized person and no way for 2 regular sized persons without bending/breaking. This is how DANGEROUS GLIDER IS; ESPECIALLY FOR ME WITH A SEVERE SPINE INJURY! Even a healthy person could be injured by hitting the porch flooring. I would NOT let my young grandchildren even sit on glider if it could be put together because; it’s made so cheap again is very dangerous! Shame on anyone selling these!!!! Look at photos where the screws do not meet the needed length as nut is only a few threads in and the rockers do not fit the so called support! If the other pieces were added to rocker support bolt the bolt doesn’t have enough tread for bolt. How am I suppose to return this? I tore the box excited to put this together! Very UNHAPPY!!! We put all the other porch furniture together we bought wooden rocking chairs that were perfect!!! Do not waste your money or time with this very dangerous glider.",
+    "date": "4/15/2026",
+    "helpful": 0
+   },
+   "top_positive": {
+    "rating": 5,
+    "title": "Glide The Day Away In Style!",
+    "text": "I always wanted a glider, now I have one. I am swinging away and enjoying every minute of it. When it arrived I quickly opened the box and there were lots of parts. So I quickly handed off the project to the hubby while I sipped on a drink. It was not that hard to assemble. I will suggest you use your own tools and not the ones that come with the glider. As soon as it was finished, I was gliding on the Lanai. The overall dimensions are 41.3” L x 23” W x 36” H with a weight capacity of 440 pounds. The brown fabric is a textile which provides a durable strong waterproof fabric. The frame is steel and sturdy. The glider is so inviting and calls your name. What a relaxing way to end or start the day swinging on the glider. I enjoy my morning coffee on my glider. It sits two comfortably. The quality and design have exceeded my expectations. The family enjoys the glider. My daughter swings on the glider while reading her summer books for school. I have the glider on my lanai and it looks great. This is the most used chair ever. This glider is made to last. It’s not too heavy to move, so I can move it around easily. I without a doubt recommend this glider. It adds a soothing and relaxing area to your patio. I added some throw pillows to the glider. The glider can be used on a front porch, pool area, lawn or patio.",
+    "date": "8/3/2017",
+    "helpful": 23
+   },
+   "neg_samples": [
+    {
+     "rating": 1,
+     "title": "Sad - I have wanted one of these for a long time",
+     "text": "We put the whole thing together and got to the last part, the glider section and it does not fit correct. 4 different people have attempted and failed. The measurements are off on the parts by about 2 inches.",
+     "date": "6/28/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "Save your money to donate to a worthy cause.",
+     "text": "The glider grommet and metal glider bar broke the first day it was assembled. There are no parts they will send to replace but rather you must dissemble and bring back to the store. You are better off making a donation to a worthy cause than purchase this particular glider.",
+     "date": "7/5/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "after a couple months of use the lower crossbar connecting the legs broke making the glider unusable. contacted Walmart customer service who would contact the seller. After 5 days of waiting we have heard absolutely nothing....is this a reliable supplier for Walmart?? We won't order another item...",
+     "date": "3/27/2025",
+     "helpful": 7
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "Screws do not screw in",
+     "date": "12/15/2024",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "Parts missing",
+     "date": "12/28/2025",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "No, no, no! 😭",
+     "text": "Unable to put together as two of the bars are too long and company won't comply with replacing or return with refund.",
+     "date": "7/17/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "This is a BIG NO!",
+     "text": "Hardware and the frame and glider would be seriously a dangerous place to sit! If everything fit the bolts are way to thin to support 1 regular sized person and no way for 2 regular sized persons without bending/breaking. This is how DANGEROUS GLIDER IS; ESPECIALLY FOR ME WITH A SEVERE SPINE INJURY! Even a healthy person could be injured by hitting the porch flooring. I would NOT let my young grandchildren even sit on glider if it could be put together because; it’s made so cheap again is very dangerous! Shame on anyone selling these!!!! Look at photos where the screws do not meet the needed length as nut is only a few threads in and the rockers do not fit the so called support! If the other pieces were added to rocker support bolt the bolt doesn’t have enough tread for bolt. How am I suppose to return this? I tore the box excited to put this together! Very UNHAPPY!!! We put all the other porch furniture together we bought wooden rocking chairs that were perfect!!! Do not waste your money or time with this very dangerous glider.",
+     "date": "4/15/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "Buy something else.",
+     "text": "There was a piece of metal where screw was supposed to go in on the chair back that was welded on crooked. There was no earthly way to insert screw. My husband had to drill new holes and use self tapping screws to attach the arm to the back. Looks terrible but it's useable. Very disappointed!",
+     "date": "7/29/2019",
+     "helpful": 4
+    },
+    {
+     "rating": 1,
+     "title": "Beware! Weight limit is wrong.",
+     "text": "I was so looking forward to this glider. What a great price! But, when it arrived the papers said the weight limit was only 350, instead of the 440 it advertised on line. So, my husband and I can not sit on it together or any other man or woman unless they are both small people. It was a pain to get it back into the box and tape it back up. You had to take everything out because directions were on the bottom. This makes the second thing from this site, Walmart.com, we have ordered that did not have correct information and we had to return it. I expect information to be correct.",
+     "date": "8/6/2020",
+     "helpful": 19
+    },
+    {
+     "rating": 1,
+     "title": "Two thumbs down!",
+     "text": "The welding broke apart the first time my hubby sat on it (average guy). You can not return to Walmart. I had to contact the third party company Walmart sells on their site. That company made me TAKE A PICTURE OF THE BROKEN SPOT during a live chat session (I had to go outside in the rain), find another box, AND DISASSEMBLE TO SHIP BACK! What a pain! I felt lucky to get my money back. We almost just threw it away. Never really got to use, but the little I sat on it, it was uncomfortable and stiff. Did not rock well. Be careful when you find things on Walmart's site as they don't have anything to do with it after you order, so if there's an issue, you're on your own and at the mercy of that third party. I'll be more careful next time. It's not like Amazon.",
+     "date": "9/3/2020",
+     "helpful": 6
+    },
+    {
+     "rating": 1,
+     "title": "Glider",
+     "text": "Unable to assemble due to wholes in wrong po stay away fromsit of pipes will return who is the woman in the she won't stay away from you stay away from her. Who is she? She she",
+     "date": "3/5/2026",
+     "helpful": 1
+    },
+    {
+     "rating": 1,
+     "title": "Don’t buy",
+     "text": "Does not go together well. Had to use some of my longer bolts for the bottom. Squeaks a lot. Have even used silicone but that doesn’t help.",
+     "date": "8/22/2019",
+     "helpful": 3
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "product apparently was damaged during packing",
+     "date": "4/9/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "Not sturdy enough metal to use in rocking mode.",
+     "text": "Cheesy, a piece of the metal on the front is already broken off in the metal from use. Had to replace a long newer bolt that the original hardware wore in half.",
+     "date": "7/17/2021",
+     "helpful": 2
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "No instructions, no screws so how am I supposed to put it together without any of this. Very disappointed.",
+     "date": "5/12/2020",
+     "helpful": 2
+    },
+    {
+     "rating": 1,
+     "title": "Don’t waste your time or money",
+     "text": "Horrible trash came defective",
+     "date": "5/31/2021",
+     "helpful": 2
+    },
+    {
+     "rating": 1,
+     "title": "squeaker",
+     "text": "this item is nice looking but the hardware appears to not be so sturdy. the swing squeaks loudly and now very relaxing, does not swing smoothly.",
+     "date": "5/20/2021",
+     "helpful": 1
+    },
+    {
+     "rating": 1,
+     "title": "Piece of crap!",
+     "text": "The thing keeps pulling out bolts is dangerous to use piece of crap dont wasts your money!!!!!!!!",
+     "date": "8/20/2021",
+     "helpful": 1
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "Bolt already broke on this item. Had it put together and using it on the porch for 3 weeks.",
+     "date": "9/13/2020",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "Great quality!",
+     "text": "Great product! Quick shipping and step by step instructions!",
+     "date": "8/26/2019",
+     "helpful": 0
+    }
+   ],
+   "id": "5445373143",
+   "title": "Best Choice Products 2-Person Outdoor Swing Glider, Steel Patio Loveseat, Bench Rocker w/ Armrests - Ivory/Gray",
+   "short": "Best Choice Products 2-Person Outdoor Swing Glider, Steel Patio Loveseat, Benc",
+   "rating": 4.4,
+   "reviews": 789.0,
+   "image": "https://i5.walmartimages.com/seo/Best-Choice-Products-2-Person-Outdoor-Swing-Glider-Steel-Patio-Loveseat-Bench-Rocker-w-Armrests-Ivory-Gray_2a9682af-9786-439c-8ff3-2f66bc70186d.d49708ad3894438d5b3d846a774531fb.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF",
+   "cat": "mix_match",
+   "cat_label_zh": "单件组合家具",
+   "cat_label_en": "Mix & Match",
+   "url": "https://www.walmart.com/ip/Best-Choice-Products-2-Person-Outdoor-Swing-Glider-Steel-Patio-Loveseat-Bench-Rocker-w-Armrests-Ivory-Gray/5445373143?classType=VARIANT"
+  },
+  {
+   "avg_rating": 4.7,
+   "total_reviews": 725,
+   "with_text": 129,
+   "recommended_pct": 80,
+   "dist_n": {
+    "1": 26,
+    "2": 11,
+    "3": 21,
+    "4": 62,
+    "5": 605
+   },
+   "dist_pct": {
+    "1": 4,
+    "2": 2,
+    "3": 3,
+    "4": 9,
+    "5": 83
+   },
+   "aspects": [
+    {
+     "name": "Sturdiness",
+     "mentions": 18
+    },
+    {
+     "name": "Seat Comfort",
+     "mentions": 15
+    },
+    {
+     "name": "Value For Money",
+     "mentions": 9
+    },
+    {
+     "name": "Build Quality",
+     "mentions": 7
+    },
+    {
+     "name": "Portability",
+     "mentions": 6
+    },
+    {
+     "name": "Lightweight",
+     "mentions": 6
+    },
+    {
+     "name": "Ease Of Folding",
+     "mentions": 6
+    },
+    {
+     "name": "Ease Of Opening",
+     "mentions": 4
+    },
+    {
+     "name": "Color",
+     "mentions": 4
+    },
+    {
+     "name": "Ease Of Setup",
+     "mentions": 3
+    },
+    {
+     "name": "Side Tray",
+     "mentions": 4
+    },
+    {
+     "name": "Functionality",
+     "mentions": 3
+    },
+    {
+     "name": "Side Table",
+     "mentions": 3
+    }
+   ],
+   "bullets": [
+    {
+     "polarity": "Positive",
+     "pill": "Reasonable price",
+     "aspect": "value for money",
+     "summary": "The chair delivers good quality relative to its cost."
+    },
+    {
+     "polarity": "Positive",
+     "pill": "Collapses flat",
+     "aspect": "ease of folding",
+     "summary": "The product stores compactly and includes top handles for carrying."
+    },
+    {
+     "polarity": "Positive",
+     "pill": "Lightweight design",
+     "aspect": "lightweight",
+     "summary": "The chair lifts easily and remains sturdy during transport."
+    },
+    {
+     "polarity": "Positive",
+     "pill": "Spacious supportive seat",
+     "aspect": "seat comfort",
+     "summary": "The chair provides roomy cushioning and alignment while staying lightweight."
+    },
+    {
+     "polarity": "Positive",
+     "pill": "Sturdy construction",
+     "aspect": "sturdiness",
+     "summary": "The chair feels solid and supports weight reliably."
+    },
+    {
+     "polarity": "Neutral",
+     "pill": "Assembly reliability",
+     "aspect": "ease of setup",
+     "summary": "Chairs assemble quickly, but some units fail to set up."
+    }
+   ],
+   "top_negative": {
+    "rating": 2,
+    "title": "director chair",
+    "text": "its an okay chair for sitting. The arm rests cushions are woefully thin, the seat is tight but isnt deep enough. When seated the front leg cross braces contact the back of your legs.",
+    "date": "5/6/2026",
+    "helpful": 0
+   },
+   "top_positive": {
+    "rating": 5,
+    "title": "",
+    "text": "Comfortable, lightweight, easy to transport and carry. Stable, secure seating, not a flimsy chair. Love the color and the side table. Folding and unfolding the chair was little tricky at first, but easy enough once I got the hang of it.",
+    "date": "7/5/2026",
+    "helpful": 0
+   },
+   "neg_samples": [
+    {
+     "rating": 1,
+     "title": "Broken Ozark chairs",
+     "text": "I received 2 broken chairs and was suppose to get a refund and never have.",
+     "date": "9/9/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "Once it's open to sit in you cant fold it up for storage. Returning it.",
+     "date": "6/1/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "too low",
+     "text": "its too low! i cant get out of it !",
+     "date": "7/31/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "Arrived with the fabric ripped!",
+     "date": "7/15/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "never received it when it was shipped",
+     "date": "7/4/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "my table was broken when i recieved it.",
+     "date": "9/20/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "Terrible customer service!!!! Walmart does not stand up to guarantees",
+     "date": "10/1/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "Terrible experience with your customer service I know you don't care but the worst experience ever",
+     "date": "10/1/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "no good last about a week and the seat ripped i want a refund.",
+     "date": "10/3/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "not the same item as in-store. saw the item in person. ordered onljne to get a different color. (depending on color - this also had the option to pick-up in store). the item i received was smaller and the fold-out table is a joke. kid's meal toys are stronger than the tray on this chair. This chair is a thin piece of fabric stretched between 2 wishes.",
+     "date": "10/25/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 2,
+     "title": "",
+     "text": "this chair is very hard to close up .",
+     "date": "7/20/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 2,
+     "title": "director chair",
+     "text": "its an okay chair for sitting. The arm rests cushions are woefully thin, the seat is tight but isnt deep enough. When seated the front leg cross braces contact the back of your legs.",
+     "date": "5/6/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 2,
+     "title": "",
+     "text": "I have others like it. This one has very flimsy armrests Velcroed on with very little padding. The seat slides back and forth and is not very comfortable. The cup holder is only 1 inch deep and the side table is very narrow. Definitely downsized in quality in comparison to the original models.",
+     "date": "7/27/2026",
+     "helpful": 0
+    }
+   ],
+   "id": "17882601787",
+   "title": "Ozark Trail Director Chair with Side Table, Black",
+   "short": "Ozark Trail Director Chair with Side Table, Black",
+   "rating": 4.7,
+   "reviews": 725.0,
+   "image": "https://i5.walmartimages.com/seo/Ozark-Trail-Director-Chair-with-Side-Table-Black_478e7fd8-d5da-4e6d-bfbf-21982091059f.37e393bd6a18a0a71cbfa286d955c8ab.png?odnHeight=180&odnWidth=180&odnBg=FFFFFF",
+   "cat": "mix_match",
+   "cat_label_zh": "单件组合家具",
+   "cat_label_en": "Mix & Match",
+   "url": "https://www.walmart.com/ip/Ozark-Trail-Director-Chair-with-Side-Table-Black/17882601787?classType=VARIANT"
+  },
+  {
+   "avg_rating": 4.5,
+   "total_reviews": 6746,
+   "with_text": 2017,
+   "recommended_pct": 77,
+   "dist_n": {
+    "1": 396,
+    "2": 156,
+    "3": 259,
+    "4": 631,
+    "5": 5304
+   },
+   "dist_pct": {
+    "1": 6,
+    "2": 2,
+    "3": 4,
+    "4": 9,
+    "5": 79
+   },
+   "aspects": [
+    {
+     "name": "Value For Money",
+     "mentions": 380
+    },
+    {
+     "name": "Build Quality",
+     "mentions": 285
+    },
+    {
+     "name": "Color",
+     "mentions": 275
+    },
+    {
+     "name": "Ease Of Assembly",
+     "mentions": 193
+    },
+    {
+     "name": "Solar Led Lights",
+     "mentions": 157
+    },
+    {
+     "name": "Size",
+     "mentions": 149
+    },
+    {
+     "name": "Shade Coverage",
+     "mentions": 112
+    },
+    {
+     "name": "Sturdiness",
+     "mentions": 101
+    },
+    {
+     "name": "For Patios",
+     "mentions": 89
+    },
+    {
+     "name": "Tilt Feature",
+     "mentions": 67
+    },
+    {
+     "name": "Sun Blocking",
+     "mentions": 65
+    },
+    {
+     "name": "Wind Resistance",
+     "mentions": 53
+    },
+    {
+     "name": "Ease Of Use",
+     "mentions": 48
+    },
+    {
+     "name": "Ease Of Opening",
+     "mentions": 48
+    },
+    {
+     "name": "Base",
+     "mentions": 46
+    },
+    {
+     "name": "Backyard Use",
+     "mentions": 41
+    },
+    {
+     "name": "Pole",
+     "mentions": 36
+    }
+   ],
+   "bullets": [
+    {
+     "polarity": "Positive",
+     "pill": "Vibrant color",
+     "aspect": "color",
+     "summary": "The hue generally matches product images and appears long-lasting."
+    },
+    {
+     "polarity": "Positive",
+     "pill": "Ample shade coverage",
+     "aspect": "shade coverage",
+     "summary": "The large canopy blocks sunlight across patio seating."
+    },
+    {
+     "polarity": "Positive",
+     "pill": "Easy to assemble",
+     "aspect": "ease of assembly",
+     "summary": "The umbrella installs quickly and can be handled by one person."
+    },
+    {
+     "polarity": "Positive",
+     "pill": "Perfect size",
+     "aspect": "size",
+     "summary": "The umbrella provides ample shade and fits patio tables well."
+    },
+    {
+     "polarity": "Positive",
+     "pill": "High quality build",
+     "aspect": "build quality",
+     "summary": "The umbrella is sturdy and well-made with durable fabric."
+    },
+    {
+     "polarity": "Positive",
+     "pill": "Great price value",
+     "aspect": "value for money",
+     "summary": "The umbrella delivers cost-effective quality for patio use."
+    }
+   ],
+   "top_negative": {
+    "rating": 1,
+    "title": "Disappointed",
+    "text": "Honestly the way it was advertised was as though it was the whole set and yes I am disappointed.Never again!Its's still in the box thought it was the whole set!!",
+    "date": "9/15/2026",
+    "helpful": 1
+   },
+   "top_positive": {
+    "rating": 5,
+    "title": "High quality Umbrella at low price",
+    "text": "I got this umbrella at such a low price I was prepared for low quality, but in this case I got much more than I paid for. it was larger in extension 10'? than others I've bought, but I was hesitatant it might be flimsy and unstable, if the wind kicks up. (*I broke my ankle last year trying to save one in the wind😳 had major surgery, so won't be doing that again😅) But, this umbrella was constructed with quality and durability in mind. It rolls up easily and is strong, sturdy and solid. The color is rich and I love using the tilt feature in late afternoon sun.",
+    "date": "5/2/2026",
+    "helpful": 5
+   },
+   "neg_samples": [
+    {
+     "rating": 1,
+     "title": "no instructions",
+     "text": "once again there's no instructions and parts that don't seem to go anywhere.",
+     "date": "10/14/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "no base to hold umbrella and I really need to know what base fits this umbrella please",
+     "date": "10/16/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "I never got it. It was delivered to the wrong house and did not get replaced. Just a refund.",
+     "date": "9/27/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "doesnt come with base",
+     "date": "9/18/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "1 trip and it broke",
+     "text": "Lasted 1 trip to the beach and the entire string assembly failed.cant use at all",
+     "date": "9/25/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "very cheaply made save your money...pay more...and get money's worth...",
+     "date": "9/8/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "did not get what they advertised at girst",
+     "date": "9/28/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "Wrong item sent. Sent me a 4 ft beige one no solar.",
+     "date": "10/9/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "BEWARE OF COLOR SELECTION - WE ORDERED RED !",
+     "text": "Look at the ad for the umbrealla … it is supposed to be RED … what we got was maroon and absolutely does not go with anything. How could someone mix up maroon for red? Sending both bath sadly. Highly disappointed.",
+     "date": "8/5/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "7.5 umbrella with extensions",
+     "text": "Not really a 9 foot umbrella… 7.5 foot with end extenders. Hmmm. We returned them. Not sure they would hold up in wind. Maybe fine for no breeze, but we always have breeze.",
+     "date": "4/17/2026",
+     "helpful": 1
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "it was pictured and advertised as a beach umbrella. It weighs a ton and is definitely not a beach umbrella!! very frustrating that your wasted my time!!!",
+     "date": "9/17/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "BaseLess",
+     "text": "Very disappointed because it did come with Umbrella Base!!!",
+     "date": "10/8/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "Poor Quality",
+     "text": "Cheap plastic, I'm returning",
+     "date": "9/26/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "Table shattered within a couple months. Very upset about this.",
+     "date": "9/21/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "I received the wrong item so it is very difficult to actually rate the item I purchased.",
+     "date": "9/17/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "They sent the wrong item",
+     "date": "9/14/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "sun comes right thur it",
+     "date": "9/6/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "Defective",
+     "text": "Doesn't even last two months. It won't stay straight up and down (stays in the tilted position). We bought 2 and both have broken and do this same thing.",
+     "date": "6/25/2025",
+     "helpful": 1
+    }
+   ],
+   "id": "15716006153",
+   "title": "Ainfox 7.5ft Beach Round Market Patio Umbrellas, UV Resistant",
+   "short": "Ainfox 7.5ft Beach Round Market Patio Umbrellas, UV Resistant",
+   "rating": 4.5,
+   "reviews": 6746.0,
+   "image": "https://i5.walmartimages.com/seo/Ainfox-7-5ft-Beach-Round-Market-Patio-Umbrellas-UV-Resistant_7b7bde91-e67c-4b76-a409-132956bf8ab5.f542c14cf4e7a3e9908f984207043ba8.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF",
+   "cat": "umbrella",
+   "cat_label_zh": "遮阳伞",
+   "cat_label_en": "Umbrellas",
+   "url": "https://www.walmart.com/ip/Ainfox-7-5ft-Beach-Round-Market-Patio-Umbrellas-UV-Resistant/15716006153?classType=VARIANT&athbdg=L1600"
+  },
+  {
+   "avg_rating": 4.6,
+   "total_reviews": 5193,
+   "with_text": 1976,
+   "recommended_pct": 76,
+   "dist_n": {
+    "1": 231,
+    "2": 86,
+    "3": 169,
+    "4": 467,
+    "5": 4240
+   },
+   "dist_pct": {
+    "1": 4,
+    "2": 2,
+    "3": 3,
+    "4": 9,
+    "5": 82
+   },
+   "aspects": [
+    {
+     "name": "Color",
+     "mentions": 423
+    },
+    {
+     "name": "Value For Money",
+     "mentions": 415
+    },
+    {
+     "name": "Build Quality",
+     "mentions": 333
+    },
+    {
+     "name": "Sturdiness",
+     "mentions": 130
+    },
+    {
+     "name": "Ease Of Assembly",
+     "mentions": 122
+    },
+    {
+     "name": "Size",
+     "mentions": 113
+    },
+    {
+     "name": "For Patios",
+     "mentions": 78
+    },
+    {
+     "name": "Crank Mechanism",
+     "mentions": 73
+    },
+    {
+     "name": "Tilt Feature",
+     "mentions": 71
+    },
+    {
+     "name": "Shade Coverage",
+     "mentions": 64
+    },
+    {
+     "name": "Ease Of Use",
+     "mentions": 63
+    },
+    {
+     "name": "Wind Resistance",
+     "mentions": 58
+    },
+    {
+     "name": "Sun Blocking",
+     "mentions": 47
+    },
+    {
+     "name": "Pole",
+     "mentions": 46
+    },
+    {
+     "name": "Ease Of Opening",
+     "mentions": 38
+    },
+    {
+     "name": "Deck Use",
+     "mentions": 35
+    },
+    {
+     "name": "Handle Operation",
+     "mentions": 27
+    },
+    {
+     "name": "Fit",
+     "mentions": 26
+    },
+    {
+     "name": "Base",
+     "mentions": 24
+    }
+   ],
+   "bullets": [
+    {
+     "polarity": "Positive",
+     "pill": "For patios",
+     "aspect": "for patios",
+     "summary": "Suitable for outdoor patio use with various table sizes."
+    },
+    {
+     "polarity": "Positive",
+     "pill": "Compact size",
+     "aspect": "size",
+     "summary": "Suitable for small to medium-sized patios and tables."
+    },
+    {
+     "polarity": "Positive",
+     "pill": "Sturdy build quality",
+     "aspect": "build quality",
+     "summary": "Made with thick, heavy-duty materials and a solid frame."
+    },
+    {
+     "polarity": "Positive",
+     "pill": "Quick to assemble",
+     "aspect": "ease of assembly",
+     "summary": "Setup involves clicking or twisting parts together."
+    },
+    {
+     "polarity": "Positive",
+     "pill": "Vibrant color",
+     "aspect": "color",
+     "summary": "Colors are true to description and richly saturated."
+    },
+    {
+     "polarity": "Positive",
+     "pill": "Excellent quality price",
+     "aspect": "value for money",
+     "summary": "Offers high-quality products at a reasonable cost."
+    }
+   ],
+   "top_negative": {
+    "rating": 1,
+    "title": "Umbrella crank does not work.",
+    "text": "The umbrella is very pretty and was a great price, however, the hand crank does not work. Therefore, I cannot open the umbrella. Unfortunately, it is useless to me. I guess I will have to return it to a Walmart.",
+    "date": "7/30/2025",
+    "helpful": 2
+   },
+   "top_positive": {
+    "rating": 5,
+    "title": "Beautiful Color",
+    "text": "I bought the forest green color. I absolutely love the color, the tilt, material, and height. High Quality, too. Great purchase. Fits nicely on my small deck and serves the purpose of blocking the hot afternoon sun. Love it. Happy that I purchased it.",
+    "date": "8/15/2020",
+    "helpful": 25
+   },
+   "neg_samples": [
+    {
+     "rating": 1,
+     "title": "",
+     "text": "Second time I've ordered 7.5' umbrellas and have been shipped 4.5' 😡😡😡 Best Choice is NOT the best choice!!!",
+     "date": "7/30/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "Sent the wrong item",
+     "text": "this is not what I ordered",
+     "date": "5/30/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "Disappointed",
+     "text": "You sent the wrong color! Ordered colbalt blue and received white..",
+     "date": "5/12/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "This was not received",
+     "date": "5/12/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "never received it the picture is not my house!",
+     "date": "6/26/2025",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "i never got",
+     "date": "5/29/2025",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "Lasted one day",
+     "text": "This umbrella is not heavy duty. The pockets holding the spines of the umbrella tore open on day one. This umbrella only cost about $45 so I didn’t expect much but I thought it would last more than one day. I took a needle and thread and repaired the torn pockets myself rather than return it but I was disappointed it was sewn with such low quality thread.",
+     "date": "3/25/2025",
+     "helpful": 3
+    },
+    {
+     "rating": 1,
+     "title": "Damaged pole on umbrella",
+     "text": "Umbrella pole is damaged. Can I carry it to local store to get replaced?",
+     "date": "3/8/2025",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "just put it out and it broke in half",
+     "date": "4/20/2025",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "Defective umbrella",
+     "text": "Ordered in September just put it out yesterday and it was defective. One sleeve was not sewn. Would like to return",
+     "date": "6/21/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "Horrible FedEx delivery!",
+     "text": "I haven’t officially opened the box yet, but because the lazy FedEx driver chose to toss it up to the very front of my HUGE porch, (as opposed to following the directions on the delivery), the box is completely soaked, and part of it is open. Thankfully I was able to get it within just a few minutes, or would have been so much worse. Waiting till it dries to find out how bad the damage is!",
+     "date": "3/8/2024",
+     "helpful": 3
+    },
+    {
+     "rating": 1,
+     "title": "Disappointed",
+     "text": "Umbrella was fabulous however, the pole was bent so bad you can’t put it up.",
+     "date": "9/4/2024",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "Damaged",
+     "text": "I ordered this umbrella online and it was delivered. Product arrived with damaged poles that would not fit together as one was bent. Could not be assembled and had to be physically returned to the store which was very inconvenient.",
+     "date": "4/30/2026",
+     "helpful": 1
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "A beautiful umbrella, was excited to put it out until I tried to screw the poles together. The the poles will not screw together as the threads seem to not match up. It screwed perhaps halfway and then when would go no farther, even asked my son-in-law for help. NO GO! so I will be returning the umbrella.",
+     "date": "5/8/2023",
+     "helpful": 3
+    },
+    {
+     "rating": 1,
+     "title": "CRAP",
+     "text": "Second one I bought in six months. Last one broke using the crank and the second one which traveled all over the US for weeks before finally getting to me came ripped. Every time I buy from Walmart is just pure crap and always damaged!",
+     "date": "8/11/2021",
+     "helpful": 4
+    },
+    {
+     "rating": 1,
+     "title": "Dud Umbrella",
+     "text": "I finally got ready to use it out at the DESERT set it up turn the crank and nothing! The pulley system seems to be missing from the umbrella, so it is totally useless. This is my second order, and I love my other one. Very disappointed ☹️",
+     "date": "2/18/2023",
+     "helpful": 6
+    },
+    {
+     "rating": 1,
+     "title": "Disappointed",
+     "text": "I ordered in the winter and just now got it out and it is broken",
+     "date": "3/13/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "Terrible quality umbrella",
+     "text": "The quality of this umbrella could not be any worse. I went to open it today and the metal ring that holds the top of the umbrella in place snapped in half and it completely fell apart. We have had it for 3 months. We bought a cover to keep it protected and bring it in during wind and storms. We couldn’t have done anything else to prevent wear and tear, it should not come apart this easily. Would not recommend to anyone.",
+     "date": "8/28/2021",
+     "helpful": 1
+    },
+    {
+     "rating": 1,
+     "title": "Very disappointed",
+     "text": "Shoppers should know that they are taking a chance by shopping with Walmart The return policy is a lie I have been trying to get help trying to return a laptop that I purchased several months and all I get is a run around I have been a very faithful customer to Walmart but I am so very tired of the treatments I have received for the past few months Target, Sam’s, and Costo are looking better everyday I love the delivery to my house My age keeps me from going to the store and our local store is a big joke and quite dangerous",
+     "date": "7/2/2024",
+     "helpful": 2
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "I was very disappointed when I took my umbrella out of the box and the connector was missing so I was unable to put the umbrella together. Had to pack it all up and return it. Sloppiness on the part of the manufacturer not to have the product properly ready for use.",
+     "date": "5/31/2023",
+     "helpful": 1
+    }
+   ],
+   "id": "672088540",
+   "title": "Best Choice Products 7.5ft Heavy-Duty Outdoor Market Patio Umbrella w/ Push Button Tilt, Easy Crank - Ivory",
+   "short": "Best Choice Products 7.5ft Heavy-Duty Outdoor Market Patio Umbrella w/ Push Bu",
+   "rating": 4.6,
+   "reviews": 5198.0,
+   "image": "https://i5.walmartimages.com/seo/Best-Choice-Products-7-5ft-Heavy-Duty-Outdoor-Market-Patio-Umbrella-w-Push-Button-Tilt-Easy-Crank-Ivory_9d1edfa9-b2ec-4a7d-b3eb-6a8e824c7f93.e17b55442d01ba042304ab9bfaa5a50e.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF",
+   "cat": "umbrella",
+   "cat_label_zh": "遮阳伞",
+   "cat_label_en": "Umbrellas",
+   "url": "https://www.walmart.com/ip/Best-Choice-Products-7-5ft-Heavy-Duty-Outdoor-Market-Patio-Umbrella-w-Push-Button-Tilt-Easy-Crank-Ivory/672088540?classType=VARIANT&athbdg=L1600"
+  },
+  {
+   "avg_rating": 4.2,
+   "total_reviews": 5844,
+   "with_text": 1873,
+   "recommended_pct": 13,
+   "dist_n": {
+    "1": 774,
+    "2": 165,
+    "3": 242,
+    "4": 547,
+    "5": 4116
+   },
+   "dist_pct": {
+    "1": 13,
+    "2": 3,
+    "3": 4,
+    "4": 9,
+    "5": 70
+   },
+   "aspects": [
+    {
+     "name": "Value For Money",
+     "mentions": 258
+    },
+    {
+     "name": "Ease Of Setup",
+     "mentions": 157
+    },
+    {
+     "name": "Build Quality",
+     "mentions": 141
+    },
+    {
+     "name": "Ease Of Assembly",
+     "mentions": 119
+    },
+    {
+     "name": "Ease Of Takedown",
+     "mentions": 89
+    },
+    {
+     "name": "Shade Coverage",
+     "mentions": 77
+    },
+    {
+     "name": "Frame Durability",
+     "mentions": 80
+    },
+    {
+     "name": "Rain Protection",
+     "mentions": 73
+    },
+    {
+     "name": "Wind Resistance",
+     "mentions": 70
+    },
+    {
+     "name": "Fabric Quality",
+     "mentions": 61
+    },
+    {
+     "name": "Sturdiness",
+     "mentions": 58
+    },
+    {
+     "name": "Leg Durability",
+     "mentions": 56
+    },
+    {
+     "name": "Frame Sturdiness",
+     "mentions": 54
+    },
+    {
+     "name": "Canopy Top",
+     "mentions": 46
+    },
+    {
+     "name": "Top",
+     "mentions": 43
+    },
+    {
+     "name": "Size",
+     "mentions": 43
+    },
+    {
+     "name": "For The Beach",
+     "mentions": 40
+    },
+    {
+     "name": "Stake Durability",
+     "mentions": 23
+    },
+    {
+     "name": "Seam Durability",
+     "mentions": 21
+    },
+    {
+     "name": "Ease Of Carrying",
+     "mentions": 20
+    },
+    {
+     "name": "Outdoor Use",
+     "mentions": 18
+    }
+   ],
+   "bullets": [
+    {
+     "polarity": "Neutral",
+     "pill": "Aerodynamics",
+     "aspect": "wind resistance",
+     "summary": "Can be stable in moderate winds, but vulnerable to strong gusts."
+    },
+    {
+     "polarity": "Negative",
+     "pill": "Fragile frame",
+     "aspect": "frame durability",
+     "summary": "May break or crack with moderate use or wind exposure."
+    },
+    {
+     "polarity": "Positive",
+     "pill": "Easy setup process",
+     "aspect": "ease of setup",
+     "summary": "Minimal effort required for setup."
+    },
+    {
+     "polarity": "Positive",
+     "pill": "Quick to assemble",
+     "aspect": "ease of assembly",
+     "summary": "Setup can be completed in under 15 minutes with one or two people."
+    },
+    {
+     "polarity": "Positive",
+     "pill": "Quick to collapse",
+     "aspect": "ease of takedown",
+     "summary": "Can be easily stored after use."
+    },
+    {
+     "polarity": "Positive",
+     "pill": "Affordable price",
+     "aspect": "value for money",
+     "summary": "Provides great value at a lower cost."
+    }
+   ],
+   "top_negative": {
+    "rating": 1,
+    "title": "",
+    "text": "The canopy is too small to fit the frame. I wish Walmart would forward this complaint to Ozark Trails so that they would send me a new black canopy, correctly-sized, for this item so that it may be used. I purchased the identical item 10 years ago and it worked extremely well and expected I would have the same experience with the new one. Sadly, I have not. Again Walmart, please forward this observation to Ozark Trails. Having purchased many items from this company for many years, I am hoping that they will want to make things right on this item. Thanks...",
+    "date": "7/9/2026",
+    "helpful": 0
+   },
+   "top_positive": {
+    "rating": 5,
+    "title": "",
+    "text": "Very good looking in black and taller then older one's as I am 6'2\" and can walk under with room to spare. Also the wide push button locks are easy to use and set!",
+    "date": "7/25/2026",
+    "helpful": 0
+   },
+   "neg_samples": [
+    {
+     "rating": 1,
+     "title": "Junk",
+     "text": "One of the brackets broke while putting up first time. Piece of junk. Wasn't no wind or anything",
+     "date": "9/2/2024",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "Buy a different canopy",
+     "text": "Very flimsy poor quality and came broken and I bought 2 and both came broken sadly",
+     "date": "8/26/2024",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "NOT WATERPROOF!",
+     "text": "It's insane that this isn't waterproof. There are holes all along the seams/stitching so water runs through them dripping all over as if there was no roof",
+     "date": "5/6/2025",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "OZARK DROPPED THE BALL",
+     "text": "have several of these tents that have been purchased over the last few years and needed a few more to accommodate my upcoming event, but was met with disappointment. Opened item on 7/12 to prepare for upcoming BBQ and it was broken and no cover was in box. Not sure if I xan return at store for replacement as my event is Saturday. Totally inconveinced!!",
+     "date": "7/12/2022",
+     "helpful": 5
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "Was not to my standards",
+     "date": "5/8/2025",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "We had one of these for year before it got holes in it, but have only had this one for 2 months and it has a bunch of pin holes.",
+     "date": "7/27/2025",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "Leaks and leg was broken",
+     "date": "5/13/2025",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "Shame on Walmart",
+     "text": "JUNK. It was not delivered in a box to protect it and was thrown at my front door. legs were dinged and the caring case scratch from the cement. This thing is very flimsy spend a bit more and get something that lasts. Very disappointed at Walmart's care for customer.",
+     "date": "5/3/2025",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "Broken out of package did return to Walmart",
+     "date": "7/31/2025",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "I got this for the Memorial Day weekend, and when it came out of the box, it was broken on one of the plastic corners that holds the whole frame up. Useless. I've always used Ozark Trails canopies, but I was sorely disappointed with this one.",
+     "date": "5/26/2025",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "Disappointing Ozark Trail product",
+     "text": "The frame is good but the top covering is very flimsy and tears easily. Avoid this product.",
+     "date": "8/31/2024",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "it stopped working after one week",
+     "date": "9/7/2024",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "one of the stabilizer legs up top was detached.",
+     "date": "8/20/2024",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "bad ! broke down 2nd time using it",
+     "date": "9/8/2024",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "Good if you only want to use it 2 times",
+     "text": "Got two uses out of it before the top ripped and the metal collapsed and broke",
+     "date": "9/20/2024",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "One gust of wind and the legs bent in half junk for sure don't waste your money",
+     "date": "9/3/2024",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "No canopy in the package or the stakes and rope.",
+     "date": "6/4/2024",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "Disappointed",
+     "text": "there was no canopy, only the frame",
+     "date": "10/24/2023",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "It ripped apart after a month of use.",
+     "date": "8/2/2023",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "I never received this product because Walmart canceled my order.",
+     "date": "8/25/2023",
+     "helpful": 0
+    }
+   ],
+   "id": "842019870",
+   "title": "Ozark Trail 10 ft x 10 ft Black Instant Slant Leg Pop-up Outdoor Canopy",
+   "short": "Ozark Trail 10 ft x 10 ft Black Instant Slant Leg Pop-up Outdoor Canopy",
+   "rating": 4.2,
+   "reviews": 5844.0,
+   "image": "https://i5.walmartimages.com/seo/Ozark-Trail-10-x-10-Black-Instant-Slant-Leg-Pop-up-Outdoor-Canopy_a151dd52-1977-48a0-9eac-23f3e230b704.5cc55c1d598acc5d9f5d67f1d0bfec13.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF",
+   "cat": "canopy",
+   "cat_label_zh": "篷房与凉亭",
+   "cat_label_en": "Canopies & Gazebos",
+   "url": "https://www.walmart.com/ip/Ozark-Trail-10-x-10-Black-Instant-Slant-Leg-Pop-up-Outdoor-Canopy/842019870?classType=VARIANT&athbdg=L1600"
+  },
+  {
+   "avg_rating": 4.1,
+   "total_reviews": 3351,
+   "with_text": 1091,
+   "recommended_pct": 85,
+   "dist_n": {
+    "1": 523,
+    "2": 144,
+    "3": 173,
+    "4": 354,
+    "5": 2157
+   },
+   "dist_pct": {
+    "1": 16,
+    "2": 4,
+    "3": 5,
+    "4": 11,
+    "5": 64
+   },
+   "aspects": [
+    {
+     "name": "Fabric Quality",
+     "mentions": 130
+    },
+    {
+     "name": "Build Quality",
+     "mentions": 122
+    },
+    {
+     "name": "Value For Money",
+     "mentions": 90
+    },
+    {
+     "name": "Velcro Attachments",
+     "mentions": 90
+    },
+    {
+     "name": "Ease Of Use",
+     "mentions": 75
+    },
+    {
+     "name": "Strap Durability",
+     "mentions": 77
+    },
+    {
+     "name": "Ease Of Filling",
+     "mentions": 70
+    },
+    {
+     "name": "Sturdiness",
+     "mentions": 62
+    },
+    {
+     "name": "Ease Of Setup",
+     "mentions": 61
+    },
+    {
+     "name": "Leg Durability",
+     "mentions": 57
+    },
+    {
+     "name": "Attachment System",
+     "mentions": 50
+    },
+    {
+     "name": "Use On Sand",
+     "mentions": 48
+    },
+    {
+     "name": "Wind Resistance",
+     "mentions": 44
+    },
+    {
+     "name": "Size",
+     "mentions": 38
+    },
+    {
+     "name": "Ease Of Carrying",
+     "mentions": 35
+    },
+    {
+     "name": "Frame Durability",
+     "mentions": 41
+    },
+    {
+     "name": "Frame Sturdiness",
+     "mentions": 37
+    },
+    {
+     "name": "Durability",
+     "mentions": 32
+    },
+    {
+     "name": "Top",
+     "mentions": 31
+    },
+    {
+     "name": "Outdoor Use",
+     "mentions": 28
+    },
+    {
+     "name": "Canopy Top",
+     "mentions": 26
+    },
+    {
+     "name": "For The Beach",
+     "mentions": 21
+    }
+   ],
+   "bullets": [
+    {
+     "polarity": "Positive",
+     "pill": "Secure velcro attachment",
+     "aspect": "attachment system",
+     "summary": "Features straps with velcro for easy connection to canopy legs."
+    },
+    {
+     "polarity": "Positive",
+     "pill": "Easy to operate",
+     "aspect": "ease of use",
+     "summary": "Simple design makes it convenient to use and transport."
+    },
+    {
+     "polarity": "Positive",
+     "pill": "Wide velcro opening",
+     "aspect": "ease of filling",
+     "summary": "Allows for easy filling with various materials."
+    },
+    {
+     "polarity": "Positive",
+     "pill": "Affordable option",
+     "aspect": "value for money",
+     "summary": "Provides great value considering the price."
+    },
+    {
+     "polarity": "Neutral",
+     "pill": "Wind performance",
+     "aspect": "wind resistance",
+     "summary": "Can be stable in moderate winds, but may struggle in stronger gusts."
+    }
+   ],
+   "top_negative": {
+    "rating": 1,
+    "title": "Quality is substandard",
+    "text": "I bought this for camping. Set up was easy. However it immediately ripped. And when it rained it rained a bit inside for the top - there was a small hole in the top. Disappointed in the quality for sure",
+    "date": "7/12/2025",
+    "helpful": 2
+   },
+   "top_positive": {
+    "rating": 5,
+    "title": "sun shield",
+    "text": "great for working outside. great sun cover. just be careful when taking down. don't force it. go slow, bring 4 corners towards eachother. it comes together to a small bundle for the bag. i broke my old one by forcing it. now i know how to do it carefully. also i got a small duffel bag to keep the cover in because it's hard to make it fit in the main bag. here's a pic from amazon",
+    "date": "9/13/2025",
+    "helpful": 3
+   },
+   "neg_samples": [
+    {
+     "rating": 1,
+     "title": "Don’t waste your time",
+     "text": "This tent is junk it is made with cheap materials the canopy has 3 holes and they tried to patch it I feel sorry for the people who paid 200 I feel ripped off paying 88 I am returning it in the morning",
+     "date": "5/12/2024",
+     "helpful": 2
+    },
+    {
+     "rating": 1,
+     "title": "Poor quality and frame design.",
+     "text": "Collapsed, aluminum legs broken, canopy ripped after 6” snow storm from weight of snow. This was not heavy soggy snow: very light, airy, easy to sweep away. Product should have remained upright, and certainly not broken, ripped; no longer usable.",
+     "date": "1/29/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "waste of money",
+     "text": "The velco straps that go around the frame broke time we put it up. The blue cover was flapping everywhere so we didn't use it. Waste of money",
+     "date": "7/6/2025",
+     "helpful": 1
+    },
+    {
+     "rating": 1,
+     "title": "Poor Quility",
+     "text": "Product arrived used for 1st time metal poles bent. Second use the cover ripped were it connect to poles. I do not recommend this product not very good quality.",
+     "date": "8/22/2025",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "Poor quality",
+     "text": "Setting up the canopy was seamless- very easy to pop open and set up. However, the quality is not good. Feels flimsy. On the third time using it, the frame snapped, so easily. You get what you pay for.",
+     "date": "9/10/2025",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "Went to put up the canopy and pulled it out of the bag that it was in and four of the black clips.The plastic clips were broke.So needless to say, I could not use it.",
+     "date": "10/21/2025",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "Ruined event",
+     "text": "CHEAP! You get what you pay for. This was to shade a group of elderly women. It broke. Right out of the box, cheap metal! Upset doesn't cover it. These poor women were cooking in the sun!",
+     "date": "7/15/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "Top Leaked with first use.",
+     "text": "Overall this canopy is great, but the first vendor event we used it for got a torrential rain and at least 2 different places in the top leaked onto our display. Tiny pinholes that are difficult to see, esp. when your scrambling to save your products. Since most of our events are during sunny days, I will not be returning it, but may have to purchase a new top at some point. All in all, it is a great frame and easy to set up. I'll deal with the leaks later if necessary.",
+     "date": "7/14/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "Ripped",
+     "text": "The canopy was ripped when I took it out of the box. I was at an event and had to use it anyway.",
+     "date": "12/13/2025",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "⚠️SKIP: Not Worth Purchasing",
+     "text": "Awful plastic feet on steel frame. Flimsy canopy. Poor quality all around. WHY PUT PLASTIC FEET ON A STEEL FRAME?!?",
+     "date": "8/18/2025",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "it came with a lot of holes on the packaging and this I realized reflected on the product",
+     "date": "6/15/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "Shipping nightmare",
+     "text": "It was completely destroyed. The box that it came in the handle is tore up not happy at all.",
+     "date": "9/25/2024",
+     "helpful": 2
+    },
+    {
+     "rating": 1,
+     "title": "Not as expected...simple canvas bags",
+     "text": "The bags appear to be durable although they are made from a canvas type material. I receive led a set of 4 that are split down the center. They did not arrive in any packaging just the shipping box. I'm not so confident in this product due to these aspects of the manufacture's presentation.",
+     "date": "6/18/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "It was 8x8, not 10x10 like the description stated on the ad! Not happy about that, as we needed one that was 10x10 for the place where we bought it for...😖So, very disappointed!!!!",
+     "date": "5/14/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "Disappointed",
+     "text": "Tent was broke out of the package. Returning it.",
+     "date": "6/23/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "It is not adorable and it leaks with light rain in the middle poor quality",
+     "date": "6/25/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "it's broken",
+     "text": "I discovered the frame had a rivet buster",
+     "date": "6/22/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "Have it for 1 week and it broke waste of my money",
+     "date": "7/7/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "broken",
+     "text": "broken when taken out of the box",
+     "date": "6/18/2026",
+     "helpful": 0
+    }
+   ],
+   "id": "5248833681",
+   "title": "GVDV Canopy Tent, 10x10 ft Easy Pop up Outdoor Canopy Tent, Portable Straight Leg Gazebo Instant Canopy, Blue",
+   "short": "GVDV Canopy Tent, 10x10 ft Easy Pop up Outdoor Canopy Tent, Portable Straight ",
+   "rating": 4.1,
+   "reviews": 3351.0,
+   "image": "https://i5.walmartimages.com/seo/GVDV-Canopy-Tent-10x10-ft-Easy-Pop-up-Outdoor-Canopy-Tent-Portable-Straight-Leg-Gazebo-Instant-Canopy-Blue_7ebd08bf-1c0b-4a72-b436-e73de5308848.e3de9d97e04906270c4a899ab747415f.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF",
+   "cat": "canopy",
+   "cat_label_zh": "篷房与凉亭",
+   "cat_label_en": "Canopies & Gazebos",
+   "url": "https://www.walmart.com/ip/GVDV-Canopy-Tent-10x10-ft-Easy-Pop-up-Outdoor-Canopy-Tent-Portable-Straight-Leg-Gazebo-Instant-Canopy-Blue/5248833681?classType=VARIANT&athbdg=L1900"
+  },
+  {
+   "avg_rating": 4.5,
+   "total_reviews": 32047,
+   "with_text": 7661,
+   "recommended_pct": 35,
+   "dist_n": {
+    "1": 1408,
+    "2": 705,
+    "3": 1653,
+    "4": 3440,
+    "5": 24841
+   },
+   "dist_pct": {
+    "1": 4,
+    "2": 2,
+    "3": 5,
+    "4": 11,
+    "5": 78
+   },
+   "aspects": [
+    {
+     "name": "Value For Money",
+     "mentions": 2155
+    },
+    {
+     "name": "Seat Comfort",
+     "mentions": 856
+    },
+    {
+     "name": "Build Quality",
+     "mentions": 551
+    },
+    {
+     "name": "Sturdiness",
+     "mentions": 467
+    },
+    {
+     "name": "Portability",
+     "mentions": 367
+    },
+    {
+     "name": "Color",
+     "mentions": 293
+    },
+    {
+     "name": "Cup Holder",
+     "mentions": 258
+    },
+    {
+     "name": "Lightweight",
+     "mentions": 252
+    },
+    {
+     "name": "Size",
+     "mentions": 252
+    },
+    {
+     "name": "For Adults",
+     "mentions": 195
+    },
+    {
+     "name": "For Backpacking",
+     "mentions": 186
+    },
+    {
+     "name": "Ease Of Setup",
+     "mentions": 128
+    },
+    {
+     "name": "Outdoor Use",
+     "mentions": 107
+    },
+    {
+     "name": "Beach Use",
+     "mentions": 105
+    },
+    {
+     "name": "Seat",
+     "mentions": 90
+    },
+    {
+     "name": "Durability",
+     "mentions": 84
+    },
+    {
+     "name": "Carrying Case",
+     "mentions": 70
+    },
+    {
+     "name": "Seat Fit",
+     "mentions": 70
+    }
+   ],
+   "bullets": [
+    {
+     "polarity": "Negative",
+     "pill": "Undersized for adults",
+     "aspect": "for adults",
+     "summary": "The chair's narrow frame cannot fit larger body sizes."
+    },
+    {
+     "polarity": "Positive",
+     "pill": "Comfortable seat",
+     "aspect": "seat comfort",
+     "summary": "The chair provides support for short-term outdoor sitting."
+    },
+    {
+     "polarity": "Positive",
+     "pill": "Durable build",
+     "aspect": "build quality",
+     "summary": "The chair features sturdy framing and holds up under casual use."
+    },
+    {
+     "polarity": "Positive",
+     "pill": "Easy to set up",
+     "aspect": "ease of setup",
+     "summary": "The chair unfolds instantly without assembly."
+    },
+    {
+     "polarity": "Positive",
+     "pill": "Lightweight design",
+     "aspect": "lightweight",
+     "summary": "The chair folds compactly and carries easily for transport."
+    },
+    {
+     "polarity": "Positive",
+     "pill": "Affordable value for money",
+     "aspect": "value for money",
+     "summary": "The chair pairs low price with decent build."
+    }
+   ],
+   "top_negative": {
+    "rating": 1,
+    "title": "Used chair",
+    "text": "This chair was delivered used.. its ripped and has mud",
+    "date": "9/23/2026",
+    "helpful": 0
+   },
+   "top_positive": {
+    "rating": 5,
+    "title": "Comfortable and lightweight",
+    "text": "This chair does not hurt my back like so many other foldable chairs do. Another plus is that it is small, so it doesn't weigh very much. If you are a big person, or have wide shoulders, you may find it uncomfortable. But it fits me great. (I am 5'5\" and 113lbs.) My husband has no complaints, either. He's 5'10\" and 145lbs or so. Just a tip - if you plan to use it mostly in hot weather, don't choose the black one. Go for a color that doesn't absorb so much sunlight. The fabric really heats up in the sunshine! (Which is awesome for chilly days, but not for summer.)",
+    "date": "10/5/2025",
+    "helpful": 10
+   },
+   "neg_samples": [
+    {
+     "rating": 1,
+     "title": "Not comfortable at all. Not worth it",
+     "text": "Not comfortable at all. When we sit in it our thighs are crushed by the metal. Cut the circulation in the leg. It hurt if you stay in too long, more then 30 minutes. The back you have metal poking us. The seat on itself is too small. It’s made for kids. Not worth it, that’s why the price was down to 7 $.",
+     "date": "9/18/2025",
+     "helpful": 8
+    },
+    {
+     "rating": 1,
+     "title": "Nope. Get something else. Broke after a week.",
+     "text": "What a terrible chair. Yes I know $10. But I expected it to last longer than a week. It did not. Will be taking back if they are even willing to take it back. Not quality. I debated on spending more but thought why not give it a shot. Narrow seat. Not too comfy. I got black. Was a great color. Had one cup holder. I used it outdoors at camp.",
+     "date": "6/18/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "well if you are a child then this may fit. if hour an adult it is terribly uncomfortable and flimsy. i can barely fit in the seat ! i would d rather sit on a porkupine than this chair. but for $10 cant expect a LazyBoy comfort",
+     "date": "3/18/2026",
+     "helpful": 1
+    },
+    {
+     "rating": 1,
+     "title": "Don't buy",
+     "text": "Horrible chair. Designed to hurt you while sitting. Armrests go right under thighs so you're sitting in metal. The back shoulders have an in-ward design that digs into them. Nordic knows this product is bad and is selling it off at a cheap price. Don't get this!",
+     "date": "8/18/2025",
+     "helpful": 9
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "The title / description is deceiving. These are supposedly for adults. Mind you, I’m only 5’6” **** lbs. this was not made for a guy my size. These are made for children. Young small adults perhaps. And even then, they’re cheaply made, poor quality not comfortable. Will be returning unfortunately",
+     "date": "7/9/2024",
+     "helpful": 24
+    },
+    {
+     "rating": 1,
+     "title": "Poor quality",
+     "text": "Within a month, the screws at the bottom kept falling out, and the poles would come out of the brackets at the bottom. I used these in my classroom as an incentive, and while I understand kids aren’t always the most gentle and careful, I’ve never had an issue like this before. My last set of these lasted 3 school years! Terrible quality, and such a bummer.",
+     "date": "10/26/2025",
+     "helpful": 2
+    },
+    {
+     "rating": 1,
+     "title": "Use caution",
+     "text": "Chair sets too low and is not made of good quality. When getting up out of the chair there were two time I almost fell but was able to catch myself however the third time I was not so lucky. As I was getting up the chair slid out from under me and I hit the ground. I was by myself with noone to help me get up and I had a struggle being able to get up which took me approximately 20 to 25 minutes. I'm 65 year's old and luckily I didn't break anything. If you choose to purchase this chair do so at your own risk.",
+     "date": "3/11/2025",
+     "helpful": 7
+    },
+    {
+     "rating": 1,
+     "title": "Disaster!",
+     "text": "i purchased this chair for my husband to use on our camping trip. He is a big guy this is obviously not an adult chair, but didn't say it was for a child or small person, it was very uncomfortable to sit in , the string on the bag came out, I did a return for it and took back to the store.",
+     "date": "6/9/2023",
+     "helpful": 4
+    },
+    {
+     "rating": 1,
+     "title": "Made for kids not adults.",
+     "text": "The chairs are super uncomfortable and don’t fit adults size butts at all. It states on the packaging that it holds up to 250lbs. No way it holds that much. I weigh 195 and I’m 5’11. I can’t fit in this chair at all. It was a cheap purchase but it should at least fit what is says on the package. I don’t recommend this unless you have really small butts or small kids.",
+     "date": "4/6/2024",
+     "helpful": 76
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "Worst camping chair, I've ever sat in!! Digs into your thighs and your sholder blades perfectly!!! its like they purposely had someone sit in the chair and mark where the shoulder blades are and most painful spots on bottoms of legs! Spend the extra money to get one thats actually comfortable! Please dont waste your money like I did!!!!",
+     "date": "2/25/2025",
+     "helpful": 11
+    },
+    {
+     "rating": 1,
+     "title": "Wrong item sent but purchased in store",
+     "text": "They are great went to the store to purchase and return a mop the driver gave in error",
+     "date": "3/10/2024",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "The chair suck",
+     "date": "12/17/2024",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "cheap crap",
+     "date": "10/15/2024",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "Won’t buy again",
+     "text": "Very cheaply made",
+     "date": "9/10/2024",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "Missing bag",
+     "date": "7/14/2023",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "too small for a adult this size fit a child",
+     "date": "9/4/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "This chair is so uncomfortable I can't use it.",
+     "date": "9/4/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "The support bars protrude down too far which interfered my legs from having a comfortable placement. I am no means a large guy and the add did not specify area dimensions at the opening. Might work for someone like a child but I can’t imagine the chair working for an adult",
+     "date": "11/28/2025",
+     "helpful": 3
+    },
+    {
+     "rating": 1,
+     "title": "These are \"Not\" Adult chairs!!!",
+     "text": "These are \"Not\" Adult chairs. Maybe will fit under 12 yrs old. I had to return these. The supports on sides hit my legs and hurt and I'm thin. Also has a strong chemical odor that says can harm you. I bet some smart people could figure out how to make and not harm or hurt us? Please fix and we will buy!!!",
+     "date": "4/5/2026",
+     "helpful": 2
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "This isn't quite what I expected. I sat in the chair for about three hours, got up and the chair collapsed underneath me, so I fell fell this isn't quite what I expected. I sat in the chair for about three hours, got up and the chair collapsed underneath me so I fell. Not happy.",
+     "date": "7/4/2026",
+     "helpful": 0
+    }
+   ],
+   "id": "983249623",
+   "title": "Ozark Trail Quad Folding Camp Chair with Cup Holder, Black",
+   "short": "Ozark Trail Quad Folding Camp Chair with Cup Holder, Black",
+   "rating": 4.5,
+   "reviews": 32047.0,
+   "image": "https://i5.walmartimages.com/seo/Ozark-Trail-Basic-Quad-Folding-Camp-Chair-with-Cup-Holder-Black_8a3cf080-65de-4e18-86d3-9c14ee02ecff.597848ccbbcdc8f09fe1a81a8a5309a4.png?odnHeight=180&odnWidth=180&odnBg=FFFFFF",
+   "cat": "camping",
+   "cat_label_zh": "露营与便携",
+   "cat_label_en": "Camping",
+   "url": "https://www.walmart.com/ip/Ozark-Trail-Basic-Quad-Folding-Camp-Chair-with-Cup-Holder-Black/983249623?classType=VARIANT&athbdg=L1600"
+  },
+  {
+   "avg_rating": 4.7,
+   "total_reviews": 6593,
+   "with_text": 2228,
+   "recommended_pct": 57,
+   "dist_n": {
+    "1": 208,
+    "2": 106,
+    "3": 151,
+    "4": 489,
+    "5": 5639
+   },
+   "dist_pct": {
+    "1": 3,
+    "2": 2,
+    "3": 2,
+    "4": 7,
+    "5": 86
+   },
+   "aspects": [
+    {
+     "name": "Seat Comfort",
+     "mentions": 635
+    },
+    {
+     "name": "Sturdiness",
+     "mentions": 196
+    },
+    {
+     "name": "Rocks",
+     "mentions": 132
+    },
+    {
+     "name": "Portability",
+     "mentions": 138
+    },
+    {
+     "name": "Ease Of Folding",
+     "mentions": 121
+    },
+    {
+     "name": "Build Quality",
+     "mentions": 113
+    },
+    {
+     "name": "Value For Money",
+     "mentions": 108
+    },
+    {
+     "name": "Seat",
+     "mentions": 50
+    },
+    {
+     "name": "Cup Holder",
+     "mentions": 51
+    },
+    {
+     "name": "Ease Of Setup",
+     "mentions": 51
+    },
+    {
+     "name": "Carry Handle",
+     "mentions": 37
+    },
+    {
+     "name": "Ease Of Opening",
+     "mentions": 36
+    },
+    {
+     "name": "Size",
+     "mentions": 33
+    },
+    {
+     "name": "For Camping",
+     "mentions": 30
+    },
+    {
+     "name": "Lightweight",
+     "mentions": 26
+    },
+    {
+     "name": "For Gifting",
+     "mentions": 24
+    },
+    {
+     "name": "Durability",
+     "mentions": 19
+    },
+    {
+     "name": "Squeaking Noise",
+     "mentions": 28
+    },
+    {
+     "name": "Color",
+     "mentions": 19
+    },
+    {
+     "name": "Outdoor Use",
+     "mentions": 3
+    }
+   ],
+   "bullets": [
+    {
+     "polarity": "Positive",
+     "pill": "Affordable price",
+     "aspect": "value for money",
+     "summary": "The chair delivers good value relative to its quality."
+    },
+    {
+     "polarity": "Positive",
+     "pill": "Smooth rocking motion",
+     "aspect": "rocks",
+     "summary": "The chair glides across sand, gravel, grass, and other surfaces."
+    },
+    {
+     "polarity": "Positive",
+     "pill": "Compact folding ease",
+     "aspect": "ease of folding",
+     "summary": "The chair collapses and has carry handles."
+    },
+    {
+     "polarity": "Positive",
+     "pill": "Robust sturdiness",
+     "aspect": "sturdiness",
+     "summary": "The chair supports heavier users and has solid build."
+    },
+    {
+     "polarity": "Positive",
+     "pill": "Very comfortable seat",
+     "aspect": "seat comfort",
+     "summary": "The chair has wide padding and smooth rocking."
+    },
+    {
+     "polarity": "Neutral",
+     "pill": "Drink storage",
+     "aspect": "cup holder",
+     "summary": "It fits tumblers but sits shallow or is poorly positioned."
+    }
+   ],
+   "top_negative": {
+    "rating": 1,
+    "title": "sits/leans forward and uncomfortable",
+    "text": "I can't get the chair to sit right, I always feel like I'm about to lean and tip over forwards for some reason. Plus it's squeaky. for the price, I'm not a fan 🤷🏼‍♀️",
+    "date": "7/1/2025",
+    "helpful": 3
+   },
+   "top_positive": {
+    "rating": 5,
+    "title": "",
+    "text": "if you are going to be in a room that supplies \"one of those chairs\" for several hours, then take this chair and be comfortable! No hurting back at the end of the day. I go to a monthly cross stitch day where the supplied chairs are ok, but this chair has made the difference. So comfortable and portable! It's also very sturdy.",
+    "date": "2/2/2026",
+    "helpful": 5
+   },
+   "neg_samples": [
+    {
+     "rating": 1,
+     "title": "Disappointed in quality of freestyle rocker.",
+     "text": "We purchased 2 freestyle rockers three years ago. Used them one season, then stored during pandemic. The blue chair’s color and fabric is fine, but the red one faded within the first 6 months and since has totally frayed. Not happy with red fabric quality for sure.",
+     "date": "2/9/2022",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "Fire Pit Rocker",
+     "text": "We have bought 10 of these chairs over the past 3 years, and Everyone of them break at the weld point at the back of the right arm. Love the rocking feature but hate the cost of them for them to just keep breaking",
+     "date": "7/22/2019",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "Bad material",
+     "text": "I’ve had my rocker for less than one year and it has faded, dry rotted and came apart on me. They cost a lot to not last a year. Very disappointed in this product.",
+     "date": "3/25/2022",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "Happy with chairs. Easy to",
+     "text": "Happy with chairs. Easy to set up and to collapse.",
+     "date": "8/18/2020",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "sits/leans forward and uncomfortable",
+     "text": "I can't get the chair to sit right, I always feel like I'm about to lean and tip over forwards for some reason. Plus it's squeaky. for the price, I'm not a fan 🤷🏼‍♀️",
+     "date": "7/1/2025",
+     "helpful": 3
+    },
+    {
+     "rating": 1,
+     "title": "Used",
+     "text": "Chair arrived looking used. I will be returning it",
+     "date": "7/20/2025",
+     "helpful": 1
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "Can't stop it from squeaking! 1st one I bought didn't, this one no matter what I do or where I lubricant it want stop. Driving me to drink!!",
+     "date": "8/12/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "Poor design",
+     "text": "Other versions of this chair are probably great, people love them. Based on that I bought the kickback rocker. It is the most uncomfortable chair I’ve ever sat in. I had marked it two stars, but sitting in it now I took it down to one as the poles are digging into my back. If not your back they’re in your backside. Terrible design, you tip backwards in it all the time and fall over if the ground isn’t flat. I’m 6’ 200 lbs. Wife is 5’4” 110 pounds she likes it fine.",
+     "date": "7/16/2025",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "Felt like I was going fall backwards",
+     "date": "11/1/2024",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "The rocker was defective. I could clearly tell by looking at it.",
+     "date": "12/7/2024",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "A stich in time",
+     "text": "I have this rocker, it is built nicely with one problem. The stitches that hold it together is a low quality and with in a year or two it starts coming apart fast. See 4 pics below for comparison. I'm on my second camping trip and 5 trips fishing at the lake (no salt water) . I do not recommend this rocker do to its performance in camping.",
+     "date": "7/24/2022",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "Comfortable but not quality",
+     "text": "I have bought 3 of these chairs, and every one has broken in the same way. The back support rail at the armrest weld breaks. Enjoyed them while they lasted. About 6 mo.",
+     "date": "4/1/2022",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "Kirk Young - Kent Narrows, Md",
+     "text": "((BUYER BEWARE)) These chairs Do Not last. Within 2 seasons all the binding on all 6 blue rockers covering the stitching has disintegrated. Amazingly their “lifetime” warranty does not cover that! West Marine said sorry call the manufacturer.",
+     "date": "9/30/2018",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "ENJOY WHILE YOU CAN",
+     "text": "Not sure exactly how long I've had my two rockers but, even though they have been stored in my shed or my camper the whole time, they are both dry rotted. Waste of hard earned money.",
+     "date": "11/28/2019",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "To expensive to small",
+     "text": "This chair sucks all the way around super expensive says it's for big people but you can barly fit in it and I fell the first time I sat in it. I have to hold myself up on it I'm suppose to relax not hold myself up",
+     "date": "7/19/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "Sadly it ripped within months of having it…",
+     "date": "8/5/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "Never received order",
+     "date": "6/5/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "my rocker broke",
+     "text": "two moths old broke at left elbow how to get replaced ?????????????",
+     "date": "6/22/2021",
+     "helpful": 0
+    }
+   ],
+   "id": "1577325445",
+   "title": "GCI Outdoor Freestyle Rocker XL Oversized Rocking Camping Chair with Cup & Phone Holder, Black",
+   "short": "GCI Outdoor Freestyle Rocker XL Oversized Rocking Camping Chair with Cup & Pho",
+   "rating": 4.7,
+   "reviews": 6593.0,
+   "image": "https://i5.walmartimages.com/seo/GCI-Outdoor-Freestyle-Rocker-XL-Oversized-Rocking-Camping-Chair-with-Cup-Phone-Holder-Black_45867ce1-3e7e-4345-8ea9-8f6169346daa.7b82fda4b71b6ab4da8bf43a4db5ad65.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF",
+   "cat": "camping",
+   "cat_label_zh": "露营与便携",
+   "cat_label_en": "Camping",
+   "url": "https://www.walmart.com/ip/GCI-Outdoor-Freestyle-Rocker-XL-Oversized-Rocking-Camping-Chair-with-Cup-Phone-Holder-Black/1577325445?classType=VARIANT"
+  },
+  {
+   "avg_rating": 4.6,
+   "total_reviews": 2573,
+   "with_text": 721,
+   "recommended_pct": 95,
+   "dist_n": {
+    "1": 108,
+    "2": 52,
+    "3": 99,
+    "4": 223,
+    "5": 2091
+   },
+   "dist_pct": {
+    "1": 4,
+    "2": 2,
+    "3": 4,
+    "4": 9,
+    "5": 81
+   },
+   "aspects": [
+    {
+     "name": "Color",
+     "mentions": 105
+    },
+    {
+     "name": "Seat Comfort",
+     "mentions": 110
+    },
+    {
+     "name": "Value For Money",
+     "mentions": 79
+    },
+    {
+     "name": "Quality",
+     "mentions": 73
+    },
+    {
+     "name": "Seat Fit",
+     "mentions": 58
+    },
+    {
+     "name": "Look",
+     "mentions": 27
+    },
+    {
+     "name": "Fabric",
+     "mentions": 24
+    },
+    {
+     "name": "Pattern",
+     "mentions": 10
+    },
+    {
+     "name": "Size",
+     "mentions": 17
+    },
+    {
+     "name": "Color Brightness",
+     "mentions": 8
+    },
+    {
+     "name": "Patio Use",
+     "mentions": 8
+    },
+    {
+     "name": "Durability",
+     "mentions": 6
+    },
+    {
+     "name": "Thickness",
+     "mentions": 8
+    },
+    {
+     "name": "Outdoor Use",
+     "mentions": 2
+    },
+    {
+     "name": "Ease Of Cleaning",
+     "mentions": 3
+    },
+    {
+     "name": "Variety",
+     "mentions": 3
+    },
+    {
+     "name": "Softness",
+     "mentions": 3
+    }
+   ],
+   "bullets": [
+    {
+     "polarity": "Positive",
+     "pill": "Visually appealing design",
+     "aspect": "pattern",
+     "summary": "Features a cool pattern that enhances the product's aesthetic."
+    },
+    {
+     "polarity": "Positive",
+     "pill": "Attractive appearance",
+     "aspect": "look",
+     "summary": "They have a visually pleasing design."
+    },
+    {
+     "polarity": "Positive",
+     "pill": "High-quality materials",
+     "aspect": "quality",
+     "summary": "Made with good materials for the price."
+    },
+    {
+     "polarity": "Positive",
+     "pill": "Great value for money",
+     "aspect": "value for money",
+     "summary": "The cushions offer quality that matches their low price."
+    },
+    {
+     "polarity": "Positive",
+     "pill": "Vibrant colors",
+     "aspect": "color",
+     "summary": "Features bright, cheerful hues."
+    },
+    {
+     "polarity": "Positive",
+     "pill": "Thick firm seat",
+     "aspect": "seat comfort",
+     "summary": "Cushions provide substantial padding and support."
+    }
+   ],
+   "top_negative": {
+    "rating": 2,
+    "title": "Arrived dirty",
+    "text": "Literally just received from delivery. 3 cushions are dirty with spots. Did not come wrapped or protected. A little disappointing. But they are firm and comfortable.",
+    "date": "6/7/2026",
+    "helpful": 0
+   },
+   "top_positive": {
+    "rating": 4,
+    "title": "Pretty satisfied",
+    "text": "They are pretty good quality and colors are vibrant. It is not shown in the picture but they have an unsightly loop on top side of the cushion. I guess it's for hanging them up when not in use but I don't like that. I will probably cut them off. The ones I ordered a couple of years ago don't have that. I will attach a photo.",
+    "date": "6/21/2026",
+    "helpful": 0
+   },
+   "neg_samples": [
+    {
+     "rating": 1,
+     "title": "Why would you ship without a box or packing slip",
+     "text": "The cushions I ordered did not come in a package or even with a packing slip! Just thrown on the front porch steps. The product was dirty and just thrown around. Very unacceptable!",
+     "date": "2/9/2025",
+     "helpful": 1
+    },
+    {
+     "rating": 1,
+     "title": "Would be great if I actually received my package",
+     "text": "I got a text saying my order was delivered when it was not. I watched the deluvery driver drive right by my house, and the photo is a black screen. It was very frustrating since I was told yesterday that delivery was attempted, but I checked my cameras, and nobody tried to deliver anything.",
+     "date": "4/29/2025",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "My husband and I bought outdoor cushions at two different places, and one set of four were just too small. So, I ordered two sets for our swing and bench, and they were too large. I need to return them. Will any Walmart do for the return? Priscilla Sappenfield",
+     "date": "4/11/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "Never received!",
+     "text": "Ordered- received an “unavailable” notice so never received, but they charged my card, still disputing the charge!",
+     "date": "9/23/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "Cannot rate item b/c the cushion was not even in a bag when delivered with black smudges across the front edge of the chair cushion. Very disappointed that cushion was not at least in a bag to protect it. Will be returning to a WalMart store.",
+     "date": "6/23/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "I have not received my Dec. 22nd purchase yet. It has been delayed twice, and the last notice says it will arrive on the 2nd. I appreciate being notified. A look at the tracking history shows it stayed in Orlando en route for four days, and twice in other locations the barcode was unreadable and needed to be replaced. I do realize it's the holidays and things can't help but slow down. But I can't rate a product I haven't received. I tried to shop that question, but the survey does not allow it.",
+     "date": "1/2/2025",
+     "helpful": 3
+    },
+    {
+     "rating": 1,
+     "title": "Order from Amazon next time.",
+     "text": "Ordered six cushions in a single order. They took the order and my money, delivered two cushions, delayed the others, then canceled the delivery of three of them because they were out of stock. I still have no idea of the sixth one is coming. What good does it do me to have two or three cushions for a patio set with six chairs? I’d rather they cancel the whole order. Now I have to figure out how to return a partial delivery to get my money back. I ordered cushions. I got a project but no cushions. Major fail, Wal Mart. Going back to Amazon.",
+     "date": "6/21/2024",
+     "helpful": 2
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "Bottom cushion has totally flattened out after 5 times of sitting on it. I will not buy again",
+     "date": "4/3/2026",
+     "helpful": 1
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "This was something I would have enter ordered. Something went wrong. Will be returning it immediately.",
+     "date": "3/27/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "We purchased this item on Walmart delivery. When you put the cushions in the natural daylight, they do not appear tan, but rather Gray.",
+     "date": "5/15/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "Coming apart",
+     "date": "7/10/2025",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "Back not tall enough, i am returning it today.",
+     "date": "8/12/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "I ordered two chair cushions and only received one. your application would only allow for a refund when I really wanted the one that I had ordered originally.",
+     "date": "3/29/2024",
+     "helpful": 3
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "Dirty and left unpacked by my garage door near the street",
+     "date": "6/12/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "One short.",
+     "text": "I ordered 4 cushions and received only 3. Please send me the fourth cushion!",
+     "date": "4/6/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "Wrong item",
+     "text": "Wrong item was delivered 15x30 should have been 37x20",
+     "date": "4/24/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "was dirty and stained like it was used and brought back.",
+     "date": "5/27/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "Poorly made not sturdy. Lost it shape after one sitting. Looks as though I've had them for quite some time and in need of replacement. Very disappointed. Waste of time and money!!",
+     "date": "4/16/2025",
+     "helpful": 1
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "Where is my other pad ?",
+     "date": "6/3/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "Typical Walmart shopping problem",
+     "text": "I was unable to buy this seat cushion because it was marked \"Clearance $8.99, but when I went to check out, it rang up as $24.00. Another employee told me to take a picture of the price sign, and they would be able to sell it at the sale price. I went back to my car, got my phone, and took a photo, but was then told that it did not match the item description, even though this was the only product on the shelf. I was advised that I could go to the other end of the store, wait in a long line, and discuss it with those people. Based on previous experiences, I elected to buy a similar product elsewhere. I would like to think that was just a marking error, but it has happened so often that I think it is a practice and not a marking error. I asked to speak with the store manager, but Of course she was not available and did not respond to a voicemail message I left for her.",
+     "date": "8/28/2026",
+     "helpful": 0
+    }
+   ],
+   "id": "17173602337",
+   "title": "Mainstays Tan Cabana Striped Outdoor Dining Chair Cushion, Seat and Back, 37 in L x 19.5 in W",
+   "short": "Mainstays Tan Cabana Striped Outdoor Dining Chair Cushion, Seat and Back, 37 i",
+   "rating": 4.6,
+   "reviews": 2573.0,
+   "image": "https://i5.walmartimages.com/seo/Mainstays-37-L-x-19-5-W-Tan-Cabana-Stripe-1-Piece-Rectangle-Outdoor-Chair-Cushion_8636b89b-bc45-4e90-8f86-37ffbfa1f624.9b574ba70ffe2926ea1b9b8910643bc7.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF",
+   "cat": "accessories",
+   "cat_label_zh": "配件与耗材",
+   "cat_label_en": "Patio Accessories",
+   "url": "https://www.walmart.com/ip/Mainstays-37-L-x-19-5-W-Tan-Cabana-Stripe-1-Piece-Rectangle-Outdoor-Chair-Cushion/17173602337?classType=VARIANT&athbdg=L1600"
+  },
+  {
+   "avg_rating": 4.6,
+   "total_reviews": 2265,
+   "with_text": 868,
+   "recommended_pct": 93,
+   "dist_n": {
+    "1": 135,
+    "2": 28,
+    "3": 59,
+    "4": 141,
+    "5": 1902
+   },
+   "dist_pct": {
+    "1": 6,
+    "2": 1,
+    "3": 3,
+    "4": 6,
+    "5": 84
+   },
+   "aspects": [
+    {
+     "name": "Comfort",
+     "mentions": 223
+    },
+    {
+     "name": "Appearance",
+     "mentions": 208
+    },
+    {
+     "name": "Build Quality",
+     "mentions": 189
+    },
+    {
+     "name": "Ease Of Assembly",
+     "mentions": 171
+    },
+    {
+     "name": "Protective Cover",
+     "mentions": 129
+    },
+    {
+     "name": "Value For Money",
+     "mentions": 112
+    },
+    {
+     "name": "Sturdiness",
+     "mentions": 73
+    },
+    {
+     "name": "Color Accuracy",
+     "mentions": 45
+    },
+    {
+     "name": "Material Quality",
+     "mentions": 39
+    },
+    {
+     "name": "Instruction Clarity",
+     "mentions": 22
+    },
+    {
+     "name": "For Patio",
+     "mentions": 21
+    },
+    {
+     "name": "Size",
+     "mentions": 20
+    },
+    {
+     "name": "Screw Quality",
+     "mentions": 17
+    },
+    {
+     "name": "Packaging",
+     "mentions": 16
+    },
+    {
+     "name": "Wicker Material",
+     "mentions": 15
+    },
+    {
+     "name": "Feel Quality",
+     "mentions": 12
+    },
+    {
+     "name": "Durability",
+     "mentions": 11
+    },
+    {
+     "name": "Outdoor Use",
+     "mentions": 11
+    }
+   ],
+   "bullets": [
+    {
+     "polarity": "Positive",
+     "pill": "Easy to assemble",
+     "aspect": "ease of assembly",
+     "summary": "Assembly process is relatively simple."
+    },
+    {
+     "polarity": "Positive",
+     "pill": "Affordable price",
+     "aspect": "value for money",
+     "summary": "Offers high-quality features at a lower cost."
+    },
+    {
+     "polarity": "Positive",
+     "pill": "Sturdy construction",
+     "aspect": "build quality",
+     "summary": "Features thick cushions and weather-resistant materials."
+    },
+    {
+     "polarity": "Positive",
+     "pill": "Luxurious appearance",
+     "aspect": "appearance",
+     "summary": "Chairs have a high-end design."
+    },
+    {
+     "polarity": "Positive",
+     "pill": "Soft cushions",
+     "aspect": "comfort",
+     "summary": "Provides excellent comfort with supportive cushions."
+    },
+    {
+     "polarity": "Neutral",
+     "pill": "Build integrity",
+     "aspect": "wicker material",
+     "summary": "Wicker is sturdy yet shows holes, defects and a greyer color."
+    }
+   ],
+   "top_negative": {
+    "rating": 1,
+    "title": "",
+    "text": "Item arrived without cushions. But cushion covers. You cannot return to store an online item. Even if the item arrived missing main part. You can pay to ship it back, after you dissemble it…. And repackage it. Calls to manufacture for missing items, it’s just recorded message. Buyer beware",
+    "date": "2/10/2026",
+    "helpful": 4
+   },
+   "top_positive": {
+    "rating": 5,
+    "title": "So beautiful!",
+    "text": "These chairs look high end. They are very beautiful and so comfortable. I assembled them by myself in 30 mins. It is easier if you have a drill but with the provided ratchet it is not hard either. The holes aligned well and everything came delivered next day with no damage. No complaints. Wish I bought them sooner.",
+    "date": "6/15/2025",
+    "helpful": 3
+   },
+   "neg_samples": [
+    {
+     "rating": 1,
+     "title": "The worst buying experience, absolute clown show",
+     "text": "Walmart has to be the WORST online shopping experience known to man. Ordering system with constant automated cancelling for no reason. Automated AI customer service system that drops phone calls at random. Humans who, after spending upwards of 20 minutes on the AI system to get to, though nice, know virtually nothing and control nothing. After multiple attempts at purchase and multiple cancellations or delays turned cancellations for no apparent reason and no recourse, we ended up with chairs for this and no sofa with the sofa sold out. Needless to say, its back to Amazon, because Walmart’s online system is a total clown show.",
+     "date": "8/4/2025",
+     "helpful": 2
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "I have put together a ton of furniture before. Horrible assembly. Screw holes and hardware do not line up. Many screws didn't fit provided holes. Had to contact manufacturer to provide new parts. Absolutely not worth the money. I regret purchasing.",
+     "date": "9/4/2025",
+     "helpful": 1
+    },
+    {
+     "rating": 1,
+     "title": "Looks nice, but not really for outdoors",
+     "text": "I don’t normally write bad reviews. But this product… it looks as pictured and is substantial - I will say that. It is very difficult to put together, I had to go to Home depot to buy longer screws for one portion to complete as instructed; however once I got the bottom tightened up I could then use the original pieces to get the arm tight. I bought four, have gotten together 2 and am procrastination putting together the other 2. Then, last night it rained. These cushions are not waterproof in the slightest. The entire inside contents are now soaked. They do provide a cover that I put on, but I don’t want to have to monitor the weather and if I need to cover the furniture on a daily basis. Kind of a pain. So I will probably be purchasing new cushions - which will add a significant amount to the total cost of this project. The original cost was a draw, had I have know I would have gone with something more expensive that satisfied all the above issues I have had.",
+     "date": "5/17/2024",
+     "helpful": 1
+    },
+    {
+     "rating": 1,
+     "title": "Came damaged and impossible to easily return",
+     "text": "Assembled one of the chairs no problem, second chair had a damaged panel. Options were to take the whole thing apart and wait for a freight carrier to come pick it up and wait to get a replacement within a month. Tried to expedite, and took the damaged chair to the store as both don’t fit in my vehicle. They said I’d have to bring both fully assembled chairs in for return. Basically a complete nightmare to deal with. Still not certain of a resolution.",
+     "date": "5/11/2024",
+     "helpful": 5
+    },
+    {
+     "rating": 1,
+     "title": "terrible delivery and assembly process!",
+     "text": "After confirming order and delivery date, the order date was immediately changed by Walmart but the paid for assembly service Angi, had been scheduled. I have spent hours trying to get the assembly service changed with no help from Walmart.com or Angi's.",
+     "date": "7/2/2024",
+     "helpful": 1
+    },
+    {
+     "rating": 1,
+     "title": "Delivered to the wrong address",
+     "text": "Items were delivered to the wrong address!! When I called, I was disconnected twice! Went on chat, and was told it had to be escalated to a supervisor. Huge waste of time…and money!! Give me my refund now!!!!",
+     "date": "5/2/2024",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "Screws do not fit! Nothing at Hardware stores help. Hope Walmart will bac this item",
+     "date": "3/17/2024",
+     "helpful": 1
+    },
+    {
+     "rating": 1,
+     "title": "Find something else!",
+     "text": "Nothing on these chairs is aligned, making complete assembly impossible. Bummer. BH&G used to be a quality company with dependable products.",
+     "date": "6/20/2024",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "I still have not received my order.",
+     "date": "10/11/2024",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "Like I said earlier, a cushion was damaged and I followed directions to have it replaced and no one has bothered to contact me. Very upset with your follow up.",
+     "date": "4/2/2024",
+     "helpful": 9
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "Haven't received as promised so don't know",
+     "date": "8/7/2025",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "Item arrived without cushions. But cushion covers. You cannot return to store an online item. Even if the item arrived missing main part. You can pay to ship it back, after you dissemble it…. And repackage it. Calls to manufacture for missing items, it’s just recorded message. Buyer beware",
+     "date": "2/10/2026",
+     "helpful": 4
+    },
+    {
+     "rating": 1,
+     "title": "Nice chair/ Poor manifacturing",
+     "text": "The chair is very pretty. The cushions are comfortable and firm. The problem we encountered were many of the parts did not fit together correctly. When reaching out to the manufacturer for replacement parts they were dismissive and we still have received replacement parts. Other than this issue we are pleased with the chair. I gave it one star in hopes they monitor the reviews and maybe rethink their customer service strategies.",
+     "date": "3/9/2024",
+     "helpful": 11
+    },
+    {
+     "rating": 1,
+     "title": "Frustrated",
+     "text": "I need to change the address of the delivery. I am frustrated with the delays",
+     "date": "3/21/2024",
+     "helpful": 1
+    },
+    {
+     "rating": 1,
+     "title": "Fumigate Walmart boxes",
+     "text": "Bought 3 boxes were bugs on it some dead and some little ones are a live",
+     "date": "8/7/2024",
+     "helpful": 1
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "Item is great - delivery was horrible! Third party vendor - Estes - dropped it on the SIDE OF THE ROAD! They wouldn't come up my driveway because it is gravel... instead just kicked it out on the side of the road for anyone to pick up and take. I would not recommend this delivery service at all and it's sad that it's not communicated with you up front that they will handle your things with such \"care\".",
+     "date": "3/26/2024",
+     "helpful": 3
+    },
+    {
+     "rating": 1,
+     "title": "Fast delivery but product damaged",
+     "text": "These chairs were delivered 1 day after placing the order. However the base of the chairs were damaged beyond repair. I’d have liked to keep it as it was the matching set for the sofa I also purchased and the last one available online. So I scheduled return for the chairs and cancellation for the sofa that has yet to arrive. Hope this returning process goes without a hitch. Needless to say, I’m very disappointed.",
+     "date": "6/10/2024",
+     "helpful": 1
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "Very strong plastic smells",
+     "date": "2/14/2024",
+     "helpful": 2
+    }
+   ],
+   "id": "17304874595",
+   "title": "Better Homes & Gardens Bellamy Wicker Outdoor Lounge Chair Set, Set of 2 with Green Cushions",
+   "short": "Better Homes & Gardens Bellamy Wicker Outdoor Lounge Chair Set, Set of 2 with ",
+   "rating": 4.6,
+   "reviews": 2265.0,
+   "image": "https://i5.walmartimages.com/seo/Better-Homes-Gardens-Bellamy-Wicker-2-Piece-Outdoor-Lounge-Chairs-With-Cushions-in-Natural-Green_502d4dc9-4866-4b85-8e6e-39758002bfff.0e6518d91c565c42ab3b0369c1a3b4ec.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF",
+   "cat": "accessories",
+   "cat_label_zh": "配件与耗材",
+   "cat_label_en": "Patio Accessories",
+   "url": "https://www.walmart.com/ip/Better-Homes-Gardens-Bellamy-Wicker-2-Piece-Outdoor-Lounge-Chairs-With-Cushions-in-Natural-Green/17304874595?classType=VARIANT"
+  },
+  {
+   "avg_rating": 4.7,
+   "total_reviews": 104145,
+   "with_text": 37401,
+   "recommended_pct": 46,
+   "dist_n": {
+    "1": 2413,
+    "2": 864,
+    "3": 3244,
+    "4": 12169,
+    "5": 85455
+   },
+   "dist_pct": {
+    "1": 2,
+    "2": 1,
+    "3": 3,
+    "4": 12,
+    "5": 82
+   },
+   "aspects": [
+    {
+     "name": "Ease Of Assembly",
+     "mentions": 108
+    },
+    {
+     "name": "Appearance",
+     "mentions": 28
+    },
+    {
+     "name": "Ease Of Cleaning",
+     "mentions": 27
+    },
+    {
+     "name": "Value For Money",
+     "mentions": 26
+    },
+    {
+     "name": "Instructions Clarity",
+     "mentions": 26
+    },
+    {
+     "name": "Build Quality",
+     "mentions": 19
+    },
+    {
+     "name": "For Families",
+     "mentions": 14
+    },
+    {
+     "name": "Heat Distribution",
+     "mentions": 12
+    },
+    {
+     "name": "Gift",
+     "mentions": 12
+    },
+    {
+     "name": "Flavor",
+     "mentions": 11
+    },
+    {
+     "name": "Size",
+     "mentions": 10
+    },
+    {
+     "name": "Outdoor Cooking",
+     "mentions": 10
+    },
+    {
+     "name": "Fast Cooking",
+     "mentions": 10
+    },
+    {
+     "name": "Shelf",
+     "mentions": 9
+    },
+    {
+     "name": "Burger Cooking",
+     "mentions": 7
+    },
+    {
+     "name": "Cooking Surface",
+     "mentions": 7
+    },
+    {
+     "name": "Temperature Control",
+     "mentions": 4
+    },
+    {
+     "name": "Screw Quality",
+     "mentions": 2
+    },
+    {
+     "name": "Assembly Nuts",
+     "mentions": 3
+    }
+   ],
+   "bullets": [
+    {
+     "polarity": "Neutral",
+     "pill": "Construction quality",
+     "aspect": "build quality",
+     "summary": "Unit has solid assembly but inconsistent finishing."
+    },
+    {
+     "polarity": "Positive",
+     "pill": "Attractive appearance",
+     "aspect": "appearance",
+     "summary": "The product displays a well-finished exterior throughout."
+    },
+    {
+     "polarity": "Positive",
+     "pill": "Clear instructions",
+     "aspect": "instructions clarity",
+     "summary": "The assembly process is straightforward and parts are labeled for fast setup."
+    },
+    {
+     "polarity": "Positive",
+     "pill": "Easy-to-clean surface",
+     "aspect": "ease of cleaning",
+     "summary": "The smooth finish wipes down quickly after cooking."
+    },
+    {
+     "polarity": "Positive",
+     "pill": "Great deal",
+     "aspect": "value for money",
+     "summary": "The product is offered at lower prices during sales and holidays."
+    },
+    {
+     "polarity": "Positive",
+     "pill": "Easy assembly",
+     "aspect": "ease of assembly",
+     "summary": "Unit installs quickly with clear instructions and minimal tools."
+    }
+   ],
+   "top_negative": {
+    "rating": 2,
+    "title": "Frame, Trays, Hanging Knobs Rust in Under a Year!",
+    "text": "I purchased this Blackstone less than a year ago and have been very disappointed with the durability of the exterior components. After only 9 months of ownership, the frame, shelves, hanging knobs, and other painted surfaces are already showing significant rust and corrosion. In several areas, the coating is flaking off entirely. What's particularly frustrating is that I have taken excellent care of the griddle. The cooking surface itself remains in great condition because I regularly clean and season it. The unit has also been stored under a covered patio in Ohio and has not been subjected to unusually harsh conditions. I could understand seeing this level of corrosion after 5–10 years of use, but not within the first year of ownership. For a premium-priced product that is intended for outdoor use, I expected far better quality and durability from the structural components and finish. I chose Blackstone over less expensive competitors because I believed I was paying for superior quality. Unfortunately, the rapid deterioration of the frame and exterior parts has left me disappointed. I hope Blackstone stands behind its products and can provide a satisfactory resolution.",
+    "date": "6/1/2026",
+    "helpful": 4
+   },
+   "top_positive": {
+    "rating": 5,
+    "title": "Highly recommend",
+    "text": "I've bought 2 other brands because I thought the Blackstones were a little over priced. After buying 2 other brands and dealing with issues I finally decided to just try the blackstone. I did, and there is no going back. There is a reason why it's the top sold flat grill.",
+    "date": "4/27/2026",
+    "helpful": 5
+   },
+   "neg_samples": [
+    {
+     "rating": 1,
+     "title": "Might be good, Walmart has no idea how to deliver",
+     "text": "Beware buying such a large, heavy item if you have no way of picking it up yourself. Walmart will deliver this leaving it practically in the road. It's extremely heavy, and then you'll be on your own. They also will NOT reimburse you when they deliver it practically in the road, after they say they will. I had to spend extra money to hire someone to pick it up. So is it a good product? Sure. But Walmart is a terrible company when it comes to delivery.",
+     "date": "10/10/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "NOT VERY HAPPY!!!",
+     "text": "I haven't been able to use my blackstone because the igniter button isn't working, it doesn't make any clicking sound therefore, we can't ignite any flames. Angi sent a technician out today who didn't have any idea how to fix it and now I have to wait for another Angi technician to come on Wednesday, hopefully to fix the issue",
+     "date": "7/13/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "not recommended",
+     "text": "Put it all together and took off grill paper cover. and it had rust in all 4 corners. spoke w/ associate as well as Blackstone (Created a ticket NOBODY Contacted me in a week so I called them as they said they were swamped w/ CS service tickets???) they said it was pea oil (looked like RUST) and will burn off in 13-15 burns??? well I had already had 14 and still there? Then they suggested to take off all seasonings and start over? I recommend the Sam's Club grill",
+     "date": "7/26/2023",
+     "helpful": 8
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "Griddle is already warped out of the box 😑",
+     "date": "7/4/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "While setting up this grill I noticed that the top part is rusted and scratched and I haven't even used the grill yet im very disappointed",
+     "date": "4/20/2023",
+     "helpful": 3
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "Straight out the box",
+     "date": "8/14/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "Does not work",
+     "text": "It will not ignite",
+     "date": "7/1/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "My wife bought this for me for Christmas. I've had it for six months and have used it less than ten times. With each use more and more of the black Teflon came off. It's rusted and completely useless now. I followed the care instructions to a T. Even purchased the additional cover for it and kept it under a covered patio. This has been our worst big purchase from WalMart.com. Do not recommend this product at all.",
+     "date": "6/20/2022",
+     "helpful": 4
+    },
+    {
+     "rating": 1,
+     "title": "Griddle Care A lot of Work",
+     "text": "Received my Blackstone griddle last year. It did not come with a hard cover, first mistake. Seasoned it several times but always found a brown residue on the surface. I soon noticed a warp develop so the little liquid applied to clean surface would run to the corners. When I uncovered it this Spring there was a mass of rust and crusted surface. I spent hours scraping, sanding, seasoning etc. and manage to get the rust off but still had brown, disgusting residue. In addition it takes forever to cook a hotdog. The flames are not very strong. Blackstone customer service keeps telling me to keep scraping and this is normal. I'm ready to give up.",
+     "date": "5/23/2024",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "Blackstone",
+     "text": "Box delivered damaged. Not due to delivery....it was previously opened, your store delivered anyway. the box was damaged and top opened. not sure if contents were removed. I will need to start assembly to verify that it was not pilfered. The parts better all be here!!!!!!!!",
+     "date": "10/8/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "your app sent me to Arlington. then Wadsworth. then Arlington. the app not me. but each store told me it was my fault. the customer service at Wadsworth were as unhelpful as they come. and worse, defensive as they come. all 4 of them with no one else to help. I don't get it. I really don't.",
+     "date": "10/8/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "One of the legs is completely dented. Thank you for sending out a defective item. Walmart and Blackstone stink.",
+     "date": "9/5/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "New Grill",
+     "text": "Trying out new blackstone 36” griddle",
+     "date": "9/2/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "Item was delivered to the wrong address. Walmart would not provide proof of where it was delivered do we could look for the item.",
+     "date": "10/1/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "Arrived warped",
+     "text": "Haven't used it yet, I'm registering the product. It's brand new. Odd that you'd ask me to rate it right now. 1) the griddle is pretty warped. It rocks around a lot (yes, it's installed correctly) 2) one of the rotating castors' screw seems too long, the acorn nut bottoms out with a lot of room to spare. So the whole unit wobbles. Not impressed so far.",
+     "date": "10/2/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "It was heavily damaged and 2 burners didn't work. We tried to return back to store but they claimed they don't take it back even though we could return on aop. The customer service is so terrible at Walmart",
+     "date": "9/15/2026",
+     "helpful": 0
+    }
+   ],
+   "id": "1347629739",
+   "title": "Blackstone Original Outdoor Griddle, 4-Burner 36 Inch Flat Top Grill with Hard Cover, Black",
+   "short": "Blackstone Original Outdoor Griddle, 4-Burner 36 Inch Flat Top Grill with Hard",
+   "rating": 4.7,
+   "reviews": 104145.0,
+   "image": "https://i5.walmartimages.com/seo/Blackstone-Original-Outdoor-Griddle-4-Burner-36-Inch-Flat-Top-Grill-with-Hard-Cover-Black_bb0f19b1-803c-417b-b655-489d1ae2c1da.998a124cf4d114689dc8963c7f5dd8c8.jpeg",
+   "cat": "grill_fire",
+   "cat_label_zh": "烧烤与火炉",
+   "cat_label_en": "Grills & Fire",
+   "url": "https://www.walmart.com/ip/Blackstone-Original-Outdoor-Griddle-4-Burner-36-Inch-Flat-Top-Grill-with-Hard-Cover-Black/1347629739?classType=REGULAR"
+  },
+  {
+   "avg_rating": 4.3,
+   "total_reviews": 12823,
+   "with_text": 4738,
+   "recommended_pct": 38,
+   "dist_n": {
+    "1": 1082,
+    "2": 381,
+    "3": 684,
+    "4": 1649,
+    "5": 9027
+   },
+   "dist_pct": {
+    "1": 8,
+    "2": 3,
+    "3": 5,
+    "4": 13,
+    "5": 70
+   },
+   "aspects": [
+    {
+     "name": "Value For Money",
+     "mentions": 17
+    },
+    {
+     "name": "Ease Of Assembly",
+     "mentions": 8
+    },
+    {
+     "name": "Size",
+     "mentions": 6
+    },
+    {
+     "name": "Build Quality",
+     "mentions": 3
+    }
+   ],
+   "bullets": [],
+   "top_negative": {
+    "rating": 1,
+    "title": "Just say no",
+    "text": "Had this for about a month before returning as two of the burners stopped igniting. Also you cannot adjust the flames. The knobs make it seem like you can but it doesn't really adjust. Also didn't care for the grease that would drip down the line onto the propane tank. Save your money and get the grill you actually want.",
+    "date": "6/15/2026",
+    "helpful": 5
+   },
+   "top_positive": {
+    "rating": 5,
+    "title": "Great Value Fast shipping & Delivery",
+    "text": "This a very nice grill for occasional or informal use. It's light weight and easily movable. It looks really nice as a new item. It is a bit fragile with it's light weight, not of hefty construction like most grills so we don't expect it to last forever. We like the auto lighting feature and the three large burners. One caution, it comes as a do it yourself assembly, and even the best professional mechanic will find it a challenge. The pictoral instructions are the usual cryptic puzzle and even worse than the typical flat-pack. It took us about 4 hours. Good luck!",
+    "date": "9/1/2026",
+    "helpful": 3
+   },
+   "neg_samples": [
+    {
+     "rating": 1,
+     "title": "IT WAS NOT DELIVER TO ME",
+     "text": "It was not deliver to me.",
+     "date": "8/25/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "Flames get too high on unit",
+     "text": "Fire shoots too high while cooking on this unit despite adjustments to the knobs.",
+     "date": "8/29/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "your site says it was delivered. But it also won't let me identify it was never delivered.",
+     "date": "8/30/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "very flimsy",
+     "date": "8/30/2026",
+     "helpful": 0
+    },
+    {
+     "rating": 1,
+     "title": "Cheap and flimsy",
+     "text": "First 30 min on the grill and the upper rack is eating and not staying together. Basically sitting on the first rack. Don’t waste your money. Spend a few bucks more for better",
+     "date": "2/24/2024",
+     "helpful": 30
+    },
+    {
+     "rating": 1,
+     "title": "Just say no",
+     "text": "Had this for about a month before returning as two of the burners stopped igniting. Also you cannot adjust the flames. The knobs make it seem like you can but it doesn't really adjust. Also didn't care for the grease that would drip down the line onto the propane tank. Save your money and get the grill you actually want.",
+     "date": "6/15/2026",
+     "helpful": 5
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "The flame CANNOT be regulated. The knobs indicate that the flame can be regulated however they are misleading. If you are making anything that drips as it's cooking, hardly any of the grease makes it to the drip pan. Therefore you get flare ups from the accumulated grease. The flame covers don't help at all. As soon as anything drips on the cover, it flares up. I only tried grilling on the main grate once and the heat was so intense, the meat burned immediately. I had the grill shipped to me because I have no way to get to a Walmart store. I'm 75 years old,and i can't return it. Guess I wasted money on a grill that I cannot use. And I'm stuck with it.",
+     "date": "7/28/2026",
+     "helpful": 2
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "Major missing parts. No burners. The entire bottom half of the grill was missing.",
+     "date": "7/15/2026",
+     "helpful": 4
+    },
+    {
+     "rating": 1,
+     "title": "Damaged goods",
+     "text": "I got it from the store gave it to a friend as a gift, when I helped put it together the lid was damaged on the corner. The funny thing abut it is the box wasn't damaged so who ever put it in the box did so knowing it was damaged.",
+     "date": "5/25/2026",
+     "helpful": 1
+    },
+    {
+     "rating": 1,
+     "title": "worst thing ive EVER bought",
+     "text": "the pieces dont align ive spent hours trying have had 3 people help its junk the holes are so filled with paint they have to be re drilled its awful im deff returning this",
+     "date": "5/5/2026",
+     "helpful": 1
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "I had to pay someone $25.00 to assemble the grill. The gas regulater fitting does not work. We tried two different propane tanks . Gas leaks from the fitting. When I called Walmart to try and get a new fitting, I was advised I could get a new grill or a refund. There is no wsy for me to return this to Walmart or a fed ex office plus I have already paid someone to put it together. All I wanted was a new regulater. So they said they would give me a 20% refund, and I would have to order the regulater. Bottom line. I had to buy the new regulater plus was charged for shipping. Never again Walmart...I will go to Lowes or Home Depot. This on sale grill cost me more then I could have got at Lowes with free Assembly.",
+     "date": "6/12/2025",
+     "helpful": 6
+    },
+    {
+     "rating": 1,
+     "title": "Only a two burner taking up space of a 3 burner!!!",
+     "text": "The drip tray will only catch the grease from 2 of the 3 burners.. Part number 12, I assume is to divert grease from one of the side burners to the middle grease pan, but the other side has holes that will drip all over your patio or your deck!!. Why are there 3 sets of 3 silver size on the bottom. The drip tray will catch grease from the middle 3 holes and probably from one side or 3 sets of 3 holes, HOWEVER, the 3 set on the left size below the third burner will drip grease. What were the designers thinking. Otherwise, it is a solid grill with only being able to cook on the other burners. Who designed this?",
+     "date": "5/14/2025",
+     "helpful": 9
+    },
+    {
+     "rating": 1,
+     "title": "Missing parts!",
+     "text": "Upon delivery and inspection of parts we realized a part was missing. I called the 800%23 and although the CSA was pleasant it seems like trying to get the missing part is my job. Jumping through hoops is not my idea of customer service. Just send me the missing part, which is part 2. Or I will simply return it. Your choice.",
+     "date": "5/15/2025",
+     "helpful": 5
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "the box had been opened. the box had a lot of damage. the box was stapled and re taped. no assembly instructions! no tool! I'm very disappointed the way the grill was shipped and the condition when delivered. i thought this was BRAND NEW but appears to be opened, repackaged and shipped. very disappointed",
+     "date": "5/8/2025",
+     "helpful": 9
+    },
+    {
+     "rating": 1,
+     "title": "Junk",
+     "text": "Instructions are barely useful. A part was bent so we could not assemble the shelf on one side. Burners do not burn evenly and the flame flares up at either end. You can not maintain even temp. You cannot adjust the flame so grilling is hit or miss. We would have returned it, but it was so difficult to assemble we did not want to go through that again. This replaced an Expert Grill we purchased several years again. It fell apart and you could no longer close the lid. We knew that the Expert Grill was a cheap product at a cheap price, but living in south Florida, we decided to buy cheap grills and replace every few years. However, this recent grill is far inferior to the one we were replacing. The parts are more flimsy and the grilling is unsatisfactory. We will not be buying an Expert Grill again.",
+     "date": "7/11/2023",
+     "helpful": 3
+    },
+    {
+     "rating": 1,
+     "title": "No this is a dud",
+     "text": "This item worked once and did not ignite ever more. I returned it to the store and was told they won’t refund my money after having it for two days and did not work. I did not want to purchase anymore after this experience.After explaining to 5 store employees I finally had the seasonal manager take it back only to get a gift card to purchase a higher price model… I was treated unfairly due to this item being defective .buyer beware a bad experience",
+     "date": "3/11/2024",
+     "helpful": 4
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "I bought the grill in the Fall of 2024 and handed down my other grill, which was also purchased from Walmart, to my daughter. First thing wrong was the hose to gas tank was defective and Walmart sent a new one. Come spring I made burgers and hot dogs and when I was going to cook on the grill the next time I saw thick grease in the bottom. I had grill cleaner thats safe to eat after yet the mess was terribleand didn'tclean up very well. The tray pan that grease runs to was what drove me to purchase the grill was described inaccurately. It shows the grease catcher as a long tray that would get alot of the grease but it didn't catch as much grease as my old grill did in it's little cup. When I tried to scrape the grill down the burner covers stripped off the finish. The hotdog upper grill was already rusty even though hotdogs had only been on it once. Also the spacing on the top and bottom racks is much wider than any grill I've cooked on in my 60 years of life. This grill looks like it's been cooked on daily for years. Am very aggravated with it and feel ripped off. Wish I had my old grill back because the metal materials were much better and my food wouldn't slip between the racks. Safe to state this grill is defective.",
+     "date": "3/30/2025",
+     "helpful": 9
+    },
+    {
+     "rating": 1,
+     "title": "Don’t Buy",
+     "text": "Did not read enough of the reviews and wish I had. Directions are only pictures which I could live with but in the end very poor quality. The metal easily bends and the top of the grill when aligned with holes was crooked so I took it back for a refund will only buy name brand.",
+     "date": "9/24/2022",
+     "helpful": 5
+    },
+    {
+     "rating": 1,
+     "title": "bad product",
+     "text": "Got my grill and built it in under 2 hours. Then I took the grill grate out of the plastic wrap to finish but it was all bent/chipped up. I contacted customer service but they pushed me off to the grill company for a replacement grate. When I tried to call them it was just an infinite phone loop. Bad quality product do not buy.",
+     "date": "9/23/2022",
+     "helpful": 4
+    },
+    {
+     "rating": 1,
+     "title": "",
+     "text": "This grill is very cheaply made as parts are very thin and they don't fit well. I did grill one steak and it didn't come out well as the grill bars are very thin.",
+     "date": "7/22/2026",
+     "helpful": 0
+    }
+   ],
+   "id": "803538514",
+   "title": "Expert Grill 3-Burner Propane Gas Grill with Side Shelves and Wheels, Black",
+   "short": "Expert Grill 3-Burner Propane Gas Grill with Side Shelves and Wheels, Black",
+   "rating": 4.3,
+   "reviews": 12823.0,
+   "image": "https://i5.walmartimages.com/seo/Expert-Grill-3-Burner-Propane-Gas-Grill_0467fe85-fa51-4ccf-99f5-91ee006c5e2d.72a95d1ae18fb0fbdedd58c0c96bf4c4.jpeg",
+   "cat": "grill_fire",
+   "cat_label_zh": "烧烤与火炉",
+   "cat_label_en": "Grills & Fire",
+   "url": "https://www.walmart.com/ip/Expert-Grill-3-Burner-Propane-Gas-Grill/803538514?classType=REGULAR&athbdg=L1600"
+  }
+ ],
+ "themes": [
+  {
+   "key": "value",
+   "zh": "失望 / 退款退货",
+   "en": "Disappointment & returns",
+   "negative": 67,
+   "products": 14,
+   "cats": {
+    "patio_set": 9,
+    "mix_match": 8,
+    "umbrella": 14,
+    "canopy": 9,
+    "camping": 7,
+    "accessories": 10,
+    "grill_fire": 10
+   },
+   "quote": "The title / description is deceiving. These are supposedly for adults. Mind you, I’m only 5’6” **** lbs. this was not made for a guy my size. These are made for children. Young small adults perhaps. And even then, they’re cheaply made, poor"
+  },
+  {
+   "key": "durability",
+   "zh": "材质耐久性差",
+   "en": "Durability & material quality",
+   "negative": 42,
+   "products": 12,
+   "cats": {
+    "patio_set": 6,
+    "mix_match": 1,
+    "umbrella": 5,
+    "canopy": 9,
+    "camping": 8,
+    "accessories": 1,
+    "grill_fire": 12
+   },
+   "quote": "The title / description is deceiving. These are supposedly for adults. Mind you, I’m only 5’6” **** lbs. this was not made for a guy my size. These are made for children. Young small adults perhaps. And even then, they’re cheaply made, poor"
+  },
+  {
+   "key": "fabric",
+   "zh": "面料 / 做工瑕疵",
+   "en": "Fabric & workmanship defects",
+   "negative": 35,
+   "products": 10,
+   "cats": {
+    "patio_set": 5,
+    "mix_match": 5,
+    "umbrella": 4,
+    "canopy": 13,
+    "camping": 3,
+    "accessories": 1,
+    "grill_fire": 4
+   },
+   "quote": "I purchase these chairs about a month ago. I was contacted by the shipper to see if I received them. Since I did not receive them they ordered a replacement. I received the chairs within a few days after that. However, the box was badly sma"
+  },
+  {
+   "key": "stability",
+   "zh": "结构不稳 / 易倒",
+   "en": "Sturdiness & stability",
+   "negative": 31,
+   "products": 12,
+   "cats": {
+    "patio_set": 6,
+    "mix_match": 3,
+    "umbrella": 3,
+    "canopy": 9,
+    "camping": 4,
+    "accessories": 1,
+    "grill_fire": 5
+   },
+   "quote": "First 30 min on the grill and the upper rack is eating and not staying together. Basically sitting on the first rack. Don’t waste your money. Spend a few bucks more for better"
+  },
+  {
+   "key": "damage",
+   "zh": "到货破损 / 包装差",
+   "en": "Arrived damaged / poor packaging",
+   "negative": 29,
+   "products": 11,
+   "cats": {
+    "patio_set": 6,
+    "mix_match": 3,
+    "umbrella": 4,
+    "canopy": 4,
+    "camping": 2,
+    "accessories": 3,
+    "grill_fire": 7
+   },
+   "quote": "The chairs are super uncomfortable and don’t fit adults size butts at all. It states on the packaging that it holds up to 250lbs. No way it holds that much. I weigh 195 and I’m 5’11. I can’t fit in this chair at all. It was a cheap purchase"
+  },
+  {
+   "key": "assembly",
+   "zh": "安装组装困难",
+   "en": "Hard to assemble",
+   "negative": 25,
+   "products": 8,
+   "cats": {
+    "patio_set": 3,
+    "mix_match": 6,
+    "umbrella": 2,
+    "canopy": 2,
+    "camping": 1,
+    "accessories": 4,
+    "grill_fire": 7
+   },
+   "quote": "I purchase these chairs about a month ago. I was contacted by the shipper to see if I received them. Since I did not receive them they ordered a replacement. I received the chairs within a few days after that. However, the box was badly sma"
+  },
+  {
+   "key": "service",
+   "zh": "客服与售后不佳",
+   "en": "Customer service & warranty",
+   "negative": 20,
+   "products": 10,
+   "cats": {
+    "patio_set": 4,
+    "mix_match": 3,
+    "umbrella": 1,
+    "canopy": 1,
+    "camping": 1,
+    "accessories": 5,
+    "grill_fire": 5
+   },
+   "quote": "I purchase these chairs about a month ago. I was contacted by the shipper to see if I received them. Since I did not receive them they ordered a replacement. I received the chairs within a few days after that. However, the box was badly sma"
+  },
+  {
+   "key": "base",
+   "zh": "底座 / 配重不足",
+   "en": "Weak base / insufficient weight",
+   "negative": 14,
+   "products": 8,
+   "cats": {
+    "mix_match": 2,
+    "umbrella": 7,
+    "canopy": 2,
+    "camping": 2,
+    "accessories": 1
+   },
+   "quote": "I was so looking forward to this glider. What a great price! But, when it arrived the papers said the weight limit was only 350, instead of the 440 it advertised on line. So, my husband and I can not sit on it together or any other man or w"
+  },
+  {
+   "key": "mechanism",
+   "zh": "操作机构故障",
+   "en": "Mechanism & hardware failure",
+   "negative": 8,
+   "products": 7,
+   "cats": {
+    "patio_set": 1,
+    "mix_match": 2,
+    "umbrella": 3,
+    "grill_fire": 2
+   },
+   "quote": "I finally got ready to use it out at the DESERT set it up turn the crank and nothing! The pulley system seems to be missing from the umbrella, so it is totally useless. This is my second order, and I love my other one. Very disappointed ☹️"
+  },
+  {
+   "key": "size_fit",
+   "zh": "尺寸与描述不符",
+   "en": "Size / fit mismatch",
+   "negative": 7,
+   "products": 5,
+   "cats": {
+    "mix_match": 1,
+    "camping": 3,
+    "accessories": 2,
+    "grill_fire": 1
+   },
+   "quote": "Not comfortable at all. When we sit in it our thighs are crushed by the metal. Cut the circulation in the leg. It hurt if you stay in too long, more then 30 minutes. The back you have metal poking us. The seat on itself is too small. It’s m"
+  },
+  {
+   "key": "wind",
+   "zh": "抗风能力弱",
+   "en": "Poor wind resistance",
+   "negative": 4,
+   "products": 3,
+   "cats": {
+    "umbrella": 2,
+    "canopy": 2
+   },
+   "quote": "Not really a 9 foot umbrella… 7.5 foot with end extenders. Hmmm. We returned them. Not sure they would hold up in wind. Maybe fine for no breeze, but we always have breeze."
+  },
+  {
+   "key": "shade",
+   "zh": "遮阳效果不足",
+   "en": "Insufficient shade",
+   "negative": 2,
+   "products": 2,
+   "cats": {
+    "umbrella": 1,
+    "canopy": 1
+   },
+   "quote": "CHEAP! You get what you pay for. This was to shade a group of elderly women. It broke. Right out of the box, cheap metal! Upset doesn't cover it. These poor women were cooking in the sun!"
+  }
+ ],
+ "by_cat": {
+  "patio_set": {
+   "label_zh": "成套家具",
+   "label_en": "Patio Sets",
+   "themes": [
+    {
+     "key": "value",
+     "zh": "失望 / 退款退货",
+     "en": "Disappointment & returns",
+     "negative": 9
+    },
+    {
+     "key": "damage",
+     "zh": "到货破损 / 包装差",
+     "en": "Arrived damaged / poor packaging",
+     "negative": 6
+    },
+    {
+     "key": "durability",
+     "zh": "材质耐久性差",
+     "en": "Durability & material quality",
+     "negative": 6
+    },
+    {
+     "key": "stability",
+     "zh": "结构不稳 / 易倒",
+     "en": "Sturdiness & stability",
+     "negative": 6
+    },
+    {
+     "key": "fabric",
+     "zh": "面料 / 做工瑕疵",
+     "en": "Fabric & workmanship defects",
+     "negative": 5
+    },
+    {
+     "key": "service",
+     "zh": "客服与售后不佳",
+     "en": "Customer service & warranty",
+     "negative": 4
+    },
+    {
+     "key": "assembly",
+     "zh": "安装组装困难",
+     "en": "Hard to assemble",
+     "negative": 3
+    },
+    {
+     "key": "mechanism",
+     "zh": "操作机构故障",
+     "en": "Mechanism & hardware failure",
+     "negative": 1
+    }
+   ],
+   "total": 40
+  },
+  "mix_match": {
+   "label_zh": "单件组合家具",
+   "label_en": "Mix & Match",
+   "themes": [
+    {
+     "key": "value",
+     "zh": "失望 / 退款退货",
+     "en": "Disappointment & returns",
+     "negative": 8
+    },
+    {
+     "key": "assembly",
+     "zh": "安装组装困难",
+     "en": "Hard to assemble",
+     "negative": 6
+    },
+    {
+     "key": "fabric",
+     "zh": "面料 / 做工瑕疵",
+     "en": "Fabric & workmanship defects",
+     "negative": 5
+    },
+    {
+     "key": "service",
+     "zh": "客服与售后不佳",
+     "en": "Customer service & warranty",
+     "negative": 3
+    },
+    {
+     "key": "damage",
+     "zh": "到货破损 / 包装差",
+     "en": "Arrived damaged / poor packaging",
+     "negative": 3
+    },
+    {
+     "key": "stability",
+     "zh": "结构不稳 / 易倒",
+     "en": "Sturdiness & stability",
+     "negative": 3
+    },
+    {
+     "key": "base",
+     "zh": "底座 / 配重不足",
+     "en": "Weak base / insufficient weight",
+     "negative": 2
+    },
+    {
+     "key": "mechanism",
+     "zh": "操作机构故障",
+     "en": "Mechanism & hardware failure",
+     "negative": 2
+    },
+    {
+     "key": "size_fit",
+     "zh": "尺寸与描述不符",
+     "en": "Size / fit mismatch",
+     "negative": 1
+    },
+    {
+     "key": "durability",
+     "zh": "材质耐久性差",
+     "en": "Durability & material quality",
+     "negative": 1
+    }
+   ],
+   "total": 34
+  },
+  "umbrella": {
+   "label_zh": "遮阳伞",
+   "label_en": "Umbrellas",
+   "themes": [
+    {
+     "key": "value",
+     "zh": "失望 / 退款退货",
+     "en": "Disappointment & returns",
+     "negative": 14
+    },
+    {
+     "key": "base",
+     "zh": "底座 / 配重不足",
+     "en": "Weak base / insufficient weight",
+     "negative": 7
+    },
+    {
+     "key": "durability",
+     "zh": "材质耐久性差",
+     "en": "Durability & material quality",
+     "negative": 5
+    },
+    {
+     "key": "damage",
+     "zh": "到货破损 / 包装差",
+     "en": "Arrived damaged / poor packaging",
+     "negative": 4
+    },
+    {
+     "key": "fabric",
+     "zh": "面料 / 做工瑕疵",
+     "en": "Fabric & workmanship defects",
+     "negative": 4
+    },
+    {
+     "key": "mechanism",
+     "zh": "操作机构故障",
+     "en": "Mechanism & hardware failure",
+     "negative": 3
+    },
+    {
+     "key": "stability",
+     "zh": "结构不稳 / 易倒",
+     "en": "Sturdiness & stability",
+     "negative": 3
+    },
+    {
+     "key": "assembly",
+     "zh": "安装组装困难",
+     "en": "Hard to assemble",
+     "negative": 2
+    },
+    {
+     "key": "wind",
+     "zh": "抗风能力弱",
+     "en": "Poor wind resistance",
+     "negative": 2
+    },
+    {
+     "key": "shade",
+     "zh": "遮阳效果不足",
+     "en": "Insufficient shade",
+     "negative": 1
+    },
+    {
+     "key": "service",
+     "zh": "客服与售后不佳",
+     "en": "Customer service & warranty",
+     "negative": 1
+    }
+   ],
+   "total": 46
+  },
+  "canopy": {
+   "label_zh": "篷房与凉亭",
+   "label_en": "Canopies & Gazebos",
+   "themes": [
+    {
+     "key": "fabric",
+     "zh": "面料 / 做工瑕疵",
+     "en": "Fabric & workmanship defects",
+     "negative": 13
+    },
+    {
+     "key": "durability",
+     "zh": "材质耐久性差",
+     "en": "Durability & material quality",
+     "negative": 9
+    },
+    {
+     "key": "stability",
+     "zh": "结构不稳 / 易倒",
+     "en": "Sturdiness & stability",
+     "negative": 9
+    },
+    {
+     "key": "value",
+     "zh": "失望 / 退款退货",
+     "en": "Disappointment & returns",
+     "negative": 9
+    },
+    {
+     "key": "damage",
+     "zh": "到货破损 / 包装差",
+     "en": "Arrived damaged / poor packaging",
+     "negative": 4
+    },
+    {
+     "key": "wind",
+     "zh": "抗风能力弱",
+     "en": "Poor wind resistance",
+     "negative": 2
+    },
+    {
+     "key": "base",
+     "zh": "底座 / 配重不足",
+     "en": "Weak base / insufficient weight",
+     "negative": 2
+    },
+    {
+     "key": "assembly",
+     "zh": "安装组装困难",
+     "en": "Hard to assemble",
+     "negative": 2
+    },
+    {
+     "key": "service",
+     "zh": "客服与售后不佳",
+     "en": "Customer service & warranty",
+     "negative": 1
+    },
+    {
+     "key": "shade",
+     "zh": "遮阳效果不足",
+     "en": "Insufficient shade",
+     "negative": 1
+    }
+   ],
+   "total": 52
+  },
+  "camping": {
+   "label_zh": "露营与便携",
+   "label_en": "Camping",
+   "themes": [
+    {
+     "key": "durability",
+     "zh": "材质耐久性差",
+     "en": "Durability & material quality",
+     "negative": 8
+    },
+    {
+     "key": "value",
+     "zh": "失望 / 退款退货",
+     "en": "Disappointment & returns",
+     "negative": 7
+    },
+    {
+     "key": "stability",
+     "zh": "结构不稳 / 易倒",
+     "en": "Sturdiness & stability",
+     "negative": 4
+    },
+    {
+     "key": "size_fit",
+     "zh": "尺寸与描述不符",
+     "en": "Size / fit mismatch",
+     "negative": 3
+    },
+    {
+     "key": "fabric",
+     "zh": "面料 / 做工瑕疵",
+     "en": "Fabric & workmanship defects",
+     "negative": 3
+    },
+    {
+     "key": "damage",
+     "zh": "到货破损 / 包装差",
+     "en": "Arrived damaged / poor packaging",
+     "negative": 2
+    },
+    {
+     "key": "base",
+     "zh": "底座 / 配重不足",
+     "en": "Weak base / insufficient weight",
+     "negative": 2
+    },
+    {
+     "key": "assembly",
+     "zh": "安装组装困难",
+     "en": "Hard to assemble",
+     "negative": 1
+    },
+    {
+     "key": "service",
+     "zh": "客服与售后不佳",
+     "en": "Customer service & warranty",
+     "negative": 1
+    }
+   ],
+   "total": 31
+  },
+  "accessories": {
+   "label_zh": "配件与耗材",
+   "label_en": "Patio Accessories",
+   "themes": [
+    {
+     "key": "value",
+     "zh": "失望 / 退款退货",
+     "en": "Disappointment & returns",
+     "negative": 10
+    },
+    {
+     "key": "service",
+     "zh": "客服与售后不佳",
+     "en": "Customer service & warranty",
+     "negative": 5
+    },
+    {
+     "key": "assembly",
+     "zh": "安装组装困难",
+     "en": "Hard to assemble",
+     "negative": 4
+    },
+    {
+     "key": "damage",
+     "zh": "到货破损 / 包装差",
+     "en": "Arrived damaged / poor packaging",
+     "negative": 3
+    },
+    {
+     "key": "size_fit",
+     "zh": "尺寸与描述不符",
+     "en": "Size / fit mismatch",
+     "negative": 2
+    },
+    {
+     "key": "stability",
+     "zh": "结构不稳 / 易倒",
+     "en": "Sturdiness & stability",
+     "negative": 1
+    },
+    {
+     "key": "durability",
+     "zh": "材质耐久性差",
+     "en": "Durability & material quality",
+     "negative": 1
+    },
+    {
+     "key": "fabric",
+     "zh": "面料 / 做工瑕疵",
+     "en": "Fabric & workmanship defects",
+     "negative": 1
+    },
+    {
+     "key": "base",
+     "zh": "底座 / 配重不足",
+     "en": "Weak base / insufficient weight",
+     "negative": 1
+    }
+   ],
+   "total": 28
+  },
+  "grill_fire": {
+   "label_zh": "烧烤与火炉",
+   "label_en": "Grills & Fire",
+   "themes": [
+    {
+     "key": "durability",
+     "zh": "材质耐久性差",
+     "en": "Durability & material quality",
+     "negative": 12
+    },
+    {
+     "key": "value",
+     "zh": "失望 / 退款退货",
+     "en": "Disappointment & returns",
+     "negative": 10
+    },
+    {
+     "key": "assembly",
+     "zh": "安装组装困难",
+     "en": "Hard to assemble",
+     "negative": 7
+    },
+    {
+     "key": "damage",
+     "zh": "到货破损 / 包装差",
+     "en": "Arrived damaged / poor packaging",
+     "negative": 7
+    },
+    {
+     "key": "service",
+     "zh": "客服与售后不佳",
+     "en": "Customer service & warranty",
+     "negative": 5
+    },
+    {
+     "key": "stability",
+     "zh": "结构不稳 / 易倒",
+     "en": "Sturdiness & stability",
+     "negative": 5
+    },
+    {
+     "key": "fabric",
+     "zh": "面料 / 做工瑕疵",
+     "en": "Fabric & workmanship defects",
+     "negative": 4
+    },
+    {
+     "key": "mechanism",
+     "zh": "操作机构故障",
+     "en": "Mechanism & hardware failure",
+     "negative": 2
+    },
+    {
+     "key": "size_fit",
+     "zh": "尺寸与描述不符",
+     "en": "Size / fit mismatch",
+     "negative": 1
+    }
+   ],
+   "total": 53
+  }
+ },
+ "cat_stats": [
+  {
+   "cat": "patio_set",
+   "label_zh": "成套家具",
+   "label_en": "Patio Sets",
+   "n_items": 25,
+   "median_rating": 4.3,
+   "weighted_rating": 4.48,
+   "total_reviews": 23092,
+   "sampled": 2,
+   "sample_reviews": 12333,
+   "pct_1star": 5.6,
+   "pct_2star": 2.0,
+   "neg_share": 7.6,
+   "top_themes": [
+    {
+     "key": "value",
+     "zh": "失望 / 退款退货",
+     "en": "Disappointment & returns",
+     "hits": 9
+    },
+    {
+     "key": "damage",
+     "zh": "到货破损 / 包装差",
+     "en": "Arrived damaged / poor packaging",
+     "hits": 6
+    },
+    {
+     "key": "durability",
+     "zh": "材质耐久性差",
+     "en": "Durability & material quality",
+     "hits": 6
+    }
+   ]
+  },
+  {
+   "cat": "mix_match",
+   "label_zh": "单件组合家具",
+   "label_en": "Mix & Match",
+   "n_items": 16,
+   "median_rating": 4.5,
+   "weighted_rating": 4.49,
+   "total_reviews": 4508,
+   "sampled": 2,
+   "sample_reviews": 1516,
+   "pct_1star": 5.0,
+   "pct_2star": 2.2,
+   "neg_share": 7.3,
+   "top_themes": [
+    {
+     "key": "value",
+     "zh": "失望 / 退款退货",
+     "en": "Disappointment & returns",
+     "hits": 8
+    },
+    {
+     "key": "assembly",
+     "zh": "安装组装困难",
+     "en": "Hard to assemble",
+     "hits": 6
+    },
+    {
+     "key": "fabric",
+     "zh": "面料 / 做工瑕疵",
+     "en": "Fabric & workmanship defects",
+     "hits": 5
+    }
+   ]
+  },
+  {
+   "cat": "umbrella",
+   "label_zh": "遮阳伞",
+   "label_en": "Umbrellas",
+   "n_items": 50,
+   "median_rating": 4.5,
+   "weighted_rating": 4.49,
+   "total_reviews": 38593,
+   "sampled": 2,
+   "sample_reviews": 11939,
+   "pct_1star": 5.3,
+   "pct_2star": 2.0,
+   "neg_share": 7.3,
+   "top_themes": [
+    {
+     "key": "value",
+     "zh": "失望 / 退款退货",
+     "en": "Disappointment & returns",
+     "hits": 14
+    },
+    {
+     "key": "base",
+     "zh": "底座 / 配重不足",
+     "en": "Weak base / insufficient weight",
+     "hits": 7
+    },
+    {
+     "key": "durability",
+     "zh": "材质耐久性差",
+     "en": "Durability & material quality",
+     "hits": 5
+    }
+   ]
+  },
+  {
+   "cat": "canopy",
+   "label_zh": "篷房与凉亭",
+   "label_en": "Canopies & Gazebos",
+   "n_items": 42,
+   "median_rating": 4.1,
+   "weighted_rating": 4.14,
+   "total_reviews": 30869,
+   "sampled": 2,
+   "sample_reviews": 9195,
+   "pct_1star": 14.1,
+   "pct_2star": 3.4,
+   "neg_share": 17.5,
+   "top_themes": [
+    {
+     "key": "fabric",
+     "zh": "面料 / 做工瑕疵",
+     "en": "Fabric & workmanship defects",
+     "hits": 13
+    },
+    {
+     "key": "durability",
+     "zh": "材质耐久性差",
+     "en": "Durability & material quality",
+     "hits": 9
+    },
+    {
+     "key": "stability",
+     "zh": "结构不稳 / 易倒",
+     "en": "Sturdiness & stability",
+     "hits": 9
+    }
+   ]
+  },
+  {
+   "cat": "camping",
+   "label_zh": "露营与便携",
+   "label_en": "Camping",
+   "n_items": 38,
+   "median_rating": 4.6,
+   "weighted_rating": 4.56,
+   "total_reviews": 75683,
+   "sampled": 2,
+   "sample_reviews": 38640,
+   "pct_1star": 4.2,
+   "pct_2star": 2.1,
+   "neg_share": 6.3,
+   "top_themes": [
+    {
+     "key": "durability",
+     "zh": "材质耐久性差",
+     "en": "Durability & material quality",
+     "hits": 8
+    },
+    {
+     "key": "value",
+     "zh": "失望 / 退款退货",
+     "en": "Disappointment & returns",
+     "hits": 7
+    },
+    {
+     "key": "stability",
+     "zh": "结构不稳 / 易倒",
+     "en": "Sturdiness & stability",
+     "hits": 4
+    }
+   ]
+  },
+  {
+   "cat": "accessories",
+   "label_zh": "配件与耗材",
+   "label_en": "Patio Accessories",
+   "n_items": 78,
+   "median_rating": 4.3,
+   "weighted_rating": 4.41,
+   "total_reviews": 23773,
+   "sampled": 2,
+   "sample_reviews": 4838,
+   "pct_1star": 5.0,
+   "pct_2star": 1.7,
+   "neg_share": 6.7,
+   "top_themes": [
+    {
+     "key": "value",
+     "zh": "失望 / 退款退货",
+     "en": "Disappointment & returns",
+     "hits": 10
+    },
+    {
+     "key": "service",
+     "zh": "客服与售后不佳",
+     "en": "Customer service & warranty",
+     "hits": 5
+    },
+    {
+     "key": "assembly",
+     "zh": "安装组装困难",
+     "en": "Hard to assemble",
+     "hits": 4
+    }
+   ]
+  },
+  {
+   "cat": "grill_fire",
+   "label_zh": "烧烤与火炉",
+   "label_en": "Grills & Fire",
+   "n_items": 50,
+   "median_rating": 4.3,
+   "weighted_rating": 4.62,
+   "total_reviews": 227521,
+   "sampled": 2,
+   "sample_reviews": 116968,
+   "pct_1star": 3.0,
+   "pct_2star": 1.1,
+   "neg_share": 4.1,
+   "top_themes": [
+    {
+     "key": "durability",
+     "zh": "材质耐久性差",
+     "en": "Durability & material quality",
+     "hits": 12
+    },
+    {
+     "key": "value",
+     "zh": "失望 / 退款退货",
+     "en": "Disappointment & returns",
+     "hits": 10
+    },
+    {
+     "key": "assembly",
+     "zh": "安装组装困难",
+     "en": "Hard to assemble",
+     "hits": 7
+    }
+   ]
+  }
+ ],
+ "errors": []
+}

@@ -1,0 +1,46 @@
+.ch-h {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.kv { display: flex; margin-top: 14rpx; }
+.kv-k {
+  width: 130rpx;
+  flex: none;
+  font-size: 23rpx;
+  color: var(--sub);
+}
+.kv-v { flex: 1; font-size: 24rpx; color: var(--fg2); }
+
+/* 单品条目 */
+.prod {
+  padding: 22rpx 0;
+  border-top: 1rpx solid var(--line);
+}
+.prod:first-of-type { border-top: none; }
+.prod:active { opacity: .6; }
+.prod-h {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.prod-h .b { font-size: 25rpx; color: var(--brand); }
+.prod-n {
+  font-size: 27rpx;
+  font-weight: 600;
+  margin-top: 4rpx;
+  line-height: 1.4;
+}
+.meta { display: flex; flex-wrap: wrap; align-items: center; margin-top: 8rpx; }
+.meta .small { margin-right: 16rpx; }
+.src { margin-top: 6rpx; color: var(--sub); }
+
+/* 来源行 */
+.srcrow {
+  padding: 18rpx 0;
+  border-top: 1rpx solid var(--line);
+}
+.srcrow:first-of-type { border-top: none; }
+.srcrow:active { opacity: .6; }
+.srcrow .b { font-size: 25rpx; line-height: 1.4; }

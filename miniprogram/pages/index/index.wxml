@@ -1,0 +1,166 @@
+<view class="wrap">
+  <view wx:if="{{!ready}}" class="empty">加载中…</view>
+
+  <block wx:else>
+    <!-- 标题 -->
+    <view class="card">
+      <view class="h1">{{meta.company}}</view>
+      <view class="small" style="margin-top:8rpx">
+        {{meta.ticker}} · 第 {{meta.week}} 期 · 行情截至 {{q.date}} · 生成于 {{meta.generated}}
+      </view>
+    </view>
+
+    <!-- 概览要点（bullet）：一屏扫完，每条都能追溯到下面某个卡片 -->
+    <view class="card" wx:if="{{brief.length}}">
+      <view class="h2">数据要点</view>
+      <view class="small" style="margin-bottom:8rpx">本节全部由一手数据算出，逐条可在下方对应卡片展开</view>
+      <view class="hl">
+        <view class="hl-i" wx:for="{{brief}}" wx:key="*this">
+          <view class="hl-d"></view>
+          <view class="hl-t">{{item}}</view>
+        </view>
+      </view>
+    </view>
+
+    <!-- 价格 -->
+    <view class="card">
+      <view class="px mono c-{{chgs[0].dir}}">${{q.last}}</view>
+      <view class="small">最近收盘 {{q.date}}</view>
+      <view class="grid" style="margin-top:16rpx">
+        <view class="g-item" wx:for="{{chgs}}" wx:key="k">
+          <view class="g-v mono c-{{item.dir}}">{{item.v}}</view>
+          <view class="g-k">{{item.k}}</view>
+        </view>
+      </view>
+    </view>
+
+    <!-- 走势 -->
+    <view class="card">
+      <view class="h2">近 {{q.spark_n}} 个交易日收盘</view>
+      <view class="small" style="margin-bottom:6rpx">Yahoo Finance 日线，随包数据，离线可看</view>
+      <canvas type="2d" id="spark" class="chart"></canvas>
+    </view>
+
+    <!-- 位置 -->
+    <view class="card">
+      <view class="h2">价格位置</view>
+      <view class="small" style="margin-bottom:12rpx">相对 52 周区间与各期均线的偏离度</view>
+      <view class="grid grid3">
+        <view class="g-item" wx:for="{{pos}}" wx:key="k">
+          <view class="g-v mono c-{{item.dir}}">{{item.v}}</view>
+          <view class="g-k">{{item.k}}</view>
+        </view>
+      </view>
+      <view class="small" style="margin-top:12rpx">52 周区间 ${{q.lo52}} — ${{q.hi52}}</view>
+    </view>
+
+    <!-- 估值 -->
+    <view class="card">
+      <view class="h2">估值</view>
+      <view class="grid grid3" style="margin-top:12rpx">
+        <view class="g-item" wx:for="{{val}}" wx:key="k">
+          <view class="g-v mono">{{item.v}}</view>
+          <view class="g-k">{{item.k}}</view>
+        </view>
+      </view>
+    </view>
+
+    <!-- 经营 -->
+    <view class="card">
+      <view class="h2">经营指标</view>
+      <view class="grid grid3" style="margin-top:12rpx">
+        <view class="g-item" wx:for="{{ops}}" wx:key="k">
+          <view class="g-v mono">{{item.v}}</view>
+          <view class="g-k">{{item.k}}</view>
+        </view>
+      </view>
+      <view class="note" style="margin-top:16rpx">
+        目标均价 {{ana[0].v}}，较现价上行空间 {{fund.upside}}%，{{fund.an}} 位分析师覆盖。
+      </view>
+    </view>
+
+    <!-- 分析师 / 现金流 -->
+    <view class="card">
+      <view class="h2">其余关键项</view>
+      <view class="grid grid3" style="margin-top:12rpx">
+        <view class="g-item" wx:for="{{ana}}" wx:key="k">
+          <view class="g-v mono">{{item.v}}</view>
+          <view class="g-k">{{item.k}}</view>
+        </view>
+      </view>
+    </view>
+
+    <!-- 相对表现 -->
+    <view class="card">
+      <view class="h2">相对表现</view>
+      <view class="small" style="margin-bottom:10rpx">和直接竞品、大盘、零售指数比，看清是个股问题还是行业问题</view>
+      <view class="tb">
+        <view class="tr head">
+          <view class="td nm">标的</view>
+          <view class="td v">1 周</view>
+          <view class="td v">1 月</view>
+          <view class="td v">1 年</view>
+        </view>
+        <view class="tr" wx:for="{{bench}}" wx:key="name">
+          <view class="td nm">
+            <view class="b">{{item.name}}</view>
+            <view class="small">{{item.tag}} · ${{item.last}}</view>
+          </view>
+          <view class="td v mono c-{{item.dw}}">{{item.w}}</view>
+          <view class="td v mono c-{{item.dm}}">{{item.m}}</view>
+          <view class="td v mono c-{{item.dy}}">{{item.y}}</view>
+        </view>
+      </view>
+    </view>
+
+    <!-- 新闻 -->
+    <view class="card">
+      <view class="h2">本周新闻</view>
+      <view class="small" style="margin-bottom:4rpx">共 {{news.length}} 条 · 点击任意一条复制原文链接</view>
+      <view class="list">
+        <view class="news" wx:for="{{news}}" wx:key="t" data-u="{{item.u}}" bindtap="copy">
+          <view class="news-t">{{item.t}}</view>
+          <view class="small">{{item.src}} · {{item.d}}</view>
+        </view>
+      </view>
+    </view>
+
+    <!-- SEC 表单 -->
+    <view class="card">
+      <view class="h2">SEC 最新表单</view>
+      <view class="small" style="margin-bottom:10rpx">点击复制原文链接（.gov，需在浏览器打开）</view>
+      <view class="tb">
+        <view class="tr head">
+          <view class="td nm">表单 / 期间</view>
+          <view class="td v">提交日</view>
+        </view>
+        <view class="tr" wx:for="{{filings}}" wx:key="u" data-u="{{item.u}}" bindtap="copy">
+          <view class="td nm">
+            <view class="b">{{item.form}}</view>
+            <view class="small">期间 {{item.period}}</view>
+          </view>
+          <view class="td v mono">{{item.filed}}</view>
+        </view>
+      </view>
+    </view>
+
+    <!-- IR 材料 -->
+    <view class="card" wx:if="{{ir.length}}">
+      <view class="h2">IR 季度材料</view>
+      <view class="small" style="margin-bottom:10rpx">官方 PDF，点击复制链接</view>
+      <view class="tb">
+        <view class="tr" wx:for="{{ir}}" wx:key="u" data-u="{{item.u}}" bindtap="copy">
+          <view class="td nm">
+            <view class="b">{{item.kind}}</view>
+            <view class="small" wx:if="{{item.q}}">{{item.q}}</view>
+          </view>
+          <view class="td v c-sub">复制</view>
+        </view>
+      </view>
+    </view>
+
+    <view class="card">
+      <view class="disc">数据周期 {{meta.week}}，行情与估值每期刷新；SEC 表单与 IR 材料为官方公开文件。本内容仅供参考，不构成投资建议。市场有风险，投资需谨慎。</view>
+    </view>
+  </block>
+</view>
