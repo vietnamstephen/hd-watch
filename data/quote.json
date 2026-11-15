@@ -1,5 +1,5 @@
 {
-  "asof": "2026-11-15 02:00:30",
+  "asof": "2026-11-16 02:00:50",
   "errors": [],
   "ticker": "HD",
   "price": {
@@ -5168,7 +5168,7 @@
     "market_cap": 347884388352,
     "ev": 408987402240,
     "trailing_pe": 24.40098,
-    "forward_pe": 21.91661,
+    "forward_pe": 21.927555,
     "dividend_yield": 2.67,
     "payout_ratio": 0.648,
     "revenue_ttm": 169176006656,
@@ -5180,11 +5180,11 @@
     "total_debt": 63188000768,
     "total_cash": 2084999936,
     "free_cashflow": 10762625024,
-    "target_mean": 377.8125,
+    "target_mean": 377.59375,
     "target_high": 425.0,
     "target_low": 310.0,
     "analyst_count": 32,
     "beta": 0.947,
-    "upside_pct": 8.35
+    "upside_pct": 8.29
   }
 }

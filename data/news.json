@@ -1,9 +1,16 @@
 {
-  "asof": "2026-11-15 02:00:35",
+  "asof": "2026-11-16 02:00:56",
   "errors": [
     "yfinance 新闻失败：YFDataException"
   ],
   "items": [
+    {
+      "title": "Home Depot vs. Walmart: Which Consumer Stock Is a Better Buy for 2027?",
+      "publisher": "Yahoo Finance",
+      "published": "Sun, 15 Nov 2026 13:54:02 +0000",
+      "url": "https://www.fool.com/coverage/better-buy/2026/11/15/home-depot-vs-walmart-which-consumer-stock-is-a-better-buy-for-2027/?.tsrc=rss",
+      "src": "yahoo-rss"
+    },
     {
       "title": "72-year-old hardware store shuts down, chain closes 12 locations",
       "publisher": "Yahoo Finance",
@@ -23,6 +30,13 @@
       "publisher": "Yahoo Finance",
       "published": "Fri, 13 Nov 2026 19:27:00 +0000",
       "url": "https://finance.yahoo.com/markets/stocks/articles/buy-home-depot-lowes-stock-192700569.html?.tsrc=rss",
+      "src": "yahoo-rss"
+    },
+    {
+      "title": "Home Depot vs. Target: Which Dividend Stock Pays You More in 10 Years?",
+      "publisher": "Yahoo Finance",
+      "published": "Fri, 13 Nov 2026 17:40:04 +0000",
+      "url": "https://www.tikr.com/blog/home-depot-vs-target-which-dividend-stock-pays-you-more-in-10-years?ref=yahoofinancedividend&amp;tlnk=yf-261114-cvvrhq47&amp;.tsrc=rss",
       "src": "yahoo-rss"
     },
     {
@@ -82,20 +96,6 @@
       "src": "yahoo-rss"
     },
     {
-      "title": "Home Depot Stock Rallies 20% in a Month: Is It Still a Buy?",
-      "publisher": "Yahoo Finance",
-      "published": "Thu, 12 Nov 2026 15:40:00 +0000",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/home-depot-stock-rallies-20-154000818.html?.tsrc=rss",
-      "src": "yahoo-rss"
-    },
-    {
-      "title": "What Analyst Projections for Key Metrics Reveal About Home Depot (HD) Q3 Earnings",
-      "publisher": "Yahoo Finance",
-      "published": "Thu, 12 Nov 2026 13:15:02 +0000",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/analyst-projections-key-metrics-reveal-131502863.html?.tsrc=rss",
-      "src": "yahoo-rss"
-    },
-    {
       "title": "LOW Stock Gets Fresh Analyst Downgrade Ahead Of Q3 Earnings – What Investors Need To Know",
       "publisher": "Yahoo Finance",
       "published": "Fri, 13 Nov 2026 11:21:58 +0000",
@@ -136,14 +136,7 @@
       "published": "Thu, 12 Nov 2026 16:31:01 +0000",
       "url": "https://finance.yahoo.com/markets/stocks/articles/td-cowen-names-top-hardlines-163101436.html?.tsrc=rss",
       "src": "yahoo-rss"
-    },
-    {
-      "title": "Does The Rise In Target Stock Change Anything?",
-      "publisher": "Yahoo Finance",
-      "published": "Thu, 12 Nov 2026 13:09:31 +0000",
-      "url": "https://www.trefis.com/stock/tgt/articles/624558/does-the-rise-in-target-stock-change-anything/2026-11-12?.tsrc=rss",
-      "src": "yahoo-rss"
     }
   ],
-  "count": 20
+  "count": 19
 }
