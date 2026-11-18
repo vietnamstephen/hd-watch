@@ -242,8 +242,8 @@ UI = {
     # ---- KPI 卡片名
     "kpi.price": ("股价", "Share price"),
     "kpi.ret1y": ("近一年涨跌", "1-year return"),
-    "kpi.netsales": ("Q2 净销售", "Q2 net sales"),
-    "kpi.eps": ("Q2 调整后 EPS", "Q2 adjusted EPS"),
+    "kpi.netsales": ("Q3 净销售", "Q3 net sales"),
+    "kpi.eps": ("Q3 调整后 EPS", "Q3 adjusted EPS"),
     "kpi.comps": ("可比销售", "Comparable sales"),
     "kpi.tx": ("交易量", "Transactions"),
     "kpi.pe": ("市盈率", "P/E"),
@@ -664,44 +664,49 @@ FACT_STRATEGY_TAM = {
 }
 
 FACT_LEADERSHIP = {
-    "note": ("Announced 2026-08-12: Chairman, President and CEO Ted Decker is on a temporary medical leave "
-             "of absence. The company expects him to return \"within the coming months\" but has given no "
-             "fixed timetable; no permanent successor has been named — two senior executives are jointly "
-             "leading the Office of the CEO."),
+    "note": ("Announced 2026-11-17: CEO Ted Decker has returned from medical leave and the board moved the "
+             "succession plan to its next phase — effective 2026-11-23 Richard McPhail becomes CEO and joins "
+             "the board, Ann-Marie Campbell becomes President & COO, Decker remains Chair, and Jordan Broggi "
+             "becomes CFO. The interim Office of the CEO structure ends the same day."),
     "people": [
-        {"title": "Chairman, President & CEO",
-         "status": "On temporary medical leave (since 2026-08-12)",
-         "note": "The principal architect of the Pro strategy; chaired the 2025 Investor Conference "
-                 "before his leave"},
-        {"title": "Senior Executive Vice President (SEVP)",
-         "status": "Leading day-to-day operations in the interim",
-         "note": "Joined in 1985 as a cashier; previously President of the Southern Division and EVP of "
-                 "U.S. Stores — one of the company's longest-serving executives"},
-        {"title": "Executive Vice President & CFO",
-         "status": "Leading finance and the Pro subsidiaries in the interim; designated interim principal "
-                   "executive officer for SEC purposes",
-         "note": "Joined in 2005; previously SVP of Global FP&A and Strategy & Business Development"},
-        {"title": "Independent Lead Director",
-         "status": "Chairing the board during the leave",
-         "note": "Resolved by the board to lead board proceedings in the CEO's absence"},
+        {"title": "Chair (Chairman)",
+         "status": "Back from medical leave; steps down as CEO on 2026-11-23 and remains Chair",
+         "note": "The principal architect of the Pro strategy; opened the Q3 call with \"I'm glad to be back\""},
+        {"title": "CEO (effective 2026-11-23)",
+         "status": "CFO until the handover; becomes CEO and joins the board on 2026-11-23",
+         "note": "Joined in 2005 (21 years at HD); was interim principal executive officer during the leave and "
+                 "presented the Q3 financials and guidance"},
+        {"title": "President & COO (effective 2026-11-23)",
+         "status": "SEVP until the handover; becomes President & COO on 2026-11-23",
+         "note": "Joined in 1985 as a cashier (41 years at HD); previously President of the Southern Division and "
+                 "EVP of U.S. Stores"},
+        {"title": "CFO (incoming)",
+         "status": "Currently EVP, Interconnected Retail; moving to CFO",
+         "note": "13 years at HD; previously EVP Interconnected Retail and President of Online, with earlier "
+                 "finance roles across FP&A, strategy and supply-chain finance"},
         {"title": "Executive Vice President, Merchandising",
          "status": "In office; additionally oversees product development and private brands since 2026-08",
          "note": "Responsible for category and supplier relationships, tariffs and supply-chain response; "
-                 "led merchandising commentary on the Q2 call"},
-        {"title": "Executive Vice President, Interconnected Retail",
-         "status": "In office; additionally oversees loyalty, credit services and payments since 2026-08",
-         "note": "Owns omnichannel fulfilment and digital experience",
-         "src": "8-K (2026-08-21, Item 5.02)"},
+                 "led merchandising commentary on the Q3 call"},
         {"title": "Executive Vice President, General Counsel & Corporate Secretary",
          "status": "In office",
          "note": "Legal, compliance and corporate governance",
          "src": "Signatory of the 8-K (2026-08-21)"},
         {"title": "Vice President, Investor Relations & Treasurer",
          "status": "In office",
-         "note": "Host of the Q2 FY2026 earnings call",
-         "src": "Q2 FY2026 earnings call transcript"},
+         "note": "Host of the Q3 FY2026 earnings call",
+         "src": "Q3 FY2026 earnings call transcript"},
+        {"title": "Independent Lead Director",
+         "status": "In office; chaired the board during the CEO's medical leave",
+         "note": "Resolved by the board to lead board proceedings in the CEO's absence"},
     ],
     "changes": [
+        {"title": "CEO handover: McPhail to CEO, Campbell to President & COO, Decker stays Chair",
+         "detail": ("With Decker back from leave, he and the board agreed to move the succession plan forward: "
+                    "effective 2026-11-23 the interim Office of the CEO concludes, McPhail becomes CEO and joins "
+                    "the board, Campbell becomes President & COO, Decker remains Chair, and Jordan Broggi "
+                    "becomes CFO."),
+         "src": "Q3 FY2026 earnings call (2026-11-17) + press release + 8-K (2026-11-17)"},
         {"title": "Executive responsibility expansions (announced 2026-07-30)",
          "detail": ("Billy Bastek additionally took on product development and private brands; Jordan Broggi "
                     "additionally took on loyalty, credit services and payments; CFO Richard McPhail now leads "
@@ -711,9 +716,9 @@ FACT_LEADERSHIP = {
          "src": "data/docs/8k_20260821_exec_changes.htm"},
         {"title": "CEO Ted Decker placed on temporary medical leave",
          "detail": ("Announced 2026-08-12 (event date 2026-08-11): expected to return \"within the coming "
-                     "months\" with no fixed timetable and no permanent successor. Ann-Marie Campbell and CFO "
-                     "Richard McPhail jointly lead the Office of the CEO; McPhail is interim principal executive "
-                     "officer for SEC purposes; Greg Brenneman chairs the board."),
+                    "months\" with no fixed timetable and no permanent successor. Ann-Marie Campbell and CFO "
+                    "Richard McPhail jointly led the Office of the CEO; McPhail was interim principal executive "
+                    "officer for SEC purposes; Greg Brenneman chaired the board."),
          "src": "8-K (2026-08-12) + Exhibit 99.1"},
     ],
 }
@@ -769,15 +774,16 @@ FACT_PRIVATE_BRANDS = {
 }
 
 FACT_TARIFF = {
-    "headline": ("IEEPA tariff refunds were the main source of the Q2 earnings beat, but they are a one-off "
-                 "benefit and are expected to be fully offset by rising input costs over the full year."),
+    "headline": ("IEEPA tariff refunds were booked in Q2 and are not mentioned in the Q3 materials; Q3 gross "
+                 "margin fell about 60 bps y/y, driven by a rising cost environment and acquisition-related "
+                 "mix rather than a new tariff hit."),
     "facts": [
+        {"k": "Q3 gross margin", "v": "32.8%, down about 60 bps y/y"},
+        {"k": "Why it fell", "v": "Rising input costs plus category mix from acquisitions (incl. SRS HVAC)"},
+        {"k": "Any new Q3 refund", "v": "None mentioned; the US$730 million Q2 refund was the main one-off"},
         {"k": "Total refund received in Q2", "v": "US$730 million"},
         {"k": "Credited to cost of sales (COGS)", "v": "US$685 million"},
-        {"k": "Impact on gross margin", "v": "About +145 bps"},
-        {"k": "Absorbed by unplanned fuel/energy/input costs", "v": "About −60 bps"},
-        {"k": "Drag from acquisition mix (GMS / Mingledorff's)", "v": "About −60 bps"},
-        {"k": "Net improvement", "v": "About +25 bps → Q2 gross margin 33.7%"},
+        {"k": "Impact on Q2 gross margin", "v": "About +145 bps"},
         {"k": "Refunds still to be received", "v": "\"Not significant\"; a small amount in H2"},
     ],
     "management_view": [
@@ -785,14 +791,17 @@ FACT_TARIFF = {
         "offset increased costs in our environment, and it allowed us to maintain values in the market.\"",
         "CFO McPhail: \"We expect the increased costs will fully offset the benefit from tariff refunds "
         "over the year.\"",
-        "So Q2's high gross margin cannot be extrapolated — the refunds land mainly in Q2–Q3, and H2 faces "
-        "a demanding base comparison.",
+        "Q3 McPhail: the market is \"much softer now than we had expected at the beginning of the year\", yet "
+        "the company is still growing through share gains; the lower operating-margin guide is driven solely "
+        "by gross-margin mix (category mix plus acquisitions).",
+        "So Q2's high gross margin cannot be extrapolated — the refunds landed in Q2 and gross margin is back "
+        "to 32.8% in Q3.",
     ],
     "policy_timeline": [
         {"event": "Section 101 tariff provision expires, creating incremental cost pressure"},
         {"event": "Q2 receives US$730 million of IEEPA tariff refunds — \"the vast majority\" of amounts filed"},
-        {"event": "Refund benefit rolls off; the company must absorb higher fuel, energy and merchandise "
-                 "input costs on its own"},
+        {"event": "Q3 materials do not mention further refunds; gross margin −60 bps y/y, attributed to rising "
+                  "costs and acquisition mix"},
     ],
     "supply_chain": ("The company continues to diversify its supply chain to reduce tariff and trade-policy "
                      "risk (see the forward-looking statement's reference to \"trade policy changes… diversify "
@@ -802,23 +811,23 @@ FACT_TARIFF = {
 
 FACT_SEGMENTS = [
     {"k": "SRS distribution business",
-     "v": "Q2 sales +62% y/y to US$5.1 billion; positive comps in every vertical and ahead of the "
-          "company overall"},
-    {"k": "Big-ticket transactions (>$1,000)", "v": "+2.4% y/y"},
-    {"k": "Online sales", "v": "Fifth consecutive quarter of double-digit growth (Q2 +11%, strongest in "
-                               "three years)"},
-    {"k": "Pro vs DIY", "v": "Pro comps positive and ahead of DIY; DIY strength in portable power, patio "
-                             "and pressure-treated lumber"},
-    {"k": "International", "v": "Canada and Mexico both outperformed the company overall"},
-    {"k": "Avg ticket vs transactions", "v": "Ticket +2.8% while transactions −0.8% — growth driven by "
-                                             "price, not footfall"},
+     "v": "Positive Q3 comps; full-year guide is low-single-digit organic growth, with HVAC expanded "
+          "through acquisitions"},
+    {"k": "Big-ticket transactions (>$1,000)", "v": "+4.5% y/y, led by power tools and appliances"},
+    {"k": "Online sales", "v": "Sixth consecutive quarter of double-digit growth (about +13% in Q3)"},
+    {"k": "Pro vs DIY", "v": "Both positive, Pro ahead; DIY strength in appliances, storage, hardscapes "
+                             "and faucets"},
+    {"k": "International", "v": "Mexico, Canada and SRS all posted positive comps; U.S. Northern and Western "
+                                "divisions positive, Southern essentially flat"},
+    {"k": "Avg ticket vs transactions", "v": "Ticket +3.0% while transactions −0.2% — growth still driven by "
+                                             "price and mix"},
 ]
 
 FACT_UPCOMING = {
-    "note": ("Announced on 2026-11-03: the Q3 FY2026 earnings call is scheduled for Tuesday, "
-             "November 17 at 9 a.m. ET (results released before the open). As of this page's data "
-             "timestamp, Q3 results have **not** been published yet — no Q3 8-K / 10-Q on SEC EDGAR. "
-             "The dashboard will pick them up in the next update run."),
+    "note": ("Q3 FY2026 was reported before the open on 2026-11-17 (8-K filed the same day; the 10-Q is "
+             "still pending). This page now carries the full Q3 income statement and call content. "
+             "Following the company's usual cadence, Q4 and full-year results are expected in late "
+             "February 2027; the exact date will be announced on ir.homedepot.com."),
 }
 
 FACT_LONG_TERM = {
@@ -826,9 +835,10 @@ FACT_LONG_TERM = {
              "three-scenario framework (2025-12-09 Investor Conference). The \"Market Recovery Case\" is the "
              "company's own articulation of its medium-term capability once the housing cycle normalises."),
     "scenarios": [
-        {"name": "Base case (FY2026 guidance)", "cn": "Housing stays frozen",
-         "sales": "2.5% – 4.5%", "comps": "flat – 2.0%", "eps": "flat – 4.0%",
-         "desc": "Home-improvement market −1% to +1%; demand for large projects remains suppressed"},
+        {"name": "Base case (FY2026 updated guidance)", "cn": "Housing stays frozen",
+         "sales": "About 4.5%", "comps": "About 1.4%", "eps": "Adjusted about +2.0%",
+         "desc": "Home-improvement market −1% to +1%; demand for large projects remains suppressed; guidance "
+                 "narrowed to point estimates after Q3 (2026-11-17)"},
         {"name": "Market Recovery Case", "cn": "Housing activity improves",
          "sales": "About 5% – 6%", "comps": "About 4% – 5%", "eps": "Mid-to-high single digit growth",
          "desc": "Operating profit grows faster than sales; the CFO describes this as the expected "
@@ -841,7 +851,7 @@ FACT_LONG_TERM = {
     "capital": [
         "Capital-allocation discipline: **the share repurchase programme is paused through 2027**, with "
         "resources prioritised for acquisition integration and deleveraging",
-        "Dividends: about US$2.3 billion paid per quarter (actual Q2 FY2026), a payout ratio of roughly "
+        "Dividends: about US$2.3 billion paid in Q3 FY2026, a payout ratio of roughly "
         "65% — a long-standing dividend grower",
         "Capex maintained at about 2.5% of total sales",
     ],

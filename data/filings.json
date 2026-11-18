@@ -1,7 +1,21 @@
 {
-  "asof": "2026-11-16 02:00:53",
+  "asof": "2026-11-18 22:13:01",
   "errors": [],
   "items": [
+    {
+      "form": "8-K",
+      "filed": "2026-11-17",
+      "period": "2026-11-17",
+      "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495026000184/hd-20261117.htm",
+      "accession": "0000354950-26-000184"
+    },
+    {
+      "form": "8-K",
+      "filed": "2026-11-17",
+      "period": "2026-11-13",
+      "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495026000182/hd-20261113.htm",
+      "accession": "0000354950-26-000182"
+    },
     {
       "form": "10-Q",
       "filed": "2026-08-25",
@@ -267,20 +281,6 @@
       "period": "2024-05-14",
       "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495024000118/hd-20240514.htm",
       "accession": "0000354950-24-000118"
-    },
-    {
-      "form": "8-K",
-      "filed": "2024-05-09",
-      "period": "2024-05-07",
-      "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495024000114/hd-20240507.htm",
-      "accession": "0000354950-24-000114"
-    },
-    {
-      "form": "DEF 14A",
-      "filed": "2024-04-01",
-      "period": "2024-05-16",
-      "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495024000108/hd-20240401.htm",
-      "accession": "0000354950-24-000108"
     }
   ],
   "name": "HOME DEPOT, INC.",

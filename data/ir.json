@@ -1,5 +1,5 @@
 {
-  "asof": "2026-11-16 02:00:54",
+  "asof": "2026-11-18 22:13:01",
   "errors": [],
   "pdfs": [
     {
@@ -181,16 +181,77 @@
       "publisher_zh": "家得宝公司（IR 官方）"
     },
     {
+      "kind": "press_release",
+      "kind_zh": "新闻稿",
+      "kind_en": "Press Release",
+      "url": "https://ir.homedepot.com/~/media/Files/H/HomeDepot-IR/press-release/q3-2026-earnings-release.pdf",
+      "dateline": "ATLANTA, November 17, 2026",
+      "date": "2026-11-17",
+      "title": "The Home Depot Announces Third Quarter Fiscal 2026 Results; Updates Fiscal 2026 Guidance",
+      "quarter": "Q3",
+      "fiscal_year": 2026,
+      "qlabel": "FY2026 Q3",
+      "weekday": "Tue",
+      "headline": "The Home Depot Announces Third Quarter Fiscal 2026 Results; Updates Fiscal 2026 Guidance",
+      "publisher": "The Home Depot, Inc.",
+      "publisher_zh": "家得宝公司（IR 官方）"
+    },
+    {
       "kind": "webcast",
       "kind_zh": "电话会直播",
       "kind_en": "Earnings Webcast",
       "url": "https://event.choruscall.com/mediaframe/webcast.html?webcastid=tz6tzaIE",
       "quarter": "Q3",
-      "fiscal_year": null,
-      "qlabel": "FY— Q3",
-      "date": "2025-11-24",
-      "weekday": "Mon",
-      "headline": null,
+      "fiscal_year": 2026,
+      "qlabel": "FY2026 Q3",
+      "date": "2026-11-17",
+      "weekday": "Tue",
+      "headline": "The Home Depot Announces Third Quarter Fiscal 2026 Results; Updates Fiscal 2026 Guidance",
+      "publisher": "The Home Depot, Inc.",
+      "publisher_zh": "家得宝公司（IR 官方）"
+    },
+    {
+      "kind": "transcript",
+      "kind_zh": "电话会记录",
+      "kind_en": "Call Transcript",
+      "url": "https://ir.homedepot.com/~/media/Files/H/HomeDepot-IR/2026/hd-3q26-transcript.pdf",
+      "title": "HD – Q3’26 Home Depot Earnings Call",
+      "dateline": "November 17, 2026",
+      "date": "2026-11-17",
+      "time_et": "09:00AM ET",
+      "quarter": "Q3",
+      "fiscal_year": 2026,
+      "qlabel": "FY2026 Q3",
+      "weekday": "Tue",
+      "headline": "The Home Depot Announces Third Quarter Fiscal 2026 Results; Updates Fiscal 2026 Guidance",
+      "publisher": "The Home Depot, Inc.",
+      "publisher_zh": "家得宝公司（IR 官方）"
+    },
+    {
+      "kind": "non_gaap",
+      "kind_zh": "非 GAAP 调节表",
+      "kind_en": "Non-GAAP Reconciliation",
+      "url": "https://ir.homedepot.com/~/media/Files/H/HomeDepot-IR/reports-and-presentations/quarterly-earnings/2026/q3-2026-earnings-reconciliation-of-non-gaap-measures.pdf",
+      "quarter": "Q3",
+      "fiscal_year": 2026,
+      "qlabel": "FY2026 Q3",
+      "date": "2026-11-17",
+      "weekday": "Tue",
+      "headline": "The Home Depot Announces Third Quarter Fiscal 2026 Results; Updates Fiscal 2026 Guidance",
+      "publisher": "The Home Depot, Inc.",
+      "publisher_zh": "家得宝公司（IR 官方）"
+    },
+    {
+      "kind": "infographic",
+      "kind_zh": "财报信息图",
+      "kind_en": "Earnings Infographic",
+      "url": "https://ir.homedepot.com/~/media/Files/H/HomeDepot-IR/reports-and-presentations/quarterly-earnings/2026/2026-q3-infographic.pdf",
+      "quarter": "Q3",
+      "fiscal_year": 2026,
+      "qlabel": "FY2026 Q3",
+      "date": "2026-11-17",
+      "weekday": "Tue",
+      "headline": "The Home Depot Announces Third Quarter Fiscal 2026 Results; Updates Fiscal 2026 Guidance",
       "publisher": "The Home Depot, Inc.",
       "publisher_zh": "家得宝公司（IR 官方）"
     }
@@ -312,22 +373,54 @@
     },
     {
       "quarter": 3,
-      "label": "FY— Q3",
+      "label": "FY2026 Q3",
       "items": [
+        {
+          "kind": "press_release",
+          "kind_zh": "新闻稿",
+          "kind_en": "Press Release",
+          "url": "https://ir.homedepot.com/~/media/Files/H/HomeDepot-IR/press-release/q3-2026-earnings-release.pdf",
+          "dateline": "ATLANTA, November 17, 2026",
+          "date": "2026-11-17",
+          "title": "The Home Depot Announces Third Quarter Fiscal 2026 Results; Updates Fiscal 2026 Guidance"
+        },
         {
           "kind": "webcast",
           "kind_zh": "电话会直播",
           "kind_en": "Earnings Webcast",
           "url": "https://event.choruscall.com/mediaframe/webcast.html?webcastid=tz6tzaIE"
+        },
+        {
+          "kind": "transcript",
+          "kind_zh": "电话会记录",
+          "kind_en": "Call Transcript",
+          "url": "https://ir.homedepot.com/~/media/Files/H/HomeDepot-IR/2026/hd-3q26-transcript.pdf",
+          "title": "HD – Q3’26 Home Depot Earnings Call",
+          "dateline": "November 17, 2026",
+          "date": "2026-11-17",
+          "time_et": "09:00AM ET"
+        },
+        {
+          "kind": "non_gaap",
+          "kind_zh": "非 GAAP 调节表",
+          "kind_en": "Non-GAAP Reconciliation",
+          "url": "https://ir.homedepot.com/~/media/Files/H/HomeDepot-IR/reports-and-presentations/quarterly-earnings/2026/q3-2026-earnings-reconciliation-of-non-gaap-measures.pdf"
+        },
+        {
+          "kind": "infographic",
+          "kind_zh": "财报信息图",
+          "kind_en": "Earnings Infographic",
+          "url": "https://ir.homedepot.com/~/media/Files/H/HomeDepot-IR/reports-and-presentations/quarterly-earnings/2026/2026-q3-infographic.pdf"
         }
       ],
-      "date": "2025-11-24",
-      "headline": null,
-      "call_time_et": null,
-      "date_src": "SEC 8-K 申报日",
-      "label_zh": "—财年 第3季度",
-      "weekday": "Mon",
-      "date_display": "2025-11-24（Mon）"
+      "date": "2026-11-17",
+      "headline": "The Home Depot Announces Third Quarter Fiscal 2026 Results; Updates Fiscal 2026 Guidance",
+      "call_time_et": "09:00AM ET",
+      "dateline": "ATLANTA, November 17, 2026",
+      "fiscal_year": 2026,
+      "label_zh": "2026财年 第3季度",
+      "weekday": "Tue",
+      "date_display": "2026-11-17（Tue）"
     }
   ],
   "publisher": "The Home Depot, Inc.",

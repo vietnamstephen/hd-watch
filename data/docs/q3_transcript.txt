@@ -1,0 +1,894 @@
+HD – Q3’26 Home Depot Earnings Call 
+EVENT DATE/TIME: November 17, 2026 / 09:00AM ET 
+1 
+ 
+ 
+PRESENTATION 
+ 
+Operator  
+ 
+Greetings and welcome to The Home Depot Third Quarter 2026 Earnings Call. At this time, all participants 
+are in a listen-only mode. A brief question-and-answer session will follow the formal presentation. [Operator 
+Instructions] As a reminder, this conference is being recorded. 
+ 
+It is now my pleasure to introduce your host, Isabel Janci. Please go ahead. 
+ 
+Isabel Janci - The Home Depot, Inc. - VP, IR & Treasurer 
+ 
+Thank you, Christine, and good morning, everyone. Welcome to Home Depot's third quarter 2026 
+earnings call. Joining us on our call today are Ted Decker, Chair; Richard McPhail, Incoming Chief 
+Executive Officer; Ann-Marie Campbell, Incoming President and Chief Operating Officer. Billy Bastek, 
+Executive Vice President of Merchandising, and Jordan Broggi, Incoming Chief Financial Officer. 
+ 
+Following our prepared remarks, the call will be open for questions. Questions will be limited to analysts 
+and investors. And as a reminder, please limit yourself to one question with one follow-up. If we are 
+unable to get to your question during the call, please call our Investor Relations Department at 770-384-
+2387. 
+ 
+Before I turn the call over to Ted, let me remind you that today's press release and the presentations made 
+by our executive include forward-looking statements under the federal securities laws, including as 
+defined in the Private Securities Litigation Reform Act of 1995. 
+ 
+These statements are subject to risks and uncertainties that could cause actual results to differ materially 
+from our expectations and projections. These risks and uncertainties include, but are not limited to, the 
+factors identified in the release and our most recent annual report on Form 10-K and in our other filings 
+with the Securities and Exchange Commission. 
+ 
+Today's presentation will also include certain non-GAAP measures, including but not limited to, adjusted 
+operating margin, adjusted diluted earnings per share, and return on invested capital. For a reconciliation 
+of these and other non-GAAP measures to our corresponding GAAP measures, please refer to our 
+earnings press release on our Investor Relations website. 
+ 
+Now, let me turn the call over to Ted. 
+ 
+Ted Decker - The Home Depot, Inc. - Chair 
+ 
+Thank you, Isabel, and good morning, everyone. Before the team discusses our results, I want to thank 
+Richard, Ann and our entire team for their outstanding leadership during my leave. I'm glad to be back and 
+grateful for the support I received from our associates, board, partners, and many others across The Home 
+Depot community. 
+ 
+The board and I have agreed that now is the right time to move to the next phase of our succession plan. 
+Effective November 23, 2026, the interim Office of the CEO structure we put in place during my leave will 
+conclude, Richard will become Chief Executive Officer and join our Board of Directors, Ann will become 
+President and Chief Operating Officer, and I will continue to serve as Chair of our board. 
+ 
+2 
+ 
+Richard and Ann are tremendous leaders with strong track records of serving our customers, championing our 
+culture, taking care of our associates and executing our strategy. Together, they bring deep operating, 
+financial and strategic experience across The Home Depot, as well as a solid business partnership honed over 
+several years of close collaboration. 
+ 
+With Richard's 21 year tenure at The Home Depot, he brings strategic vision, operational discipline, financial 
+acumen and a proven track record of delivering results. 
+ 
+As a 41-year veteran of The Home Depot, Ann has driven results across a number of strategic roles, including 
+stores, operations, merchandising and marketing. I have great confidence in Richard and Ann, our leadership 
+team and the future of The Home Depot. 
+ 
+With that, I'll turn it over to Richard. 
+ 
+Richard McPhail - The Home Depot, Inc. – Incoming CEO  
+ 
+Thank you, Ted, and good morning, everyone. On behalf of the entire Home Depot family, I'd first like to 
+thank Ted for his leadership and unwavering dedication to The Home Depot as CEO over the last several 
+years. I would also like to personally thank him for his guidance and support and for our friendship over the 
+past 21 years. And I look forward to his continued counsel as Chair of The Home Depot. 
+ 
+I would like to thank Ann for her close partnership and for setting an example of inspiring leadership for all of 
+us over the years. In addition to having driven operational discipline and success in so many different roles 
+throughout her career, she is one of the greatest culture champions this company has ever had, and I 
+congratulate her for her well-deserved promotion to President and Chief Operating Officer of The Home 
+Depot. We've worked together for over 20 years, and I look forward to driving our next chapter of growth 
+together. 
+ 
+I'd also like to congratulate Jordan on his promotion to CFO. Since he joined The Home Depot 13 years ago, 
+Jordan has become a strategic thought leader and results driven business partner. Prior to his most recent roles 
+as EVP of Interconnected Retail and President of Online, Jordan spent the majority of his career at The Home 
+Depot in finance, spanning strategic business development, FP&A and merchandising and supply chain 
+finance, culminating in his Senior Vice President of Finance role, where he had responsibility for the day to 
+day management of the company's P&L. His depth of knowledge across our entire company will be 
+invaluable as he transitions to the financial stewardship of the company, and I look forward to working with 
+him in his new role. 
+ 
+And finally, and most importantly, I would like to recognize all of our fellow orange-blooded associates of 
+The Home Depot. Their passion, ownership, and love for this company are what makes The Home Depot 
+great, and I thank them for all they do every day to protect our culture, stand by our values, and take care of 
+our customers. 
+ 
+Now I'll turn to the results in the quarter. Sales for the third quarter were $43.4 billion, an increase of 4.9% 
+from the same period last year. Comp sales increased 2.2% from the same period last year, and comps in the 
+US increased 2.2%. Adjusted diluted earnings per share were $3.86 in the third quarter, compared to $3.74 in 
+the third quarter last year. In the US, our Northern and Western divisions posted positive comps, and the 
+Southern division was essentially flat. Mexico, Canada and SRS also posted positive comps. 
+ 
+Third quarter results exceeded our expectations. We saw broad based engagement across the business with 
+notable strength in repair and remodel categories. 13 of our 16 merchandising departments posted positive 
+comps and online continues to deliver double-digit growth. 
+3 
+ 
+ 
+Our results are a testament to our commitment to our strategy, driving our core and culture, delivering a 
+frictionless, interconnected experience, and winning the Pro. And our investments across the business are 
+resonating with our customers, and we are continuing to gain market share in a pressured housing market. 
+ 
+Today, we also updated guidance. We now expect sales growth of approximately 4.5%, comp growth of 
+approximately 1.4%, and adjusted diluted earnings per share growth of approximately 2%. I will discuss this 
+in greater detail in a moment. 
+ 
+With that, I'll turn it over to Ann.  
+ 
+Ann-Marie Campbell - The Home Depot, Inc. – Incoming President & COO 
+ 
+Good morning, everyone. As Richard said, we continue to differentiate ourselves through strategic 
+investments across the business. This, together with our team's engagement and ability to execute our 
+strategy, positions us well to grow market share in what remains a dynamic environment. 
+ 
+Our focus on core and culture is rooted in the belief that we must deliver exceptional customer service every 
+single day for every single customer. This includes having the right brands, products in stock and available 
+for sale, and providing a high degree of service. 
+ 
+Our merchants have done an incredible job curating the best product assortment both in our stores and online, 
+ensuring we have the right inventory, job-lot quantities and innovative products available whenever and 
+wherever our customers choose to shop. 
+ 
+At the same time, we are maintaining record levels of on-shelf availability and equipping our orange apron 
+associates with the tools and training they need to focus on what matters most, helping customers solve 
+problems and fulfill their dream. 
+ 
+One of our goals is to drive deeper engagement in our specialty department, so we have enhanced our 
+consultative sales training, combining in-person sessions, structured role-playing and targeted selling 
+techniques to improve the customer experience during complex purchases. 
+ 
+Equally important, we are equipping our store leaders with training to actively reinforce the right customer-
+first behaviors on the sales floor. We are also focused on continuously elevating our interconnected 
+experience to remove friction and drive engagement. Whether a customer is using our app to locate a product 
+in the aisle, picking up an order in store, or having items delivered straight to their doorstep, we are delivering 
+a faster, more seamless end-to-end shopping journey that keeps our customers coming back. This quarter is 
+the sixth consecutive quarter of double-digit online comp growth. 
+ 
+These results are a direct reflection of the enhancements we've made on our site, including AI-enabled search, 
+targeted marketing, expanded assortment, and a faster experience from checkout to delivery. Our store serves 
+as a critical hub for interconnected fulfillment, with over half of our online orders fulfilled through our stores. 
+ 
+Today, we offer our customers a multitude of fulfillment options, from Buy Online Pick Up in Store to 
+schedule job-site deliveries to fast home delivery. But when projects are underway, we know that speed is 
+paramount. And I want to take a minute to highlight the incredible momentum we are seeing with Express 
+Delivery. 
+ 
+Following our nationwide launch three months ago, we've seen tremendous adoption and engagement with 
+Express Delivery. Delivery is available on tens of thousands of products now within two hours, with the 
+4 
+ 
+majority of those deliveries arriving in less than one hour. For customers using our fast delivery, engagement 
+has increased across all channels. Sales have grown and customer satisfaction scores have improved. Building 
+on this momentum, we have expanded our Express Delivery hours and now offer Express Delivery in 
+virtually all stores. 
+ 
+And we are winning with the Pro. All of our Pro cohorts positively comp in the quarter, including Pro 
+shopping in the store and larger Pros working on complex projects and using more of our ecosystem of 
+capabilities. This success reflects the power of our unified Pro team and our comprehensive services and 
+capabilities for the Pro. 
+ 
+In terms of the Pro team, which is led by our Pro Customer Experience Managers in our stores, we're building 
+seamless connectivity between our dedicated in-store Pro Desk teams and our outside sales organization. And 
+we are supporting these teams with expanded insights and Pro CRM tools giving our associates more robust 
+project visibility and actionable insights into Pros ongoing jobs. 
+ 
+By combining these enhancements with capabilities like our AI Material List Builder, project tools, complex 
+delivery scheduling, trade credit, and our Pro Xtra loyalty program, we are removing friction from every 
+buying occasion. This integrated approach is creating a truly sticky relationship with our Pros and enabling us 
+to grow wallet share. 
+ 
+In closing, I want to thank all of our associates for their hard work and dedication this quarter. Their passion 
+and commitment to our customers are what makes The Home Depot unique and what enables us to win 
+market share. 
+ 
+With that, I'll turn it over to Billy. 
+ 
+Billy Bastek - The Home Depot, Inc. – EVP, Merchandising  
+ 
+Thank you, Ann. And good morning everyone. I want to start by also thanking all of our associates, supplier, 
+and supply chain partners for their ongoing commitment to serving our customers and communities. 
+ 
+Our performance during the third quarter exceeded our expectations as customers continued to engage in 
+smaller repair and maintenance projects. In the third quarter, we saw strong engagement across the business, 
+with 13 of our 16 merchandising departments posting positive comps, including power, storage, plumbing, 
+electrical, indoor garden, appliances, hardware, building materials, kitchen, paint, lumber, bath and lighting. 
+We saw notable strength in our power department, which posted double-digit positive comps, and across 
+storage, plumbing and electrical, which posted mid-single digit positive comps. 
+ 
+During the third quarter, our comp average ticket increased 3% and comp transactions decreased 0.5%. Big 
+ticket comp transactions, or those over $1,000 were positive, 4.5% compared to the third quarter of last year. 
+Our big ticket performance was driven by strength in power and appliances. 
+ 
+During the third quarter, Pro and DIY both posted positive comps with Pro outperforming DIY. We saw 
+strength in DIY across a number of categories, including appliances, storage, hardscapes, and faucets. And for 
+Pro, we saw strength across many Pro-heavy categories like portable power, pipe and fittings, water heaters, 
+insulation, siding, irrigation, fasteners and hand tools. 
+ 
+Turning to total company online comp sales. Sales leveraging our digital platforms increased approximately 
+13% compared to the third quarter of last year. Our continued success in online is driven by our ongoing 
+investments from site speed to AI-enabled search, to a multitude of fulfillment options, including our Express 
+5 
+ 
+Delivery, all of which are working together to improve the interconnected experience, driving greater 
+conversion and higher sales growth. 
+ 
+During the third quarter, we leaned into products and projects that are resonating with our customers. We 
+focused on innovation, expanded assortments, and reduced friction points, all to deliver a compelling value 
+proposition. We continue to see tremendous success in our power business. As we've mentioned before, we 
+have built a strong competitive advantage with our extensive lineup of battery-powered platforms that allows 
+us to continue to grow share in these categories. 
+ 
+Our nearly 2,000 exclusive SKUs across our battery platforms, from power tools to outdoor power equipment 
+to lifestyle and recreational products, create a unique loyalty program. Another category where we saw 
+strength was plumbing. The team consistently enhances shopability, whether online or in our aisles, focused 
+on expanding assortment and bringing innovation to our customers across categories such as air circulation, 
+water heaters and plumbing repair items. 
+ 
+And in appliances, the investments we have made to improve the shopping experience for our customers and 
+increase speed in delivery for critical duress purchases, are contributing to our strength in the category. Over 
+the last three months, we have expanded our next-day coverage on key SKUs from nearly 60% of the US 
+population to nearly 85% of the US population. 
+ 
+During the third quarter, we also hosted our Annual Supplier Partnership Meeting, where we always focus on 
+how to more effectively work with our vendors to bring the best products to market, deliver innovative 
+solutions that simplify the project and offer great value with best-in-class features and benefits. 
+ 
+At the event, we recognized a number of vendors across categories who continue to transform the industry 
+with the innovation they bring to our customers on a daily basis. They included Delta, BEHR, Milwaukee, 
+Ryobi, DEWALT, Diablo, USG, Kohler, Levolor and many more. 
+ 
+Turning to the fourth quarter, we are looking forward to the excitement we will bring this year with our 
+annual holiday, Black Friday and Gift Center events. In our Gift Center event, we continue to lean into brands 
+that matter most for our customers with our assortment of Milwaukee, Ryobi, Makita, DEWALT, Ridgid, 
+Diablo, Husky, and more. And in appliances for Black Friday, we have exciting offers on LG, Samsung, 
+Bosch, Whirlpool, GE and Frigidaire. 
+ 
+And in our smart home business, we're delivering compelling value with top national brands like Ring, 
+Google, Blink, Echo, and Govee. Our true point of differentiation is our proprietary Hubspace platform. Now 
+active in millions of households built to simplify whole home connectivity in a single app, Hubspace has over 
+280 connected items spanning core home improvement products, including ceiling fans, lighting, bath fans, 
+electrical outlets, and many more. 
+ 
+We are also accelerating adoption through trusted national partners, highlighted by this week's online launch 
+of our new Kwikset smart lock, powered by Hubspace. And heading into the holidays, we brought Hubspace 
+directly into our viral Grand Duchess Tree Collection, giving customers seamless, app-controlled lighting 
+right out of the box. 
+ 
+As we look ahead to the fourth quarter, our merchandising organization remains focused on being our 
+customers' advocate for value. This means continuing to provide a broad assortment of best-in-class products 
+that are in stock and available for our customers when they need it. 
+ 
+With that, I'd like to turn the call back over to Richard. 
+ 
+6 
+ 
+Richard McPhail - The Home Depot, Inc. – Incoming CEO  
+ 
+Thanks, Billy. 
+ 
+I'll now spend a few minutes on our financial update for the quarter. In the third quarter, total sales were $43.4 
+billion, an increase of $2 billion, or 4.9% from last year. During the third quarter, our total company comps 
+were positive 2.2%, with comps of positive 1.1% in August, positive 3.8% in September, and positive 1.8% in 
+October. Comps in the US were positive 2.2% for the quarter, with comps of positive 1.1% in August, 
+positive 4.4% in September, and positive 1.3% in October. 
+ 
+In the third quarter, our gross margin was 32.8%, a decrease of approximately 60 basis points from the third 
+quarter of last year, reflecting a rising cost environment as well as a change in mix as a result of acquisitions. 
+ 
+During the third quarter, operating expense as a percent of sales decreased approximately 30 basis points to 
+20.1% compared to the third quarter of 2025. Our operating expense performance was in line with our 
+expectations. Our operating margin for the third quarter was 12.6%, compared to 12.9% in the third quarter of 
+2025. 
+ 
+In the quarter, pre-tax intangible asset amortization was $182 million. Excluding the intangible asset 
+amortization in the quarter, our adjusted operating margin for the third quarter was 13%, compared to 13.3% 
+in the third quarter of 2025. 
+ 
+Interest and other expense for the third quarter decreased by $68 million to $528 million. In the third quarter, 
+our effective tax rate was 25%, compared to 24.3% in the third quarter of fiscal 2025. Our diluted earnings 
+per share for the third quarter were $3.72, compared to $3.62 in the third quarter of 2025. Excluding 
+intangible asset amortization, our adjusted diluted earnings per share for the third quarter were $3.86, an 
+increase of 3.2% compared to the third quarter of 2025. 
+ 
+During the third quarter, we opened eight net new stores, bringing our total store count to 2,372. At the end of 
+the quarter, merchandise inventories were $27.6 billion, up approximately $1.4 billion compared to the third 
+quarter of 2025, and inventory turns were 4.4 times, down from 4.5 times last year. 
+ 
+Turning to capital allocation. During the third quarter, we invested approximately $955 million back into our 
+business in the form of capital expenditures. And during the quarter, we paid approximately $2.3 billion in 
+dividends to our shareholders. Computed on the average of beginning and ending long-term debt and equity 
+for the trailing 12 months, return on invested capital was 24.5%, down from 26.3% in the third quarter of 
+fiscal 2025. 
+ 
+Now, I will comment on our outlook for fiscal 2026. We are encouraged with the underlying demand and 
+continued share gains we see across the business. With one quarter remaining, we are updating our guidance 
+for fiscal 2026. 
+ 
+We now expect total sales growth of approximately 4.5%, reflecting comparable sales growth of 
+approximately 1.4% for the year and the contribution of the GMS acquisition, new stores, new branches and 
+tuck-in acquisitions. 
+ 
+For the year, we expect SRS to deliver low-single digit percent organic sales growth. We plan to open 
+approximately 15 new stores and 40 to 50 new SRS branches. Our gross margin is expected to be 
+approximately 33%. 
+ 
+7 
+ 
+Further, we expect operating margin of approximately 12.4% and adjusted operating margin of approximately 
+12.8%. Our effective tax rate is targeted at approximately 24.6%. We expect net interest expense of 
+approximately $2.2 billion. We expect our diluted earnings per share to increase approximately 1.5% 
+compared to fiscal 2025. We expect adjusted diluted earnings per share to increase approximately 2% 
+compared to fiscal 2025. 
+ 
+We plan to continue investing in our business with capital expenditures of approximately 2.5% of sales for 
+fiscal 2026. We believe that we will continue to grow market share as a result of our competitive advantages 
+and ongoing investments by delivering the best customer experience in home improvement. 
+ 
+Thank you for your participation in today's call. And Christine, we are now ready for questions. 
+ 
+ 
+Q U E S T I O N  A N D  A N S W E R 
+ 
+Operator 
+ 
+[Operator Instructions] Our first question comes from the line of Chris Horvers with J.P. Morgan. Please 
+proceed with your question.  
+ 
+Chris Horvers – JP Morgan, Analyst 
+ 
+Thanks and good morning, everyone. And congratulations to everyone on their new roles. Ted, it's really 
+great to hear your voice again. And congratulations on the next phase of your career and your life as well. 
+ 
+Ted Decker - The Home Depot, Inc. - Chair 
+ 
+Thanks, Chris. 
+ 
+Chris Horvers – JP Morgan, Analyst 
+ 
+And so my first question – you are welcome. It's great to hear you. My first question is, as you think 
+about the underlying trends in the business, how are you thinking about it? Every quarter has noise, was 
+weather a net helper, as extended warmth in the US in many regions, but you also didn't have a great 
+storm season. So as you think about this doing a nearly 2% in the back half of the year based on what 
+you're implying for the fourth quarter, is that the right launching point for 2027 that we could potentially 
+build from? Or are you concerned at all about any lagged negative impact from the run in mortgage rates? 
+ 
+Richard McPhail - The Home Depot, Inc. – Incoming CEO  
+ 
+So, Chris, good morning. It's Richard. I'll turn it over to Billy in a minute. First of all, I'd say we have 
+seen really steady demand patterns in this business when you factor out some of the influences that you 
+alluded to and Billy will talk about. As far as 2027 goes, again, we've had steady demand patterns in this 
+business. We've learned it's better to be able to manage with agility rather than to try to be great at 
+predicting. And we have established that track record over time. So, we're extremely pleased with the 
+quarter. 
+ 
+But Billy, maybe talk a little bit about timing nuances there in kind of Q3, Q4. 
+ 
+8 
+ 
+Billy Bastek - The Home Depot, Inc. – EVP, Merchandising  
+ 
+Yeah. Thanks, Chris, for the question. As Richard mentioned, the underlying demand, we feel great 
+about, and we can go back to Q2 and some of the things that we talked about there relative to kind of the 
+core of our business, which we feel great about. So, the underlying demand remains really consistent. 
+ 
+We talked about some of the categories where we had some outperformance, in categories like all of our 
+power business, think electrical and plumbing. There's always some seasonal aspects, I mean, we had a 
+much warmer September as one example. So, we sold some more ACs and fans during that month. And 
+you see – in the monthly cadence, you can see between that and the Labor Day shift, you can see a little 
+outperformance there. 
+ 
+But the key that we spend our energy on is, obviously, watching the underlying demand, and we feel great 
+about the interaction we see from our customers. Maintenance and repair is certainly driving our business 
+as it was back in the Q2 area. And so we feel really good about the underlying demand and what we can 
+control and candidly, the share that we're taking along the way. 
+ 
+Chris Horvers – JP Morgan, Analyst 
+ 
+Got it. Thank you. And then on the outlook, on the operating margin side, you took the sales outlook to 
+the high end and the operating margin at – is going to the lower end. So, can you talk about what was 
+different relative to your expectations? It looks like you made another acquisition during the quarter. How 
+much of it is that? And then as you think about the exit, the 12.8%, is that the right launching point as you 
+think about 2027 in light of lapping tariff headwinds, but persistent energy cost pressures that you won't 
+annualize until the back half? 
+ 
+Richard McPhail - The Home Depot, Inc. – Incoming CEO  
+ 
+Thanks, Chris. So first, I just want to give a huge shout out to Billy's merchandising team and John 
+Deaton's supply chain team, for managing the business as well as they have through years, not just 2026 
+but years of what you'd call a unique cost environment. They have continued to do that through 2026. 
+ 
+When you look at our guide, yes, despite increasing pressures in our market, we're pleased that our guide 
+is actually north of our midpoint of the original guidance. As Billy alluded to, we think that the market is 
+much softer now than we had expected at the beginning of the year. 
+ 
+And so we look at that and feel very confident that we're taking share because of our investments and the 
+great work of our teams. When you look at operating margin guidance, that is solely driven by a slight 
+change in gross margin outlook and that is driven simply by a change in product mix. We've had some 
+strength in categories that are accretive to sales and accretive to earnings, but just carry a different 
+margin. 
+ 
+And Chris, you're right, we made a few acquisitions during the year, notably building up our HVAC 
+vertical at SRS. And so that sort of tipped the margin guidance down to the lower level. But, again, we 
+feel great about the guide. 
+ 
+And just on the adjusted EPS guide of 2%, that also had a little bit of pressure from tax rate where we saw 
+fewer positive discrete items. Not a lot in that. I think that the message to take away is we're running the 
+business exactly the way that we want to. We've got great steady momentum with our customer and we're 
+taking share. 
+ 
+9 
+ 
+Chris Horvers – JP Morgan, Analyst 
+ 
+Thanks very much. Have a great holiday season. 
+ 
+Ted Decker - The Home Depot, Inc. - Chair 
+ 
+Thanks, Chris. You too. 
+ 
+Operator 
+ 
+Our next question comes from the line of Zhihan Ma with Bernstein. Please proceed with your question. 
+ 
+Zhihan Ma- Bernstein, Analyst  
+ 
+Hi. Thank you for taking my question. My first one is, you've been talking about those market share 
+gains, especially on the retail side, especially since last quarter. Could you share some of the specific 
+initiatives behind what's driving your market share gains? 
+ 
+Richard McPhail - The Home Depot, Inc. – Incoming CEO  
+ 
+Well, I'm going to – I'll start here just with a recap of everything we're happy about, because we really do 
+feel like we're clicking on so many cylinders. And I'm going to turn it over to Ann and to Billy here in a 
+minute. 
+ 
+But, the performance is not by accident. It's built on a strategy that Ted created and we've refined for 
+years, and then investment program designed to win share in any economic environment. I mean, you just 
+look at the quarter, we posted our highest comp sales growth in four years. We had positive comp across 
+most US regions, Canada, Mexico and SRS. We had positive comps in most departments, with real 
+outlier performance in areas we've leaned into, and Billy will talk about that. 
+ 
+Our investments in Express Delivery and in AI, customer and associate enablement are making a 
+meaningful difference in customer satisfaction and conversion. By the way, we posted the highest online 
+comp in five years this quarter and our investments in Pro are paying off. We posted nine quarters in a 
+row of positive comp in sales to Pro customers. 
+ 
+And, it really all starts in the store and enabling our stores and associates. And so, Ann, maybe we start 
+there. 
+ 
+Ann-Marie Campbell - The Home Depot, Inc. – Incoming President & COO 
+ 
+Yeah. No, thank you. Just number one, just want to thank all the associates for what they do every single 
+day. And to Richard's point, it starts with them. And so we have continued to make investments. Over the 
+last couple of years, we've talked about the investment in training. First of all, just how do we get our 
+associates to really engage with a customer? And we have this framework, we call it GET, greet, engage, 
+and thank. And over the last couple of years, we have even shifted to an email survey, and our data tells 
+us we're getting better and better with driving engagement across the board. Engagement matters, because 
+engagement drives conversion. So, making sure that our associates are engaged are really, really 
+important. 
+ 
+10 
+ 
+I also highlighted the next stage of what we've done with our consultative part of the business, where we 
+are taking all our specialists, these are the guys and gals, who really deal with complex purchases, and 
+we're investing in training for them so that they can continue to kind of drive the level of engagement and 
+experience our customers expect. 
+ 
+We tested that in two regions across the company a year ago, and it yielded tremendous benefit, and so 
+we're going to continue to roll that out. So the training component is there around the engagement. But I 
+don't want to underestimate, too, the investments we've made with our visual intelligence and driving 
+product availability and on-shelf availability. 
+ 
+It starts with product. We know the innovation that Billy brings to the table every single day. We talk 
+about the engagement. But at the end of the day, we need to have the depth of product to drive the 
+conversion with our Pros and our consumer. And as we lean into delivery, just think about that, where our 
+stores are, we have always said our real estate is a competitive advantage. And by gosh, it's proven to be 
+even a better competitive advantage as we lean into complex delivery. So, the investments are working 
+across our entire portfolio. 
+ 
+And last but not least, I mentioned in my prepared comments that all Pro cohorts are positive comping. 
+And we have talked about the investment we've made in leadership. We've talked about the investment 
+we've made in tools. And now, as we continue to drive that level of connectivity and that level of 
+adoption, we're seeing outsized benefits in some of those areas as well. 
+ 
+So, core and culture, interconnected and win with the Pro. And I'm glad to see the associates and our 
+leaders just taking advantage of that and really delivering for us not only in the third quarter but what we 
+expect in the fourth quarter and beyond. 
+ 
+Zhihan Ma- Bernstein, Analyst  
+ 
+That's really helpful. Thank you. And just a follow-up on the strong ticket growth that you're seeing. 
+Could you help us understand how much of that is – I mean, maybe people are buying more per basket 
+from a Pro or online perspective and how much of that is just you managing the cost inflation 
+environment and passing on some of that cost inflation? 
+ 
+Billy Bastek - The Home Depot, Inc. – EVP, Merchandising  
+ 
+Yeah. Thanks, Zhihan. I'll take that. So, there's a couple components to that. Certainly, there's been some 
+modest prices we've talked about taken, but it's really kind of split. We look at the category mix and not 
+only the category mix but the inter-category mix. So, it's kind of a 50/50 breakout in terms of the AURP. 
+ 
+So, we've seen great engagement as we've talked about, but we also from a category mix standpoint and 
+then inside those categories, you think about something like power tools and how we see people trade up 
+inside of that. You think about appliances and the same thing. So, you've got category mix as a portion of 
+that and then that inter-category mix along with, like I said, taking some of the modest price that we've 
+talked about previously. 
+ 
+Operator 
+ 
+Our next question comes from the line of Steve Zaccone with Citi. Please proceed with your question. 
+ 
+Steve Zaccone – Citi, Analyst 
+11 
+ 
+ 
+Thank you very much for taking my question. Congrats everybody on their recent appointments. It is nice 
+hearing from you again, Ted. My question's on SRS. So, it sounds like there was a slight change. We 
+were expecting low-single digit growth versus the prior plan for mid-singles. So, could you just talk a 
+little bit about that, any callouts by specific vertical within SRS as well? There wasn't much of a storm 
+season, so curious if you could talk about some of the verticals there. 
+ 
+Richard McPhail - The Home Depot, Inc. – Incoming CEO  
+ 
+Right. And, you really hit it on the head there. I mean, we feel incredible about, as Ann said, our entire 
+enterprise Pro efforts, right? And I'll let Mike Rowe talk a little bit about what we're seeing across the 
+enterprise in a second. 
+ 
+Specifically with respect to SRS, they delivered almost $5 billion in sales in the quarter and they 
+delivered positive total sales growth and positive comp sales growth. When you look at the pressure in the 
+roofing market now, you'd have to say it's almost unprecedented. We've had two years in a row with 
+really very little storm seasons that are really part of the normal demand pattern for roofing. So, the new 
+updated guidance for SRS is purely a reflection of those roofing oriented categories where there's just 
+enormous pressure. 
+ 
+Everything else, we're just so pleased with performance across the rest of the verticals. And so you would 
+say this is isolated. We also are confident that we are taking material share from the market and from 
+competition. And the value prop we're creating across SRS and then across SRS and Home Depot is 
+unique to the market. And we're seeing great traction there. 
+ 
+Mike, maybe you just expand it out a little bit. 
+ 
+Mike Rowe - The Home Depot, Inc. – EVP, Pro 
+ 
+Yeah. Sure, Richard. And Ann touched on a bunch of it as well. We continue to see great success from 
+the investment that we've made in the Pro ecosystem. As we invest in those capabilities and improve the 
+experience with Pros, we're getting a greater share of wallet from our Pros and see more growth. 
+ 
+When you think about it, for instance, the initial discovery and ordering, we continue to invest in our B2B 
+experience, which is giving us outsized growth online because of the capabilities like project planning, 
+material lists, customer account dashboards, and more. And then you think about for executing the orders, 
+we're investing in order management and delivery that Ann talked about, specifically with things like self-
+service, site instructions, our customer business hours availability, along with more improvements in 
+delivery tracking and all leading to the highest levels of on-time and complete and customer satisfaction 
+scoring. And we continue to lean into excellence in delivery and faster and faster delivery, as Ann pointed 
+out. 
+ 
+As I noted, these capabilities and more they continue to allow us to earn more wallet share with our Pros, 
+and it's just a solid combination of a better in-store, better online and on the job site, experience 
+improvements, letting us take share. 
+ 
+And, Steven, maybe to tie in more to your question around the cross-sell too, back with SRS, we're on 
+track to meet the $400 million goal that we laid out for 2026 and we look to double that in 2027. Our 
+cross-category efforts have been accelerating, with more categories awarded to us from customers, who 
+used to buy more singular category. 
+ 
+12 
+ 
+So working together across our companies, Home Depot, SRS, HD Supply and CR, we can bring a pretty 
+unique value proposition to the Pro and maximize the share of wallet that can be served by The Home 
+Depot. 
+ 
+Steve Zaccone – Citi, Analyst 
+ 
+Great. Thanks for all that detail. The follow-up I had was just on the gross margin outlook for the fourth 
+quarter. I understand you gave some earlier comments as it relates to product mix. But I was curious if 
+you could just opine a bit more on your updated expectations for 4Q, it a bit worse than where the Street 
+was previously. Is there anything else to call out in terms of promotional backdrop that you're seeing? Just 
+curious for any more color. 
+ 
+Richard McPhail - The Home Depot, Inc. – Incoming CEO  
+ 
+Yeah. I'll turn to Billy here in a second. But really the fourth quarter will be a little lower than last year. 
+This is reflected in our updated guidance for gross margin, operating margin. And that simply reflects, 
+again, mix effect, product mix and also a little bit of mix from acquisitions. 
+ 
+And so again, Billy and his team have done an incredible job over the last several years managing through 
+a cost environment that is certainly challenging. Billy, maybe just give a little bit of color on that. 
+ 
+Billy Bastek - The Home Depot, Inc. – EVP, Merchandising  
+ 
+Yeah. I mean, obviously we've had the incrementality of some of the things we talked about last quarter, 
+just from a guide standpoint, that was not in our projections for 2026. And we've worked through those – 
+the teams have worked through those really, really well. And candidly, we had more volatility in 2025 
+than we do in 2026. 
+ 
+As it pertains to Q4, as Richard mentioned, we do have some different mix orientations. It just relates to 
+the seasonality of the businesses and certainly the weather in the north. But we feel really strong about the 
+value that we have in the marketplace. I mean, I've never been more pleased and thrilled with the work 
+that the teams have done and the value that we have in the marketplace for Q4. 
+ 
+And while we're not less promotional, in fact, overall, we're less promotional than we've been in prior 
+years, we've focused on value, product authority and I am so excited about what the team is going to 
+deliver on in Q4. We're certainly not less promotional and look forward to the performance that we'll 
+deliver in the key areas of our business across Q4. 
+ 
+Operator 
+ 
+Our next question comes from the line of Michael Rehaut with Melius. Please proceed with your 
+question. 
+ 
+Michael Rehaut – Melius, Analyst 
+ 
+Thanks. Good morning, everyone, and congrats on all of your new and expanded roles. Wanted to start 
+off, Richard, with a question for you, kind of a bigger picture, if you will. Obviously a lot of initiatives 
+continue to go on at Home Depot, including online, Pro, SRS integration, et cetera. Obviously you have a 
+great team, and benefiting from a lot of continuity, but in your new expanded role, what are you focused 
+13 
+ 
+on perhaps more than before? And is there any particular areas that you feel you need to devote time 
+towards to take Home Depot forward over the next five-plus years at minimum? 
+ 
+Richard McPhail - The Home Depot, Inc. – Incoming CEO  
+ 
+Thank you for the question. I love answering this question because the strategy that Ted laid out over the 
+last several years was created by this entire team, led by Ted, created by the team. And we have a 
+management team who's worked together, many of us have worked together for decades, along with an 
+awesome injection of new talent in areas like technology with our new CTO, Fran Bell, just examples of 
+really the vibrancy of this management team. 
+ 
+We spent a lot of time on our strategy over the last few years, and we're all bought in. And we believe in 
+it. We believe in it because we're winning and we're seeing it work. And so if there's any, I would say that 
+the feeling I have is one of confidence that we can lean in because what we have decided to invest in and 
+focus on are the right things. We're going to invest in core and culture. We're going to deliver the best 
+interconnected experience in retail, and we are absolutely going to win with the Pro. And so what you can 
+count on with this team is a unified push to continue to lean into all those things that are working. 
+ 
+And you heard Ann cover all the investments we've made in the stores. You've heard Billy, I mean, just 
+incredible performance across every category. A really important part of that, that we might get to today, 
+is delivery and how that has truly changed the game in a matter of really months. All of these things are 
+working. 
+ 
+I would probably add to this list because it's so emergent. We're going to be leaders in AI enablement. 
+This company is going to be AI-enabled. We're going to lean in, we're going to be front-footed. We're 
+already seeing it provide us with efficiencies and gains, putting AI in the hands of our great associates is 
+leading to just getting more things done faster and leading to greater intelligence. 
+ 
+We think that our scale is a huge advantage in this. We are the scale player in home improvement. And so 
+we're going to lean into investment into all those areas. And so I think it's full steam ahead. 
+ 
+Michael Rehaut – Melius, Analyst 
+ 
+Great. No, I appreciate that answer. Thank you for that. I guess secondly, just wanted to go a little more 
+granular with some of this – changes on, gross margin and operating margin, looks like you took gross 
+margin down 10 bps, took SG&A up 10 bps, small changes but maybe the market is focusing on it a little 
+bit in the market today. Wanted to understand – obviously, you kind of walked through product mix and 
+acquisition mix. Curious if that's kind of a temporary issue on the gross margin side and something that, 
+all else equal, could potentially reverse next year. And on the SG&A, if it's the right way to think about 
+perhaps a little bit of a stronger outcome on the top line and you're reinvesting in areas using that gravy to 
+reinvest and maybe certain areas that might have been a 2027 event? 
+ 
+Richard McPhail - The Home Depot, Inc. – Incoming CEO  
+ 
+Well, first, I'd say we've adjusted from the midpoint of our original guidance range by 10 basis points, not 
+by 20. And so, again, that fully reflects a little bit of mix impact in our gross margin from product mix 
+and from acquisitions. 
+ 
+We've talked about this for years. There may be a little bit of mix shift here and there. I recall more than 
+10 years ago our strategy to really take over the world of appliances, right? And that was a category that 
+carried lower-than-company-average margin, but much higher-than-company-average return on invested 
+14 
+ 
+capital. And we've built that into a huge strategic advantage for The Home Depot. So, accretive to sales, 
+accretive to earnings. 
+ 
+If there's a mix impact, we consider that somewhat secondary as long as the margin within all of our 
+products and categories feels intact. We have incredible merchants and incredible relationships with our 
+suppliers. And so, we're in command of the business. 
+ 
+As far as 2027 goes, look, we'll get to that when we get to Q4, but there's no major shift in our view on 
+the stability of our margin profile. And again, credit to Billy and his team for working through a 
+challenging cost environment over the last several years. 
+ 
+Michael Rehaut – Melius, Analyst 
+ 
+Great. Fair points. Appreciate the clarification, best of luck. 
+ 
+Operator 
+ 
+Our next question comes from the line of Simeon Gutman with Morgan Stanley. Please proceed with your 
+question. 
+ 
+Simeon Gutman - Morgan Stanley, Analyst 
+ 
+Hey, everyone. Congratulations, welcome back, Ted. So, Richard, you preempted what I was going to ask 
+with that last comment. So philosophically, you've talked about margin protection. I wanted to ask how 
+you think about that in the context of everything that's arisen this year, fuel, freight, input cost and how do 
+you think about margin protection and balancing it with pricing and investments? 
+ 
+Richard McPhail - The Home Depot, Inc. – Incoming CEO  
+ 
+Billy, I'm going to let you answer the question. 
+ 
+Billy Bastek - The Home Depot, Inc. – EVP, Merchandising  
+ 
+Yeah. Simeon, thanks for the question. So listen, we've had incremental cost pressure that you talked 
+about fuel, energy, other inputs, commodities with resin and metals. And those – we didn't have those in 
+our plan for this year. We've managed through that. I mean, I think one of the key things that we spend a 
+lot of time on is trying to protect the project is an important piece of what – how we manage the portfolio. 
+ 
+And so while there will be some modest price taken across the portfolio, we are going to preserve the 
+momentum in the business, stay focused on protecting the project, and feel really good about what the 
+teams across our business, our finance teams working with merchandising and all the – and working with 
+our supplier partners on what's in the best interest of being able to drive units, drive productivity, and 
+again really focus on those core projects. And our underlying demand, as we have talked about, has been 
+very consistent, so we feel really good about our opportunity to deliver not only the top line, but the 
+bottom line. 
+ 
+ 
+ 
+ 
+15 
+ 
+Richard McPhail - The Home Depot, Inc. – Incoming CEO  
+ 
+But just to circle back, Simeon, no – I think you said the word philosophical, no philosophical shifts here. 
+We feel great that we can manage through a cost environment as well as anyone, and we have proven that 
+over the last several years. 
+ 
+Simeon Gutman - Morgan Stanley, Analyst 
+ 
+Yeah. And my follow-up, it's the backdrop just since housing is pretty frozen, existing home sales are 
+near 16-year low. Yet you are generating a positive modest comp now, and that's all through repair and 
+maintenance. So, how do we think about – or how do you think about the sustainability of this and how is 
+your visibility if housing turnover stays depressed and basically generating this level of growth going 
+forward? 
+ 
+Richard McPhail - The Home Depot, Inc. – Incoming CEO  
+ 
+Well, Simeon, housing turnover hasn't moved in four years now. And yet, when you look at the trajectory 
+of our comps, nine positive quarters in a row and – obviously we had a little bit of – as Billy called out, 
+there is some weather in Q3, but still felt confident about Q3. This is all coming from share gain. And our 
+investments are designed to position us to capture share regardless of the economic environment. It is 
+pressured out there. We have the same visibility as you do. And so, we are focused on our business and 
+focused on delivering shareholder value. 
+ 
+Operator 
+ 
+Our next question comes from the line of Scot Ciccarelli with Truist. Please proceed with your question. 
+ 
+Scot Ciccarelli - Truist, Analyst  
+ 
+Good morning, guys. So objectively, your trends are getting better, but to be fair, we have yet to see a 
+sharp top line acceleration that I suspect all of us probably would have anticipated by now. So I guess the 
+question is, if we stay in a low-single digit comp environment, as we roll into 2027 and beyond, can you 
+grow earnings in that kind of environment with the expense inflation that exists in the system, or do you 
+realistically need a stronger comp for more leverage? 
+ 
+Richard McPhail - The Home Depot, Inc. – Incoming CEO  
+ 
+I think it's still appropriate given inflation levels now to think of 3% comp as that fulcrum point. On 
+operating expense leverage, I think that is appropriate. We do generate significant productivity within our 
+business, and we always have a decision to make on reinvestment of that in the business. And right now, 
+given the fact our investments are working, the right equation has been to reinvest that productivity. But 
+again, I think that 3% fulcrum point is still valid. 
+ 
+Scot Ciccarelli - Truist, Analyst  
+ 
+Understood. And then just a quickie. You mentioned 3% ticket growth. How much of that was same-SKU 
+inflation? 
+ 
+16 
+ 
+Billy Bastek - The Home Depot, Inc. – EVP, Merchandising  
+ 
+As I mentioned a little bit ago, that was about half of the growth, and then the other half was category 
+mix, inter-category mix, and then launch of new SKUs. So, it was about half. 
+ 
+Operator 
+ 
+Our next question comes from the line of Michael Lasser with UBS. Please proceed with your question. 
+ 
+Michael Lasser - UBS, Analyst 
+ 
+Good morning. Thank you so much for taking my questions. Best wishes to everyone. There was a spike 
+in both the 10-year and the 30-year fixed rate mortgage during the third quarter. Your trends peaked in 
+September, moderated in October. Do you think there was a correlation between that slowdown and the 
+interest rate shock? And has that continued into the first part of the current quarter? And does that inform 
+how you think about home improvement demand if interest rates remain elevated or maybe even move 
+higher into 2027? Thanks. 
+ 
+Richard McPhail - The Home Depot, Inc. – Incoming CEO  
+ 
+Hey, Michael. Well, first, look, we know that a rising interest rate environment puts pressure on our 
+customer and our business. There's no doubt about that. We try not to look at single spikes in dayparts. 
+But we know that that fundamental pressure is out there. 
+ 
+Our guidance reflects kind of the continued momentum we see in the underlying business, again, 
+factoring in those influences Billy talked about. But for now, we feel confident in the guidance and the 
+first few weeks of November are consistent with that guidance. 
+ 
+Michael Lasser - UBS, Analyst 
+ 
+Okay. Thank you very much for that. My follow-up is just on the overall state of how the profit pool for 
+home improvement, and what Home Depot is capturing as it's more than its fair share of that profit pool 
+looks over the next few years. One can make a case that you've made a lot of changes, and the categories 
+that are driving the performance, and the businesses that are driving some of the performances just have a 
+lower profit profile compared to the overall profitability of the home improvement profit pool. And if that 
+continues, that's going to certainly weigh on the business, at least the gross margin of the business into 
+2027. Is that the right way we should be thinking about it as we calibrate our expectations into next year. 
+At least as you have to face the wraparound effect of what you're incurring in the second half of this year? 
+Or would you consider this to be more discrete, more unique to these two current periods, and we should 
+not extrapolate that all of these dynamics into the future? Thank you. 
+ 
+Richard McPhail - The Home Depot, Inc. – Incoming CEO  
+ 
+Thanks for the question. We would say this – we will say this. We sell across all categories. We sell 
+across all categories to all Pros and all consumers. We have over the last few years, added to our portfolio 
+of businesses and our capabilities for the Pro that may have temporary mix shift impacts. Make no 
+mistake about it though, what we're building is a unique value proposition both for the consumer and the 
+Pro. And look, we expected that value proposition has value in the market. And we should be able to earn 
+from that value. 
+ 
+17 
+ 
+And so, I look at things like acquisition mix shift over the last few years as moments in time. The goal 
+here is to sell every product into every occasion to every customer. And that's sort of what our profile 
+looks like now, from the conventional history of The Home Depot, that's the vision. And so, will we have 
+little fluctuations as we grow? We'll probably have little fluctuations as we grow. But we're confident in 
+the power of this economic model, and confident in our ability to drive shareholder value. 
+ 
+Michael Lasser - UBS, Analyst 
+ 
+Thank you and good luck. 
+ 
+Isabel Janci - The Home Depot, Inc. - VP, IR & Treasurer 
+ 
+Christine, we have time for one more question. 
+ 
+Operator 
+ 
+Our final question comes from the line of Seth Sigman with Barclays. Please proceed with your question. 
+ 
+Seth Sigman - Barclays, Analyst 
+ 
+Great. Good morning everyone and congrats to everyone on their new roles. Two follow-up questions. 
+One is on SRS. From a margin perspective, you've talked a lot about the mix pressure from these 
+acquisitions over the last year or two. But can you talk about the progress in driving some of the cost 
+synergies across the organization? Where is that today? Where is it showing up in the model, I guess? 
+And then, can we actually start to see an improvement in underlying profitability in SRS at some point? 
+ 
+Richard McPhail - The Home Depot, Inc. – Incoming CEO  
+ 
+So like I said, SRS, like the rest of some of their end markets has seen demand environments like we 
+haven't seen. Roofing specifically has had a lot of pressure on it and pricing is very sharp in that market. 
+If you look at all the rest of the verticals, landscape, pool, interiors, HVAC, we're building a cross-selling 
+value prop that does not exist anywhere else. And so we are – look, yes, there is short-term weather-
+driven pressure on pricing in their end markets. 
+ 
+But Dan Tinker, and a lot of folks at Home Depot are all working together to create an economic model 
+that should see margin expansion over the long run at SRS and that will contribute to Home Depot. And 
+so, look, we are confident in what we're building for the Pro and confident in the economic value it's 
+going to bring for them and for our shareholders. 
+ 
+Operator 
+ 
+Thank you. Ms. Janci, I'd like to turn the floor back over to you for closing comments. 
+ 
+ 
+ 
+ 
+18 
+ 
+Isabel Janci - The Home Depot, Inc. - VP, IR & Treasurer 
+ 
+Thank you, everyone, for joining us today. We look forward to speaking with you on our fourth quarter 
+earnings call in February. 
+ 
+Operator 
+ 
+Ladies and gentlemen, this does conclude today's teleconference. You may disconnect your lines at this 
+time. Thank you for your participation and have a wonderful day. 

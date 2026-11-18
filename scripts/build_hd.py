@@ -122,11 +122,12 @@ def verdict(q: dict) -> dict:
                 " — excess return " + _pct(gap)))
     points.append((
         "vtag.quality", "warn",
-        "Q2 净销售 " + f"{q2['net_sales']:,}" + " 百万美元（" + _pct(q2["net_sales_yoy"]) +
-        "），调整后 EPS $" + f"{q2['eps_adjusted']}" + " 超预期，但其中关税退款贡献约 145 个基点毛利",
-        "Q2 net sales of US$" + f"{q2['net_sales']:,}" + " million (" + _pct(q2["net_sales_yoy"]) +
-        "); adjusted EPS of $" + f"{q2['eps_adjusted']}" + " beat expectations, but tariff refunds "
-        "contributed about 145 bps of gross margin"))
+        "Q3 净销售 " + f"{q2['net_sales']:,}" + " 百万美元（" + _pct(q2["net_sales_yoy"]) +
+        "），可比销售 " + _pct(q2["comps"]) + "、调整后 EPS $" + f"{q2['eps_adjusted']}" +
+        "（+" + f"{round((q2['eps_adjusted']/q2['prev']['eps_adjusted']-1)*100,1)}" + "%）",
+        "Q3 net sales of US$" + f"{q2['net_sales']:,}" + " million (" + _pct(q2["net_sales_yoy"]) +
+        "); comps " + _pct(q2["comps"]) + " and adjusted EPS of $" + f"{q2['eps_adjusted']}" +
+        " (+" + f"{round((q2['eps_adjusted']/q2['prev']['eps_adjusted']-1)*100,1)}" + "% y/y)"))
     points.append((
         "vtag.pv", "warn",
         "平均客单价 " + _pct(q2["avg_ticket_yoy"]) + " 而交易量 " + _pct(q2["transactions_yoy"]) +
@@ -135,15 +136,17 @@ def verdict(q: dict) -> dict:
         " — growth this quarter was price-driven, not traffic-driven"))
     points.append((
         "vtag.growth", "up",
-        "SRS 分销业务 Q2 销售同比 +62% 至 $51 亿，所有垂直领域正增长且跑赢公司整体；"
-        "线上连续第五个季度双位数增长",
-        "SRS distribution Q2 sales +62% y/y to US$5.1 billion, with positive comps in every vertical and "
-        "ahead of the company overall; online posted a fifth consecutive quarter of double-digit growth"))
+        "16 个商品部门中 13 个正 comp，线上连续第六个季度双位数增长（Q3 约 +13%）；"
+        "大额交易（>$1,000）+4.5%",
+        "13 of 16 merchandising departments posted positive comps and online grew double-digits for a "
+        "sixth straight quarter (about +13% in Q3); big-ticket transactions above US$1,000 were +4.5%"))
     points.append((
-        "vtag.gov", "warn",
-        "CEO Ted Decker 自 2026-08-12 起临时病休，由 SEVP 与 CFO 共同代管，未任命永久继任者，回归时间未定",
-        "CEO Ted Decker has been on temporary medical leave since 2026-08-12; an SEVP and the CFO are "
-        "jointly in charge, no permanent successor has been named and no return date has been given"))
+        "vtag.gov", "up",
+        "CEO Ted Decker 已结束病休归队；2026-11-23 起 Richard McPhail 接任 CEO、Ann-Marie Campbell 任总裁兼 COO，"
+        "Decker 留任董事长，Jordan Broggi 接任 CFO —— 继任路径已明确",
+        "CEO Ted Decker has returned from medical leave; effective 2026-11-23 Richard McPhail becomes CEO, "
+        "Ann-Marie Campbell becomes President & COO, Decker stays on as Chair and Jordan Broggi becomes CFO "
+        "— the succession path is now settled"))
     if f.get("upside_pct") is not None:
         points.append((
             "vtag.val", "up" if f["upside_pct"] > 0 else "down",
@@ -176,7 +179,7 @@ def _kpi_cards(q: dict) -> str:
          S("kpi.spx") + " " + _pct(((q.get('bench') or {}).get('SPY') or {}).get("chg_1y")),
          S("kpi.excess"), _cls(p.get("chg_1y"))),
         ("kpi.netsales", f"${q2['net_sales']/1000:,.1f}B", S("kpi.yoy") + " " + _pct(q2["net_sales_yoy"]),
-         "FY2026 Q2", "up"),
+         "FY2026 Q3", "up"),
         ("kpi.eps", f"${_n(q2['eps_adjusted'])}", "GAAP $" + _n(q2["eps_diluted"]),
          S("kpi.ly") + " $" + _n(q2["prev"]["eps_adjusted"]), "up"),
         ("kpi.comps", _pct(q2["comps"]), S("kpi.us") + " " + _pct(q2["comps_us"]),
