@@ -264,7 +264,7 @@ UI = {
     "sk.dist": ("分销网络", "Distribution network"),
     "sk.emp": ("员工", "Employees"),
     "sk.global": ("全球", "Worldwide"),
-    "sk.markets": ("覆盖 7 个国家/地区市场", "Across 7 countries / markets"),
+    "sk.markets": ("6 个国家/地区零售市场", "6 retail markets / territories"),
     "sk.tam": ("可寻址市场", "Addressable market"),
 
     # ================================================================

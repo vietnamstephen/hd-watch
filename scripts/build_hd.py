@@ -19,6 +19,7 @@ import os
 import re
 import json
 import html
+import base64
 import datetime
 
 import config as C
@@ -252,6 +253,25 @@ def _quarter_table() -> str:
             "</tr></thead><tbody>" + "".join(body) + "</tbody></table>")
 
 
+def _avatar(p: dict) -> str:
+    """高管头像：读取 dashboard/assets/people/<key>.jpg 内联为 base64（保持单文件自包含）。
+    没有素材时降级为姓名首字母圆形占位，不伪造照片。"""
+    key = (p.get("photo") or "").strip()
+    name = p.get("name", "")
+    if key:
+        path = os.path.join(C.DASHBOARD_DIR, "assets", "people", key + ".jpg")
+        if os.path.exists(path):
+            try:
+                with open(path, "rb") as f:
+                    b64 = base64.b64encode(f.read()).decode("ascii")
+                return ("<img class='p-ava' alt='" + _esc(name) +
+                        "' src='data:image/jpeg;base64," + b64 + "'>")
+            except OSError:
+                pass
+    initials = "".join(w[0] for w in name.replace("-", " ").split()[:2]).upper() or "?"
+    return "<div class='p-ava ph' aria-hidden='true'>" + _esc(initials) + "</div>"
+
+
 def _leadership_html() -> str:
     out = ["<p class='note'>" + bi(C.LEADERSHIP["note"], I.FACT_LEADERSHIP["note"]) + "</p>", "<div class='ppl'>"]
     for i, p in enumerate(C.LEADERSHIP["people"]):
@@ -259,11 +279,12 @@ def _leadership_html() -> str:
         st = p.get("status", "")
         cls = "warn" if ("休假" in st or "病休" in st or "代理" in st) else "ok"
         out.append(
-            "<div class='person'><div class='p-head'><b>" + _esc(p["name"]) + "</b>"
+            "<div class='person'>" + _avatar(p) +
+            "<div class='p-body'><div class='p-head'><b>" + _esc(p["name"]) + "</b>"
             "<span class='p-title'>" + bi(p["title"], en.get("title", p["title"])) + "</span></div>"
             "<div class='p-status " + cls + "'>" +
             bi(p["status"], en.get("status", p["status"])) + "</div>"
-            "<div class='p-note'>" + bi(p.get("note", ""), en.get("note", "")) + "</div></div>")
+            "<div class='p-note'>" + bi(p.get("note", ""), en.get("note", "")) + "</div></div></div>")
     out.append("</div>")
 
     # 重大变动时间线
@@ -437,33 +458,142 @@ def _followup_html() -> str:
 def _store_html() -> str:
     s = C.STORES
     ex = s["expansion"]
-    return ("<div class='kpis'>"
-            "<div class='kpi'><div class='k-name'>" + S("sk.retail") + "</div>"
-            "<div class='k-big'>" + f"{s['retail']:,}" + "</div>"
-            "<div class='k-sub'>" + bi(f"当季新开 {ex['q2_opened']} 家", f"{ex['q2_opened']} opened this quarter")
-            + "</div>"
-            "<div class='k-foot'>" +
-            bi(f"全年计划约 {ex['fy2026_new_stores']} 家", f"~{ex['fy2026_new_stores']} planned for FY2026") +
-            "</div></div>"
-            "<div class='kpi'><div class='k-name'>" + S("sk.srs") + "</div>"
-            "<div class='k-big'>" + f"{s['srs_locations']:,}+" + "</div>"
-            "<div class='k-sub'>" + S("sk.dist") + "</div>"
-            "<div class='k-foot'>" +
-            bi("全年计划新增 " + ex["fy2026_new_srs_branches"] + " 家",
-               ex["fy2026_new_srs_branches"] + " planned for FY2026") + "</div></div>"
-            "<div class='kpi'><div class='k-name'>" + S("sk.emp") + "</div>"
-            "<div class='k-big'>" + f"{C.META['employees']:,}" + "</div>"
-            "<div class='k-sub'>" + S("sk.global") + "</div>"
-            "<div class='k-foot'>" + S("sk.markets") + "</div></div>"
-            "<div class='kpi'><div class='k-name'>" + S("sk.tam") + "</div>"
-            "<div class='k-big'>$" + str(C.STRATEGY['tam']['current_tn']) + "T</div>"
-            "<div class='k-sub'>" +
-            bi("由 $" + str(C.STRATEGY['tam']['former_tn']) + "T 扩大",
-               "up from $" + str(C.STRATEGY['tam']['former_tn']) + "T") + "</div>"
-            "<div class='k-foot'>" +
-            bi("其中 Pro 约 $" + str(C.STRATEGY['tam']['pro_pool_tn']) + "T",
-               "Pro pool about $" + str(C.STRATEGY['tam']['pro_pool_tn']) + "T") + "</div></div>"
-            "</div><p class='note'>" + bi(ex["note"], I.FACT_STORES["expansion_note"]) + "</p>")
+    d = s.get("detail_10k") or {}
+    wf = s.get("workforce") or {}
+
+    def card(did, name, big, sub, foot):
+        return ("<button type='button' class='kpi kpi-btn' data-detail='" + did + "' aria-expanded='false'>"
+                "<div class='k-name'>" + name + "</div>"
+                "<div class='k-big'>" + big + "</div>"
+                "<div class='k-sub'>" + sub + "</div>"
+                "<div class='k-foot'>" + foot + "</div>"
+                "<div class='k-more'>" + bi("点开看明细", "Click for detail") + " →</div></button>")
+
+    cards = (
+        card("stores", S("sk.retail"), f"{s['retail']:,}",
+             bi(f"截至 2026-11-01，当季净开 {ex.get('q3_opened', 8)} 家",
+                f"As of 2026-11-01; {ex.get('q3_opened', 8)} net new stores this quarter"),
+             bi(f"全年计划约 {ex['fy2026_new_stores']} 家",
+                f"~{ex['fy2026_new_stores']} planned for FY2026")) +
+        card("srs", S("sk.srs"), f"{s['srs_locations']:,}+", S("sk.dist"),
+             bi("全年计划新增 " + ex["fy2026_new_srs_branches"] + " 家",
+                ex["fy2026_new_srs_branches"] + " planned for FY2026")) +
+        card("emp", S("sk.emp"), f"{C.META['employees']:,}",
+             bi("截至 2026-02-01（10-K）", "As of 2026-02-01 (10-K)"),
+             bi("6 个国家/地区零售市场", "6 retail markets / territories")) +
+        card("tam", S("sk.tam"), "$" + str(C.STRATEGY['tam']['current_tn']) + "T",
+             bi("由 $" + str(C.STRATEGY['tam']['former_tn']) + "T 扩大",
+                "up from $" + str(C.STRATEGY['tam']['former_tn']) + "T"),
+             bi("其中 Pro 约 $" + str(C.STRATEGY['tam']['pro_pool_tn']) + "T",
+                "Pro pool about $" + str(C.STRATEGY['tam']['pro_pool_tn']) + "T"))
+    )
+
+    # ---------------- 明细面板 ----------------
+    def section(did, title_zh, title_en, body, src):
+        return ("<div class='kpi-panel' id='kp-" + did + "'>"
+                "<div class='kp-head'>" + bi(title_zh, title_en) + "</div>" + body +
+                "<div class='src'>" + src + "</div></div>")
+
+    # ① 门店：按国家/地区
+    rows = "".join(
+        "<tr><td class='row-h'>" + bi(_esc(c["name"]), _esc(c.get("name_en", c["name"]))) + "</td>"
+        "<td>" + f"{c['stores']:,}" + "</td><td>" + f"{c['share']:.1f}%" + "</td>"
+        "<td class='td-note'>" + bi(c["note"], c.get("note_en", c["note"])) + "</td></tr>"
+        for c in d.get("by_country", []))
+    states = "".join("<span class='chip'>" + bi(_esc(n), _esc(ne)) + " " + str(v) + "</span>"
+                     for n, ne, v in d.get("top_states", []))
+    stores_body = (
+        "<table class='tbl compact'><thead><tr><th class='row-h'>"
+        + bi("国家/地区", "Country / territory") + "</th><th>"
+        + bi("门店数", "Stores") + "</th><th>" + bi("占比", "Share") + "</th><th class='row-h'>"
+        + bi("说明", "Note") + "</th></tr></thead><tbody>" + rows +
+        "<tr><td class='row-h'><b>" + bi("合计", "Total") + "</b></td><td><b>"
+        + f"{d.get('total', 0):,}" + "</b></td><td>100%</td><td class='td-note'>"
+        + bi("海外（加+墨）" + str(d.get("overseas_stores", "")) + " 家，占 "
+             + f"{d.get('overseas_share', 0):.1f}%" + "%",
+             f"{d.get('overseas_stores', '')} stores outside the U.S. ({d.get('overseas_share', 0):.1f}%)")
+        + "</td></tr></tbody></table>"
+        + "<p class='note' style='margin:10px 0 6px'>"
+        + bi("门店数最多的 6 个州：" + "、".join(f"{n} {v}" for n, _e, v in d.get("top_states", [])),
+             "Top six states by store count: "
+             + ", ".join(f"{e} {v}" for _n, e, v in d.get("top_states", [])))
+        + "</p><div class='chips'>" + states + "</div>"
+        + "<p class='muted small' style='margin-top:6px'>"
+        + bi("单店规模：" + d.get("avg_size", ""), "Typical store: about 104,000 sq ft indoors plus "
+             "about 24,000 sq ft of outdoor garden space") + "</p>")
+
+    # ② SRS
+    srs_body = "<ul class='list'>" + "".join("<li>" + bi(z, e) + "</li>" for z, e in [
+        ("Q3 FY2026 电话会口径「1,340 余处」网点，覆盖美国与加拿大；10-K（2026-02-01）口径为「超过 1,250 处」。",
+         "Q3 FY2026 call: \"more than 1,340\" locations across the U.S. and Canada; the FY2025 10-K "
+         "(2026-02-01) said \"over 1,250\"."),
+        ("全年计划新增 40–50 家 SRS 网点，是增量扩张的主要载体（零售门店全年仅约 15 家）。",
+         "40–50 new SRS branches planned for FY2026 — the main vehicle for incremental expansion "
+         "(only about 15 retail stores a year)."),
+        ("收购 GMS 后按四条业务线运营：屋面与建材、室内与建筑制品、景观、泳池。",
+         "Following the GMS acquisition SRS runs four lines of business: roofing & building products, "
+         "interior & construction products, landscape, and pool."),
+        ("HVAC 垂直通过收购扩张（Mingledorff\'s），对毛利率有结构性摊薄。",
+         "The HVAC vertical is being expanded through acquisition (Mingledorff\'s), which structurally "
+         "dilutes gross margin."),
+    ]) + "</ul>"
+
+    # ③ 员工：按国家/地区
+    wrows = "".join(
+        "<tr><td class='row-h'>" + bi(_esc(c["name"]), _esc(c.get("name_en", c["name"]))) + "</td><td>" + f"{c['n']:,}" + "</td><td>"
+        + f"{c['pct']:.1f}%" + "</td></tr>" for c in wf.get("by_country", []))
+    emp_body = (
+        "<table class='tbl compact'><thead><tr><th class='row-h'>"
+        + bi("国家/地区", "Country / territory") + "</th><th>" + bi("员工数", "Associates")
+        + "</th><th>" + bi("占比", "Share") + "</th></tr></thead><tbody>" + wrows +
+        "<tr><td class='row-h'><b>" + bi("合计", "Total") + "</b></td><td><b>"
+        + f"{wf.get('total', 0):,}" + "</b></td><td>100%</td></tr></tbody></table>"
+        + "<p class='muted small' style='margin-top:6px'>"
+        + bi("其中受薪员工 " + f"{wf.get('salaried', 0):,}" + " 人，其余为小时工；"
+             + "公司只按「美国 / 加拿大 / 墨西哥 / 其他」四档披露，不逐国拆分。",
+             f"About {wf.get('salaried', 0):,} are salaried and the remainder hourly; the company "
+             "discloses only four buckets (U.S. / Canada / Mexico / Other), not country by country.")
+        + "</p><p class='note' style='margin:8px 0 0'>"
+        + bi("「其他」400 人：" + wf.get("other_note", ""),
+             "\"Other\" (400): sourcing and sourcing offices in India, Italy, Poland, Türkiye, "
+             "Taiwan, China, Vietnam and China — the company does not break this out by country.")
+        + "</p>")
+
+    # ④ TAM
+    tam_body = "<ul class='list'>" + "".join("<li>" + bi(z, e) + "</li>" for z, e in [
+        ("可寻址市场（TAM）由约 $1.1 万亿扩大至约 $1.2 万亿（SRS、GMS、Mingledorff\'s 并入后）。",
+         "Addressable market expanded from about US$1.1 trillion to about US$1.2 trillion after "
+         "SRS, GMS and Mingledorff\'s."),
+        ("其中 Pro 细分机会接近 $0.7 万亿，是战略重心（复杂 Pro 项目）。",
+         "The Pro opportunity is close to US$0.7 trillion and is the strategic focus (complex Pro jobs)."),
+        ("HVAC 分销打开约 $1,000 亿市场，为 SRS 新增垂直。",
+         "HVAC distribution opens a roughly US$100 billion market as a new SRS vertical."),
+        ("公司口径：美国家装市场份额约 47%–51%，行业第一。",
+         "Company framing: roughly 47%–51% share of the U.S. home-improvement market, the largest player."),
+    ]) + "</ul>"
+
+    panels = (
+        section("stores", "零售门店：按国家/地区分布", "Retail stores by country / territory", stores_body,
+                I.src_bi(d.get("src", ""))) +
+        section("srs", "SRS 分销网络", "SRS distribution network", srs_body, I.src_bi(s.get("src", ""))) +
+        section("emp", "员工：按国家/地区分布", "Associates by country / territory", emp_body,
+                I.src_bi(wf.get("src", ""))) +
+        section("tam", "可寻址市场（TAM）拆解", "Addressable market (TAM)", tam_body,
+                I.src_bi("2025 投资者大会新闻稿 + 公司披露"))
+    )
+
+    script = ("<script>(function(){var bs=document.querySelectorAll('.kpi-btn');"
+              "bs.forEach(function(b){b.addEventListener('click',function(){"
+              "var id=b.getAttribute('data-detail');var pn=document.getElementById('kp-'+id);"
+              "var on=pn.classList.contains('on');"
+              "document.querySelectorAll('.kpi-panel').forEach(function(x){x.classList.remove('on')});"
+              "bs.forEach(function(y){y.setAttribute('aria-expanded','false');y.classList.remove('act')});"
+              "if(!on){pn.classList.add('on');b.classList.add('act');b.setAttribute('aria-expanded','true');}"
+              "});});})();</script>")
+
+    return ("<div class='kpis kpis-click'>" + cards + "</div>"
+            "<div class='kpi-panels'>" + panels + "</div>"
+            "<p class='note'>" + bi(ex["note"], I.FACT_STORES["expansion_note"]) + "</p>" + script)
 
 
 def _news_html(news: dict) -> str:
@@ -792,9 +922,23 @@ __ECHARTS__
   .pl-cn{font-size:15px;font-weight:600;margin:2px 0 5px}
   .pl-desc{font-size:12.4px;color:var(--ink2)}
   .ppl{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:10px}
-  .person{border:1px solid var(--line);border-radius:10px;padding:11px 13px;background:var(--soft)}
+  .person{display:flex;gap:11px;align-items:flex-start;border:1px solid var(--line);border-radius:10px;padding:11px 13px;background:var(--soft)}
+  .p-ava{width:46px;height:46px;border-radius:50%;object-fit:cover;flex:0 0 46px;display:block;border:2px solid var(--card);box-shadow:0 0 0 1px var(--line)}
+  .p-ava.ph{display:flex;align-items:center;justify-content:center;background:var(--thead);color:var(--muted);font-weight:600;font-size:14px}
+  .p-body{flex:1;min-width:0}
   .p-head{display:flex;justify-content:space-between;align-items:baseline;gap:8px;flex-wrap:wrap}
   .p-title{font-size:11.5px;color:var(--muted)}
+  .kpis-click .kpi-btn{font:inherit;text-align:left;cursor:pointer;color:inherit;width:100%;transition:border-color .15s,box-shadow .15s}
+  .kpis-click .kpi-btn:hover{border-color:var(--accent);box-shadow:0 1px 8px rgba(0,0,0,.06)}
+  .kpis-click .kpi-btn.act{border-color:var(--accent)}
+  .k-more{font-size:10.5px;color:var(--accent);margin-top:7px}
+  .kpi-panels{margin-top:10px}
+  .kpi-panel{display:none;border:1px solid var(--line);border-radius:10px;padding:12px 14px;background:var(--card)}
+  .kpi-panel.on{display:block}
+  .kp-head{font-weight:600;font-size:13px;color:var(--ink2);margin-bottom:8px}
+  table.tbl td.td-note,table.tbl th.td-note{text-align:left;color:var(--ink2);font-size:11.8px}
+  .chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:4px}
+  .chip{font-size:11px;padding:2px 8px;border-radius:99px;border:1px solid var(--line);background:var(--soft);color:var(--ink2);font-variant-numeric:tabular-nums}
   .p-status{font-size:11.5px;margin-top:5px;display:inline-block;padding:1px 8px;border-radius:20px}
   .p-status.warn{background:var(--warnpill-bg);color:var(--warn)}
   .p-status.ok{background:var(--okpill-bg);color:var(--down)}

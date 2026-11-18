@@ -35,7 +35,7 @@ META = {
     "cik": "0000354950",
     "sector": "Consumer Cyclical / Home Improvement Retail",
     "founded": 1978,
-    "employees": 470000,
+    "employees": 472400,
     "index_membership": ["道琼斯工业平均指数", "标普500"],
     "hq": "Atlanta, Georgia",
     "business": "全球最大的家居建材零售与专业分销商，业务覆盖美国 50 州、哥伦比亚特区、"
@@ -73,30 +73,30 @@ LEADERSHIP = {
             "Decker 留任董事长（Chair）；Jordan Broggi 接任 CFO。临时 CEO 办公室机制同日结束。",
     "src": "8-K (2026-11-17)×2 + Q3 FY2026 电话会（2026-11-17）+ 新闻稿",
     "people": [
-        {"name": "Ted Decker", "title": "董事长（Chair）",
+        {"name": "Ted Decker", "title": "董事长（Chair）", "photo": "decker",
          "status": "已结束病休归队；2026-11-23 起卸任 CEO、留任董事长", "since": "2022 年任 CEO",
          "note": "Pro 战略的主要推动者；Q3 电话会开场称「I'm glad to be back」，并主持交接安排"},
-        {"name": "Richard McPhail", "title": "CEO（候任，2026-11-23 生效）",
+        {"name": "Richard McPhail", "title": "CEO（候任，2026-11-23 生效）", "photo": "mcphail",
          "status": "在任 CFO 至交接完成；2026-11-23 起任 CEO 并加入董事会",
          "age": 56, "since": "2019 年 9 月任 CFO，2026-11 起任 CEO",
          "note": "2005 年入职，21 年司龄；病休期间为 SEC 口径下的临时主要执行官，Q3 电话会由其主讲财务与指引"},
-        {"name": "Ann-Marie Campbell", "title": "总裁兼 COO（候任，2026-11-23 生效）",
+        {"name": "Ann-Marie Campbell", "title": "总裁兼 COO（候任，2026-11-23 生效）", "photo": "campbell",
          "status": "在任 SEVP；2026-11-23 起任总裁兼 COO", "age": 61,
          "note": "1985 年以收银员身份入职，41 年司龄；历任南部区域总裁、美国门店 EVP 等职"},
-        {"name": "Jordan Broggi", "title": "CFO（候任）",
+        {"name": "Jordan Broggi", "title": "CFO（候任）", "photo": "broggi",
          "status": "在任 EVP 互联零售；接任 CFO",
          "note": "13 年司龄，曾任 EVP 互联零售兼线上业务总裁，早年在财务体系（FP&A、战略、供应链财务）任职",
          "src": "Q3 FY2026 电话会（2026-11-17）"},
-        {"name": "Billy Bastek", "title": "执行副总裁，商品（Merchandising）",
+        {"name": "Billy Bastek", "title": "执行副总裁，商品（Merchandising）", "photo": "bastek",
          "status": "在任；2026-08 起增管产品开发与自有品牌",
          "note": "负责品类与供应商关系、关税与供应链应对；Q3 电话会主讲商品与需求"},
-        {"name": "Teresa Wynn Roseborough", "title": "执行副总裁、总法律顾问兼公司秘书",
+        {"name": "Teresa Wynn Roseborough", "title": "执行副总裁、总法律顾问兼公司秘书", "photo": "roseborough",
          "status": "在任",
          "note": "法律、合规与公司治理负责人", "src": "8-K (2026-08-21) 签署人"},
-        {"name": "Isabel Janci", "title": "副总裁，投资者关系兼司库",
+        {"name": "Isabel Janci", "title": "副总裁，投资者关系兼司库", "photo": "janci",
          "status": "在任",
          "note": "Q3 FY2026 电话会主持人", "src": "Q3 FY2026 电话会记录"},
-        {"name": "Greg Brenneman", "title": "独立首席董事",
+        {"name": "Greg Brenneman", "title": "独立首席董事", "photo": "brenneman",
          "status": "在任；CEO 病休期间曾主持董事会",
          "note": "经董事会决议，由其在 CEO 缺席期间主持董事会工作"},
     ],
@@ -181,18 +181,58 @@ PRIVATE_BRANDS = {
 
 # ---------------------------------------------------------------- 门店与扩张
 STORES = {
-    "retail": 2364,
+    "retail": 2372,
     "srs_locations": 1340,
     "srs_note": "SRS 网点数为「1,340 余处」",
     "countries": "美国 50 州 + 哥伦比亚特区 + 波多黎各 + 美属维尔京群岛 + 关岛 + 加拿大 10 省 + 墨西哥",
     "expansion": {
         "q2_opened": 3,
+        "q3_opened": 8,
         "fy2026_new_stores": 15,
         "fy2026_new_srs_branches": "40–50",
         "note": "零售门店扩张已进入低速阶段（全年约 15 家），"
                 "增量扩张主要发生在 SRS 分销网点（40–50 家/年）。",
     },
-    "src": "Q2 FY2026 新闻稿 + 电话会",
+    # ---- 门店明细（10-K 原文表格，2026-02-01 口径）----
+    "detail_10k": {
+        "asof": "2026-02-01",
+        "total": 2359,
+        "overseas_stores": 324,
+        "overseas_share": 13.7,
+        "by_country": [
+            {"name": "美国", "name_en": "United States", "stores": 2035, "share": 86.3,
+             "note": "含波多黎各 10、关岛 1、美属维尔京群岛 2；本土 50 州 + 华盛顿特区合计 2,022",
+             "note_en": "Includes Puerto Rico 10, Guam 1 and U.S. Virgin Islands 2; 2,022 across the "
+                        "50 states and Washington, D.C."},
+            {"name": "加拿大", "name_en": "Canada", "stores": 182, "share": 7.7,
+             "note": "覆盖 10 个省，安大略 88 家最多",
+             "note_en": "All 10 provinces; Ontario leads with 88"},
+            {"name": "墨西哥", "name_en": "Mexico", "stores": 142, "share": 6.0,
+             "note": "覆盖 32 个州级行政区，新莱昂 14 家最多",
+             "note_en": "32 states; Nuevo León leads with 14"},
+        ],
+        "top_states": [["加利福尼亚", "California", 247], ["德克萨斯", "Texas", 190],
+                       ["佛罗里达", "Florida", 163], ["纽约", "New York", 101],
+                       ["佐治亚", "Georgia", 90], ["伊利诺伊", "Illinois", 76]],
+        "avg_size": "单店约 10.4 万平方英尺室内 + 约 2.4 万平方英尺户外花园",
+        "src": "FY2025 Form 10-K（截至 2026-02-01），Item 2. Properties 门店州/省明细表",
+    },
+    # ---- 员工明细（10-K 人力资本章节，2026-02-01 口径）----
+    "workforce": {
+        "asof": "2026-02-01",
+        "total": 472400,
+        "salaried": 53400,
+        "by_country": [
+            {"name": "美国", "name_en": "United States", "n": 422500, "pct": 89.4},
+            {"name": "加拿大", "name_en": "Canada", "n": 31700, "pct": 6.7},
+            {"name": "墨西哥", "name_en": "Mexico", "n": 17800, "pct": 3.8},
+            {"name": "其他（采购办）", "name_en": "Other (sourcing)", "n": 400, "pct": 0.1},
+        ],
+        "other_note": "采购与采购办分布于印度、意大利、波兰、土耳其、中国台湾、越南、中国；"
+                      "公司只披露「其他」合计 400 人，未逐国拆分",
+        "src": "FY2025 Form 10-K，Human Capital — Geographic makeup of our workforce（第 7 页）",
+    },
+    "src": "Q3 FY2026 新闻稿 + 电话会；门店/员工国家分布取 FY2025 10-K",
 }
 
 # ---------------------------------------------------------------- 中美贸易 / 关税
