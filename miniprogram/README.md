@@ -19,7 +19,12 @@ miniprogram/
 ├── sitemap.json
 ├── data/mini.js                     # 全部数据，由脚本生成，勿手改
 ├── images/                          # tabBar 图标（本地生成，共 6 张）
+├── package.json                     # 云服务 SDK 依赖
 ├── utils/fmt.js                     # 页面共用格式化
+├── utils/cloud.js                   # 唯一云客户端初始化（publicConfig）
+├── utils/cloud-config.js            # endpoint / publishableKey
+├── utils/workbuddy-data-access.js   # 周报表只读访问封装
+├── utils/workbuddy-cloud-diagnostics.js # 云请求失败诊断
 └── pages/
     ├── index/    概览
     ├── patio/    明星产品
@@ -39,11 +44,16 @@ python make_tabbar_icons.py    #    （图标不会变，一般不用重跑）
 之后需要人点一下：**打开应用「HD 户外周报」的预览面板 → 右上角「分享」→ 上传新版本**。
 小程序没有链接可自动更新，这是微信生态的固定环节。
 
+## 云端周报数据
+- 表 `weekly_report`（公开只读）：`week` 主键、`generated_at`、`payload`（整份 mini.js JSONB）。
+- 小程序端无写权限；每周刷新后需把最新 `data/mini.js` 的 JSON 以 `week` 为键 upsert 到该表，
+  这一步在 WorkBuddy 云服务里完成。未同步时小程序仍可用包内新数据（按周次比较）。
+
 ## 两个关键设计决定
 
-1. **数据内置，不走接口。** 微信要求 `wx.request` 的域名在小程序后台配置为合法域名
-   且完成 ICP 备案与归属校验；WorkBuddy 发布的看板域名不满足，走不通。
-   数据随包发布（约 38 KB，主包上限 2 MB），换来的是零后端、离线可看、无鉴权问题。
+1. **云端周报 + 包内基线。** 每周数据存于云服务数据库表 `weekly_report`（公开只读），
+   小程序启动经 SDK 读取最新一期；云端不可用时退回随包的 `data/mini.js`，离线仍可看。
+   云端周次落后于包内周次时也用包内数据，避免周更后显示旧周报。
 2. **图表全部用 WXML/WXSS 与原生 canvas 实现，不引入 ECharts 小程序版。**
    榜单条形图用 `view` + 百分比宽度，走势图用 canvas 2d 手绘 —— 包体小、无第三方依赖、深浅色通过主题变量直接适配。
 

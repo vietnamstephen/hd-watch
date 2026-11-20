@@ -41,6 +41,8 @@ Page({
 
   onLoad() {
     this.build()
+    const a = getApp()
+    if (a && a.whenMiniReady) a.whenMiniReady(() => this.build())
   },
 
   build() {

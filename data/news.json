@@ -1,142 +1,121 @@
 {
-  "asof": "2026-11-18 22:13:05",
+  "asof": "2026-11-21 02:01:04",
   "errors": [
     "yfinance 新闻失败：YFDataException"
   ],
   "items": [
     {
-      "title": "Lowe's Retreats On Outlook, Home Depot Stock Eases After Earnings",
+      "title": "CFOs On the Move: Week ending Nov. 20",
       "publisher": "Yahoo Finance",
-      "published": "Wed, 18 Nov 2026 13:52:19 +0000",
-      "url": "https://finance.yahoo.com/m/adf5cdf3-7d46-3aea-9023-e004c7185486/lowe%27s-retreats-on-outlook%2C.html?.tsrc=rss",
+      "published": "Fri, 20 Nov 2026 14:47:28 +0000",
+      "url": "https://www.cfo.com/news/cfos-on-the-move-nov-20-Claire-Bramley-PayPal-Richard-McPhail-Home-Depot-Erik-Uitenbogaart-Citgo/875227/?.tsrc=rss",
       "src": "yahoo-rss"
     },
     {
-      "title": "Home Depot reports third quarter sales growth, appoints McPhail CEO",
+      "title": "Home Depot (HD) Sees $76.7 Million in Net ETF Buying on Nov. 18",
       "publisher": "Yahoo Finance",
-      "published": "Wed, 18 Nov 2026 11:47:30 +0000",
-      "url": "https://www.retail-insight-network.com/news/home-depot-q3-mcphail-ceo/?.tsrc=rss",
+      "published": "Fri, 20 Nov 2026 11:00:53 +0000",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/home-depot-hd-sees-76-110053110.html?.tsrc=rss",
       "src": "yahoo-rss"
     },
     {
-      "title": "Zacks Investment Ideas feature highlights: Home Depot and Lowe's",
+      "title": "Home Depot Gets a New CEO on November 23. His First Job Is a 32.8% Gross Margin",
       "publisher": "Yahoo Finance",
-      "published": "Wed, 18 Nov 2026 09:37:00 +0000",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/zacks-investment-ideas-feature-highlights-093700469.html?.tsrc=rss",
+      "published": "Fri, 20 Nov 2026 10:22:23 +0000",
+      "url": "https://www.tikr.com/blog/home-depot-gets-a-new-ceo-on-november-23-his-first-job-is-a-32-8-gross-margin?ref=yahoofinance&amp;tlnk=yf-261120-m8vc5ggw&amp;.tsrc=rss",
       "src": "yahoo-rss"
     },
     {
-      "title": "HD Stock On Track To Reverse 6 Weeks Of Gains: Goldman Sachs Trims Home Depot’s Price Target On Margin Pressure But Jim Cramer Is Bullish",
+      "title": "A $6.6 Billion Fund Dumps These 2 Stocks",
       "publisher": "Yahoo Finance",
-      "published": "Wed, 18 Nov 2026 06:58:46 +0000",
-      "url": "https://stocktwits.com/news-articles/markets/equity/hd-stock-home-depot-q3-earnings-price-target-jim-cramer-housing/cNbXteIR9hx?.tsrc=rss",
+      "published": "Thu, 19 Nov 2026 22:37:54 +0000",
+      "url": "https://www.tikr.com/blog/a-6-6-billion-fund-dumps-these-2-stocks?ref=yahoofinance&amp;tlnk=yf-261119-6frhj2xf&amp;.tsrc=rss",
       "src": "yahoo-rss"
     },
     {
-      "title": "Home Depot’s Comparable Sales Rose 2.2% Even as Customer Transactions Fell 0.5%. Here’s What’s Behind the Gap.",
+      "title": "The Home Depot Declares Quarterly Dividend of $2.33",
       "publisher": "Yahoo Finance",
-      "published": "Wed, 18 Nov 2026 06:12:13 +0000",
-      "url": "https://www.fool.com/investing/2026/11/18/home-depots-comparable-sales-rose-22-even-as-customer-transactions-fell-05-heres-whats-behind-the-gap/?.tsrc=rss",
+      "published": "Thu, 19 Nov 2026 21:15:00 +0000",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/home-depot-declares-quarterly-dividend-211500958.html?.tsrc=rss",
       "src": "yahoo-rss"
     },
     {
-      "title": "Home Depot Names New CEO, Carves Out A Sales Gain",
+      "title": "Is Home Depot (HD) Undervalued Following Its Q3 Results Guidance Reset And CEO Change?",
       "publisher": "Yahoo Finance",
-      "published": "Wed, 18 Nov 2026 03:00:13 +0000",
-      "url": "https://www.mediapost.com/publications/article/419507/home-depot-names-new-ceo-carves-out-a-sales-gain.html?.tsrc=rss",
+      "published": "Thu, 19 Nov 2026 21:12:47 +0000",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/home-depot-hd-undervalued-following-211247836.html?.tsrc=rss",
       "src": "yahoo-rss"
     },
     {
-      "title": "Home Depot (HD) Q3 Results Meet Growth But Margins Constrain Upside",
+      "title": "Sector Update: Consumer Stocks Fall Late Afternoon",
       "publisher": "Yahoo Finance",
-      "published": "Wed, 18 Nov 2026 00:19:37 +0000",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/home-depot-hd-q3-results-001937621.html?.tsrc=rss",
+      "published": "Thu, 19 Nov 2026 20:44:35 +0000",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-fall-afternoon-204435029.html?.tsrc=rss",
       "src": "yahoo-rss"
     },
     {
-      "title": "Home Depot: 3 Key Takeaways for Long-Term Investors",
+      "title": "Filings Show Trump Sold MCD and HD and Bought SpaceX Stock Instead",
       "publisher": "Yahoo Finance",
-      "published": "Tue, 17 Nov 2026 23:19:34 +0000",
-      "url": "https://www.fool.com/earnings/takeaways/2026/11/17/home-depot-3-key-takeaways-for-long-term-investors/?.tsrc=rss",
+      "published": "Fri, 20 Nov 2026 14:13:54 +0000",
+      "url": "https://247wallst.com/investing/2026/11/20/filings-show-trump-sold-mcd-and-hd-and-bought-spacex-stock-instead/?.tsrc=rss",
       "src": "yahoo-rss"
     },
     {
-      "title": "Jim Cramer Says Home Depot Beat but Gave a ‘Tepid’ Forecast. Why He Calls It a Rate Stock",
+      "title": "Trump’s Tariff Refund Saved Lowe’s From An Earnings Miss. Here’s The Math On How Government Tariff Refunds Are Padding Retailers’ Profits",
       "publisher": "Yahoo Finance",
-      "published": "Tue, 17 Nov 2026 22:07:36 +0000",
-      "url": "https://247wallst.com/investing/2026/11/17/jim-cramer-says-home-depot-beat-but-gave-a-tepid-forecast-why-he-calls-it-a-rate-stock/?.tsrc=rss",
+      "published": "Fri, 20 Nov 2026 15:40:40 +0000",
+      "url": "https://247wallst.com/investing/2026/11/20/trumps-tariff-refund-saved-lowes-from-an-earnings-miss-heres-the-math-on-how-government-tariff-refunds-are-padding-retailers-profits/?.tsrc=rss",
       "src": "yahoo-rss"
     },
     {
-      "title": "Nvidia, Intel, Salesforce, SpaceX, Anthropic, Sandisk, Home Depot, and More That Explain Today’s Market",
+      "title": "343 Companies Report $28.5 Billion In Trump Tariff Refunds. Here's Where The Money Is Going.",
       "publisher": "Yahoo Finance",
-      "published": "Tue, 17 Nov 2026 21:46:00 +0000",
-      "url": "https://finance.yahoo.com/m/5d4c8ff4-57bc-3350-b217-681441a4f8b3/nvidia%2C-intel%2C-salesforce%2C.html?.tsrc=rss",
+      "published": "Fri, 20 Nov 2026 12:48:19 +0000",
+      "url": "https://www.ibtimes.com/us-companies-tariff-refunds-supreme-court-ruling-3810008?.tsrc=rss",
       "src": "yahoo-rss"
     },
     {
-      "title": "Home Depot (HD) Q3 2026 Earnings Call Transcript",
+      "title": "What State Street Consumer Discretionary SPDR (XLY) Bought: Amazon Leads on Nov. 18",
       "publisher": "Yahoo Finance",
-      "published": "Tue, 17 Nov 2026 21:14:22 +0000",
-      "url": "https://www.fool.com/earnings/call-transcripts/2026/11/17/home-depot-hd-q3-2026-earnings-call-transcript/?.tsrc=rss",
+      "published": "Fri, 20 Nov 2026 11:04:57 +0000",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/state-street-consumer-discretionary-spdr-110457372.html?.tsrc=rss",
       "src": "yahoo-rss"
     },
     {
-      "title": "The Home Depot Inc (HD) (Q3 2026) Earnings Call Highlights: Sales Up 4.9% to $43. ...",
+      "title": "Capital Group Dividend Value (CGDV) Adds BlackRock and Dominion on Nov. 18",
       "publisher": "Yahoo Finance",
-      "published": "Tue, 17 Nov 2026 21:01:18 +0000",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/home-depot-inc-hd-q3-210118237.html?.tsrc=rss",
+      "published": "Fri, 20 Nov 2026 11:03:50 +0000",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/capital-group-dividend-value-cgdv-110350011.html?.tsrc=rss",
       "src": "yahoo-rss"
     },
     {
-      "title": "Home Depot CFO jumps to CEO seat as housing market sags",
+      "title": "Trump Just Disclosed Tesla and SpaceX Stock Purchases. Here's What His Portfolio Moves Reveal",
       "publisher": "Yahoo Finance",
-      "published": "Tue, 17 Nov 2026 20:45:18 +0000",
-      "url": "https://www.cfodive.com/news/home-depot-cfo-jumps-ceo-seat-as-housing-market-flatlines/874972/?.tsrc=rss",
+      "published": "Thu, 19 Nov 2026 20:29:31 +0000",
+      "url": "https://www.fool.com/investing/2026/11/19/trump-just-disclosed-tesla-and-spacex-stock-purchases-here-s-what-his-portfolio-moves-reveal/?.tsrc=rss",
       "src": "yahoo-rss"
     },
     {
-      "title": "Sector Update: Consumer Stocks Decline Late Afternoon",
+      "title": "GME Stock Adds 2% After Disclosure Reveals Small Buy-In From Donald Trump",
       "publisher": "Yahoo Finance",
-      "published": "Tue, 17 Nov 2026 20:43:09 +0000",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-decline-afternoon-204309541.html?.tsrc=rss",
+      "published": "Thu, 19 Nov 2026 19:32:06 +0000",
+      "url": "https://stocktwits.com/news-articles/markets/equity/gme-stock-ads-2-after-disclosure-reveals-small-buy-in-from-donald-trump/cNbij1LR90A?.tsrc=rss",
       "src": "yahoo-rss"
     },
     {
-      "title": "State Street Consumer Discretionary (XLY) Sells Amazon and Tesla on Monday",
+      "title": "Earnings Calendar and Analysis for This Week",
       "publisher": "Yahoo Finance",
-      "published": "Wed, 18 Nov 2026 11:06:12 +0000",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/state-street-consumer-discretionary-xly-110612298.html?.tsrc=rss",
+      "published": "Thu, 19 Nov 2026 19:14:22 +0000",
+      "url": "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks?.tsrc=rss",
       "src": "yahoo-rss"
     },
     {
-      "title": "4 Dividend Stocks That Can Thrive Under a Democratic Congress",
+      "title": "Ross Stores Earnings Beat But Tepid Holiday Outlook Sinks Stock",
       "publisher": "Yahoo Finance",
-      "published": "Wed, 18 Nov 2026 13:15:11 +0000",
-      "url": "https://247wallst.com/investing/2026/11/18/4-dividend-stocks-that-can-thrive-under-a-democratic-congress-2/?.tsrc=rss",
-      "src": "yahoo-rss"
-    },
-    {
-      "title": "Lowe’s Stock Slides Despite Earnings Beat. What’s Puzzling Investors.",
-      "publisher": "Yahoo Finance",
-      "published": "Wed, 18 Nov 2026 11:35:00 +0000",
-      "url": "https://finance.yahoo.com/m/3c4473e7-2521-35bf-ae7c-3d520563fcfc/lowe%E2%80%99s-stock-slides-despite.html?.tsrc=rss",
-      "src": "yahoo-rss"
-    },
-    {
-      "title": "Dow Dives 848 Points as NSA Outage Wrecks Tech: Stock Market Today",
-      "publisher": "Yahoo Finance",
-      "published": "Tue, 17 Nov 2026 21:09:23 +0000",
-      "url": "https://www.kiplinger.com/investing/stocks/dow-dives-848-points-as-nsa-outage-wrecks-tech-stock-market-today?.tsrc=rss",
-      "src": "yahoo-rss"
-    },
-    {
-      "title": "Home Depot earnings analysis: questions answered and next catalysts",
-      "publisher": "Yahoo Finance",
-      "published": "Tue, 17 Nov 2026 20:51:14 +0000",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/home-depot-earnings-analysis-questions-205114963.html?.tsrc=rss",
+      "published": "Fri, 20 Nov 2026 15:32:30 +0000",
+      "url": "https://finance.yahoo.com/m/2a3dc039-5d33-38ad-92d8-639d011370eb/ross-stores-earnings-beat-but.html?.tsrc=rss",
       "src": "yahoo-rss"
     }
   ],
-  "count": 19
+  "count": 16
 }
