@@ -1,7 +1,14 @@
 {
-  "asof": "2026-11-21 02:01:02",
+  "asof": "2026-11-22 02:01:00",
   "errors": [],
   "items": [
+    {
+      "form": "10-Q",
+      "filed": "2026-11-20",
+      "period": "2026-11-01",
+      "url": "https://www.sec.gov/Archives/edgar/data/354950/000162828026075287/hd-20261101.htm",
+      "accession": "0001628280-26-075287"
+    },
     {
       "form": "8-K",
       "filed": "2026-11-17",
@@ -274,13 +281,6 @@
       "period": "2024-04-28",
       "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495024000152/hd-20240428.htm",
       "accession": "0000354950-24-000152"
-    },
-    {
-      "form": "8-K",
-      "filed": "2024-05-14",
-      "period": "2024-05-14",
-      "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495024000118/hd-20240514.htm",
-      "accession": "0000354950-24-000118"
     }
   ],
   "name": "HOME DEPOT, INC.",

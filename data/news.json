@@ -1,14 +1,42 @@
 {
-  "asof": "2026-11-21 02:01:04",
+  "asof": "2026-11-22 02:01:03",
   "errors": [
     "yfinance 新闻失败：YFDataException"
   ],
   "items": [
     {
+      "title": "U.S. Home Sales Just Hit Their Lowest Level in 25 Years. Is the Housing Market Breaking?",
+      "publisher": "Yahoo Finance",
+      "published": "Sat, 21 Nov 2026 16:24:34 +0000",
+      "url": "https://247wallst.com/investing/2026/11/21/u-s-home-sales-just-hit-their-lowest-level-in-25-years-is-the-housing-market-breaking/?.tsrc=rss",
+      "src": "yahoo-rss"
+    },
+    {
+      "title": "Should CEO Change Require Action From Home Depot Stock Investors?",
+      "publisher": "Yahoo Finance",
+      "published": "Sat, 21 Nov 2026 04:20:18 +0000",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ceo-change-require-action-home-042018887.html?.tsrc=rss",
+      "src": "yahoo-rss"
+    },
+    {
+      "title": "Peter Lynch Made Millions for Investors by Following One Simple Rule",
+      "publisher": "Yahoo Finance",
+      "published": "Fri, 20 Nov 2026 19:21:31 +0000",
+      "url": "https://247wallst.com/investing/2026/11/20/peter-lynch-made-millions-for-investors-by-following-one-simple-rule/?.tsrc=rss",
+      "src": "yahoo-rss"
+    },
+    {
       "title": "CFOs On the Move: Week ending Nov. 20",
       "publisher": "Yahoo Finance",
       "published": "Fri, 20 Nov 2026 14:47:28 +0000",
       "url": "https://www.cfo.com/news/cfos-on-the-move-nov-20-Claire-Bramley-PayPal-Richard-McPhail-Home-Depot-Erik-Uitenbogaart-Citgo/875227/?.tsrc=rss",
+      "src": "yahoo-rss"
+    },
+    {
+      "title": "Home Depot Posts a Q3 Double Beat, But Is Its Rebound Built to Last?",
+      "publisher": "Yahoo Finance",
+      "published": "Fri, 20 Nov 2026 12:35:00 +0000",
+      "url": "https://www.marketbeat.com/articles/home-depot-posts-a-q3-double-beat-but-is-its-rebound-built-to-last/?utm_source=yahoofinance&amp;utm_medium=yahoofinance&amp;.tsrc=rss",
       "src": "yahoo-rss"
     },
     {
@@ -40,17 +68,10 @@
       "src": "yahoo-rss"
     },
     {
-      "title": "Is Home Depot (HD) Undervalued Following Its Q3 Results Guidance Reset And CEO Change?",
+      "title": "Trump Calls Huang’s Exit “Such a Tragedy” as His Filing Shows Up to $380,000 of Nvidia Buys",
       "publisher": "Yahoo Finance",
-      "published": "Thu, 19 Nov 2026 21:12:47 +0000",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/home-depot-hd-undervalued-following-211247836.html?.tsrc=rss",
-      "src": "yahoo-rss"
-    },
-    {
-      "title": "Sector Update: Consumer Stocks Fall Late Afternoon",
-      "publisher": "Yahoo Finance",
-      "published": "Thu, 19 Nov 2026 20:44:35 +0000",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-fall-afternoon-204435029.html?.tsrc=rss",
+      "published": "Sat, 21 Nov 2026 15:01:49 +0000",
+      "url": "https://www.tikr.com/blog/trump-calls-huangs-exit-such-a-tragedy-as-his-filing-shows-up-to-380000-of-nvidia-buys?ref=yahoofinance&amp;tlnk=yf-261121-64rjxj6w&amp;.tsrc=rss",
       "src": "yahoo-rss"
     },
     {
@@ -58,6 +79,27 @@
       "publisher": "Yahoo Finance",
       "published": "Fri, 20 Nov 2026 14:13:54 +0000",
       "url": "https://247wallst.com/investing/2026/11/20/filings-show-trump-sold-mcd-and-hd-and-bought-spacex-stock-instead/?.tsrc=rss",
+      "src": "yahoo-rss"
+    },
+    {
+      "title": "Shopping Till We Drop",
+      "publisher": "Yahoo Finance",
+      "published": "Fri, 20 Nov 2026 23:30:00 +0000",
+      "url": "https://finance.yahoo.com/m/f12326bb-d1df-3a01-adc2-2d8798431a06/shopping-till-we-drop.html?.tsrc=rss",
+      "src": "yahoo-rss"
+    },
+    {
+      "title": "Georgia’s Top Technology Executives Honored at the 2026 GeorgiaCIO ORBIE Awards",
+      "publisher": "Yahoo Finance",
+      "published": "Fri, 20 Nov 2026 18:40:00 +0000",
+      "url": "https://finance.yahoo.com/technology/articles/georgia-top-technology-executives-honored-184000559.html?.tsrc=rss",
+      "src": "yahoo-rss"
+    },
+    {
+      "title": "Own Walmart? Its Cash Lags Its Price",
+      "publisher": "Yahoo Finance",
+      "published": "Fri, 20 Nov 2026 18:24:11 +0000",
+      "url": "https://www.trefis.com/stock/wmt/articles/627188/own-walmart-its-cash-lags-its-price/2026-11-20?.tsrc=rss",
       "src": "yahoo-rss"
     },
     {
@@ -89,27 +131,6 @@
       "src": "yahoo-rss"
     },
     {
-      "title": "Trump Just Disclosed Tesla and SpaceX Stock Purchases. Here's What His Portfolio Moves Reveal",
-      "publisher": "Yahoo Finance",
-      "published": "Thu, 19 Nov 2026 20:29:31 +0000",
-      "url": "https://www.fool.com/investing/2026/11/19/trump-just-disclosed-tesla-and-spacex-stock-purchases-here-s-what-his-portfolio-moves-reveal/?.tsrc=rss",
-      "src": "yahoo-rss"
-    },
-    {
-      "title": "GME Stock Adds 2% After Disclosure Reveals Small Buy-In From Donald Trump",
-      "publisher": "Yahoo Finance",
-      "published": "Thu, 19 Nov 2026 19:32:06 +0000",
-      "url": "https://stocktwits.com/news-articles/markets/equity/gme-stock-ads-2-after-disclosure-reveals-small-buy-in-from-donald-trump/cNbij1LR90A?.tsrc=rss",
-      "src": "yahoo-rss"
-    },
-    {
-      "title": "Earnings Calendar and Analysis for This Week",
-      "publisher": "Yahoo Finance",
-      "published": "Thu, 19 Nov 2026 19:14:22 +0000",
-      "url": "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks?.tsrc=rss",
-      "src": "yahoo-rss"
-    },
-    {
       "title": "Ross Stores Earnings Beat But Tepid Holiday Outlook Sinks Stock",
       "publisher": "Yahoo Finance",
       "published": "Fri, 20 Nov 2026 15:32:30 +0000",
@@ -117,5 +138,5 @@
       "src": "yahoo-rss"
     }
   ],
-  "count": 16
+  "count": 19
 }
