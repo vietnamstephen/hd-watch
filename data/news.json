@@ -1,9 +1,23 @@
 {
-  "asof": "2026-11-22 02:01:03",
+  "asof": "2026-11-23 02:00:41",
   "errors": [
     "yfinance 新闻失败：YFDataException"
   ],
   "items": [
+    {
+      "title": "Home Depot Just Delivered Great News to Investors",
+      "publisher": "Yahoo Finance",
+      "published": "Sun, 22 Nov 2026 12:25:02 +0000",
+      "url": "https://www.fool.com/investing/2026/11/22/home-depot-just-delivered-great-news-to-investors/?.tsrc=rss",
+      "src": "yahoo-rss"
+    },
+    {
+      "title": "Mortgage Rates Have Jumped More Than 1 Point Since February. Home Depot and Lowe’s Shareholders Are Feeling the Pain.",
+      "publisher": "Yahoo Finance",
+      "published": "Sun, 22 Nov 2026 07:43:02 +0000",
+      "url": "https://www.fool.com/investing/2026/11/22/mortgage-rates-have-jumped-more-than-1-point-since-february-home-depot-and-lowes-shareholders-are-feeling-the-pain/?.tsrc=rss",
+      "src": "yahoo-rss"
+    },
     {
       "title": "U.S. Home Sales Just Hit Their Lowest Level in 25 Years. Is the Housing Market Breaking?",
       "publisher": "Yahoo Finance",
@@ -51,20 +65,6 @@
       "publisher": "Yahoo Finance",
       "published": "Fri, 20 Nov 2026 10:22:23 +0000",
       "url": "https://www.tikr.com/blog/home-depot-gets-a-new-ceo-on-november-23-his-first-job-is-a-32-8-gross-margin?ref=yahoofinance&amp;tlnk=yf-261120-m8vc5ggw&amp;.tsrc=rss",
-      "src": "yahoo-rss"
-    },
-    {
-      "title": "A $6.6 Billion Fund Dumps These 2 Stocks",
-      "publisher": "Yahoo Finance",
-      "published": "Thu, 19 Nov 2026 22:37:54 +0000",
-      "url": "https://www.tikr.com/blog/a-6-6-billion-fund-dumps-these-2-stocks?ref=yahoofinance&amp;tlnk=yf-261119-6frhj2xf&amp;.tsrc=rss",
-      "src": "yahoo-rss"
-    },
-    {
-      "title": "The Home Depot Declares Quarterly Dividend of $2.33",
-      "publisher": "Yahoo Finance",
-      "published": "Thu, 19 Nov 2026 21:15:00 +0000",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/home-depot-declares-quarterly-dividend-211500958.html?.tsrc=rss",
       "src": "yahoo-rss"
     },
     {
