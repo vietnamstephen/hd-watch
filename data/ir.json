@@ -1,5 +1,5 @@
 {
-  "asof": "2026-11-23 02:00:40",
+  "asof": "2026-11-24 02:00:46",
   "errors": [],
   "pdfs": [
     {
@@ -197,6 +197,20 @@
       "publisher_zh": "家得宝公司（IR 官方）"
     },
     {
+      "kind": "sec_filing",
+      "kind_zh": "10-Q / 10-K 报表",
+      "kind_en": "10-Q / 10-K Filing",
+      "url": "https://ir.homedepot.com/~/media/Files/H/HomeDepot-IR/reports-and-presentations/quarterly-earnings/2026/hd-q3-2026-10q.pdf",
+      "quarter": "Q3",
+      "fiscal_year": 2026,
+      "qlabel": "FY2026 Q3",
+      "date": "2026-11-17",
+      "weekday": "Tue",
+      "headline": "The Home Depot Announces Third Quarter Fiscal 2026 Results; Updates Fiscal 2026 Guidance",
+      "publisher": "The Home Depot, Inc.",
+      "publisher_zh": "家得宝公司（IR 官方）"
+    },
+    {
       "kind": "webcast",
       "kind_zh": "电话会直播",
       "kind_en": "Earnings Webcast",
@@ -383,6 +397,12 @@
           "dateline": "ATLANTA, November 17, 2026",
           "date": "2026-11-17",
           "title": "The Home Depot Announces Third Quarter Fiscal 2026 Results; Updates Fiscal 2026 Guidance"
+        },
+        {
+          "kind": "sec_filing",
+          "kind_zh": "10-Q / 10-K 报表",
+          "kind_en": "10-Q / 10-K Filing",
+          "url": "https://ir.homedepot.com/~/media/Files/H/HomeDepot-IR/reports-and-presentations/quarterly-earnings/2026/hd-q3-2026-10q.pdf"
         },
         {
           "kind": "webcast",
