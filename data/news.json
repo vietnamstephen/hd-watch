@@ -1,9 +1,16 @@
 {
-  "asof": "2026-11-24 02:00:49",
+  "asof": "2026-11-25 02:00:41",
   "errors": [
     "yfinance 新闻失败：YFDataException"
   ],
   "items": [
+    {
+      "title": "The Home Depot, Inc. (HD) is Attracting Investor Attention: Here is What You Should Know",
+      "publisher": "Yahoo Finance",
+      "published": "Tue, 24 Nov 2026 13:00:05 +0000",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/home-depot-inc-hd-attracting-130005617.html?.tsrc=rss",
+      "src": "yahoo-rss"
+    },
     {
       "title": "The Home Depot (HD) Shares Fall as Depressed Home Turnover Weighs on Outlook",
       "publisher": "Yahoo Finance",
@@ -75,6 +82,13 @@
       "src": "yahoo-rss"
     },
     {
+      "title": "Tariffs Strike Again: 343 Companies Report $28.5 Billion in Trump Tariff Refunds. Retail Beats Need a Second Look",
+      "publisher": "Yahoo Finance",
+      "published": "Mon, 23 Nov 2026 23:36:42 +0000",
+      "url": "https://www.tikr.com/blog/tariffs-strike-again-343-companies-report-28-5-billion-in-trump-tariff-refunds-retail-beats-need-a-second-look?ref=yahoofinance&amp;tlnk=yf-261123-rf9p82g5&amp;.tsrc=rss",
+      "src": "yahoo-rss"
+    },
+    {
       "title": "Intel Leads A List Of Stocks Winning Over New Hedge Fund Fans",
       "publisher": "Yahoo Finance",
       "published": "Mon, 23 Nov 2026 15:42:14 +0000",
@@ -89,31 +103,17 @@
       "src": "yahoo-rss"
     },
     {
+      "title": "Don’t Panic, Buy These Instead: Jim Cramer’s Emergency 5-Stock Portfolio",
+      "publisher": "Yahoo Finance",
+      "published": "Tue, 24 Nov 2026 14:22:22 +0000",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/don-t-panic-buy-instead-142222405.html?.tsrc=rss",
+      "src": "yahoo-rss"
+    },
+    {
       "title": "Shopping Till We Drop",
       "publisher": "Yahoo Finance",
       "published": "Fri, 20 Nov 2026 23:30:00 +0000",
       "url": "https://finance.yahoo.com/m/f12326bb-d1df-3a01-adc2-2d8798431a06/shopping-till-we-drop.html?.tsrc=rss",
-      "src": "yahoo-rss"
-    },
-    {
-      "title": "Georgia’s Top Technology Executives Honored at the 2026 GeorgiaCIO ORBIE Awards",
-      "publisher": "Yahoo Finance",
-      "published": "Fri, 20 Nov 2026 18:40:00 +0000",
-      "url": "https://finance.yahoo.com/technology/articles/georgia-top-technology-executives-honored-184000559.html?.tsrc=rss",
-      "src": "yahoo-rss"
-    },
-    {
-      "title": "Own Walmart? Its Cash Lags Its Price",
-      "publisher": "Yahoo Finance",
-      "published": "Fri, 20 Nov 2026 18:24:11 +0000",
-      "url": "https://www.trefis.com/stock/wmt/articles/627188/own-walmart-its-cash-lags-its-price/2026-11-20?.tsrc=rss",
-      "src": "yahoo-rss"
-    },
-    {
-      "title": "Trump’s Tariff Refund Saved Lowe’s From An Earnings Miss. Here’s The Math On How Government Tariff Refunds Are Padding Retailers’ Profits",
-      "publisher": "Yahoo Finance",
-      "published": "Fri, 20 Nov 2026 15:40:40 +0000",
-      "url": "https://247wallst.com/investing/2026/11/20/trumps-tariff-refund-saved-lowes-from-an-earnings-miss-heres-the-math-on-how-government-tariff-refunds-are-padding-retailers-profits/?.tsrc=rss",
       "src": "yahoo-rss"
     },
     {
@@ -122,14 +122,7 @@
       "published": "Mon, 23 Nov 2026 11:03:56 +0000",
       "url": "https://finance.yahoo.com/markets/stocks/articles/capital-group-dividend-value-etf-110356314.html?.tsrc=rss",
       "src": "yahoo-rss"
-    },
-    {
-      "title": "Ross Stores Earnings Beat But Tepid Holiday Outlook Sinks Stock",
-      "publisher": "Yahoo Finance",
-      "published": "Fri, 20 Nov 2026 15:32:30 +0000",
-      "url": "https://finance.yahoo.com/m/2a3dc039-5d33-38ad-92d8-639d011370eb/ross-stores-earnings-beat-but.html?.tsrc=rss",
-      "src": "yahoo-rss"
     }
   ],
-  "count": 18
+  "count": 17
 }
