@@ -1,9 +1,30 @@
 {
-  "asof": "2026-11-26 02:00:38",
+  "asof": "2026-11-27 02:00:55",
   "errors": [
     "yfinance 新闻失败：YFDataException"
   ],
   "items": [
+    {
+      "title": "Home Depot (HD) Stock Looks Fully Valued On Future Cash Flow",
+      "publisher": "Yahoo Finance",
+      "published": "Thu, 26 Nov 2026 05:14:58 +0000",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/home-depot-hd-stock-looks-051458550.html?.tsrc=rss",
+      "src": "yahoo-rss"
+    },
+    {
+      "title": "Why Home Depot’s Earnings Made Jim Cramer More Bullish on the Stock",
+      "publisher": "Yahoo Finance",
+      "published": "Wed, 25 Nov 2026 18:50:10 +0000",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-home-depot-earnings-made-185010833.html?.tsrc=rss",
+      "src": "yahoo-rss"
+    },
+    {
+      "title": "11 Big Funds Bought Home Depot Last Quarter, While 13 Sold. Who’s Right?",
+      "publisher": "Yahoo Finance",
+      "published": "Wed, 25 Nov 2026 18:22:43 +0000",
+      "url": "https://www.tikr.com/blog/11-big-funds-bought-home-depot-last-quarter-while-13-sold-whos-right?ref=yahoofinance&amp;tlnk=yf-261125-vm4cw6p7&amp;.tsrc=rss",
+      "src": "yahoo-rss"
+    },
     {
       "title": "Coupang vs. Home Depot: Which Consumer Stock Is a Better Buy for 2027?",
       "publisher": "Yahoo Finance",
@@ -61,17 +82,10 @@
       "src": "yahoo-rss"
     },
     {
-      "title": "Can Home Depot Reignite Growth Amid Weak Big-Ticket Demand?",
+      "title": "Walmart Soars 10% in a Month as Tech Sinks. Michael Burry Calls It One of the Market’s “Generals”",
       "publisher": "Yahoo Finance",
-      "published": "Mon, 23 Nov 2026 15:15:00 +0000",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/home-depot-reignite-growth-amid-151500743.html?.tsrc=rss",
-      "src": "yahoo-rss"
-    },
-    {
-      "title": "The Home Depot to Present at the Morgan Stanley Global Consumer &amp; Retail Conference",
-      "publisher": "Yahoo Finance",
-      "published": "Mon, 23 Nov 2026 13:00:00 +0000",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/home-depot-present-morgan-stanley-130000424.html?.tsrc=rss",
+      "published": "Thu, 26 Nov 2026 09:09:12 +0000",
+      "url": "https://www.tikr.com/blog/walmart-soars-10-in-a-month-as-tech-sinks-michael-burry-calls-it-one-of-the-markets-generals?ref=yahoofinance&amp;tlnk=yf-261126-h2xh8829&amp;.tsrc=rss",
       "src": "yahoo-rss"
     },
     {
@@ -82,10 +96,10 @@
       "src": "yahoo-rss"
     },
     {
-      "title": "Intel Leads A List Of Stocks Winning Over New Hedge Fund Fans",
+      "title": "How Much You’d Need in Dividend Stocks to Generate $5,000 a Month in Passive Income",
       "publisher": "Yahoo Finance",
-      "published": "Mon, 23 Nov 2026 15:42:14 +0000",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/intel-leads-list-stocks-winning-154214710.html?.tsrc=rss",
+      "published": "Wed, 25 Nov 2026 20:17:45 +0000",
+      "url": "https://247wallst.com/investing/2026/11/25/how-much-youd-need-in-dividend-stocks-to-generate-5000-a-month-in-passive-income/?.tsrc=rss",
       "src": "yahoo-rss"
     },
     {
@@ -101,14 +115,7 @@
       "published": "Tue, 24 Nov 2026 14:22:22 +0000",
       "url": "https://finance.yahoo.com/markets/stocks/articles/don-t-panic-buy-instead-142222405.html?.tsrc=rss",
       "src": "yahoo-rss"
-    },
-    {
-      "title": "What Capital Group Dividend Value ETF (CGDV) Bought: Dominion Leads on Nov. 19",
-      "publisher": "Yahoo Finance",
-      "published": "Mon, 23 Nov 2026 11:03:56 +0000",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/capital-group-dividend-value-etf-110356314.html?.tsrc=rss",
-      "src": "yahoo-rss"
     }
   ],
-  "count": 15
+  "count": 16
 }
