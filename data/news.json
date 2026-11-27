@@ -1,9 +1,23 @@
 {
-  "asof": "2026-11-27 02:00:55",
+  "asof": "2026-11-28 02:00:57",
   "errors": [
     "yfinance 新闻失败：YFDataException"
   ],
   "items": [
+    {
+      "title": "Is Home Depot Stock Outperforming the S&amp;P 500?",
+      "publisher": "Yahoo Finance",
+      "published": "Fri, 27 Nov 2026 10:11:26 +0000",
+      "url": "https://www.barchart.com/story/news/9029779/is-home-depot-stock-outperforming-the-s-p-500?.tsrc=rss",
+      "src": "yahoo-rss"
+    },
+    {
+      "title": "Home Depot shoppers can now dodge a classic cart disaster",
+      "publisher": "Yahoo Finance",
+      "published": "Fri, 27 Nov 2026 00:00:00 +0000",
+      "url": "https://www.thestreet.com/investing/stocks/home-depot-shoppers-can-now-dodge-a-classic-cart-disaster?.tsrc=rss",
+      "src": "yahoo-rss"
+    },
     {
       "title": "Home Depot (HD) Stock Looks Fully Valued On Future Cash Flow",
       "publisher": "Yahoo Finance",
@@ -61,27 +75,6 @@
       "src": "yahoo-rss"
     },
     {
-      "title": "Home Depot and Lowe's sent U.S. jobs to India before Kroger",
-      "publisher": "Yahoo Finance",
-      "published": "Wed, 25 Nov 2026 00:17:00 +0000",
-      "url": "https://www.thestreet.com/retail/home-depot-and-lowes-quietly-send-american-jobs-to-india?.tsrc=rss",
-      "src": "yahoo-rss"
-    },
-    {
-      "title": "The Home Depot, Inc. (HD) is Attracting Investor Attention: Here is What You Should Know",
-      "publisher": "Yahoo Finance",
-      "published": "Tue, 24 Nov 2026 13:00:05 +0000",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/home-depot-inc-hd-attracting-130005617.html?.tsrc=rss",
-      "src": "yahoo-rss"
-    },
-    {
-      "title": "The Home Depot (HD) Shares Fall as Depressed Home Turnover Weighs on Outlook",
-      "publisher": "Yahoo Finance",
-      "published": "Mon, 23 Nov 2026 17:08:44 +0000",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/home-depot-hd-shares-fall-170844895.html?.tsrc=rss",
-      "src": "yahoo-rss"
-    },
-    {
       "title": "Walmart Soars 10% in a Month as Tech Sinks. Michael Burry Calls It One of the Market’s “Generals”",
       "publisher": "Yahoo Finance",
       "published": "Thu, 26 Nov 2026 09:09:12 +0000",
@@ -89,10 +82,17 @@
       "src": "yahoo-rss"
     },
     {
-      "title": "Tariffs Strike Again: 343 Companies Report $28.5 Billion in Trump Tariff Refunds. Retail Beats Need a Second Look",
+      "title": "The Dividend Portfolio It Takes to Pay $85,000 a Year",
       "publisher": "Yahoo Finance",
-      "published": "Mon, 23 Nov 2026 23:36:42 +0000",
-      "url": "https://www.tikr.com/blog/tariffs-strike-again-343-companies-report-28-5-billion-in-trump-tariff-refunds-retail-beats-need-a-second-look?ref=yahoofinance&amp;tlnk=yf-261123-rf9p82g5&amp;.tsrc=rss",
+      "published": "Fri, 27 Nov 2026 14:47:52 +0000",
+      "url": "https://247wallst.com/investing/2026/11/27/the-dividend-portfolio-it-takes-to-pay-85000-a-year/?.tsrc=rss",
+      "src": "yahoo-rss"
+    },
+    {
+      "title": "George Soros, Ken Fisher and 3 Other Big Funds Sold KKR Last Quarter, While 8 Bought. Who’s Right?",
+      "publisher": "Yahoo Finance",
+      "published": "Fri, 27 Nov 2026 12:53:38 +0000",
+      "url": "https://www.tikr.com/blog/george-soros-ken-fisher-and-3-other-big-funds-sold-kkr-last-quarter-while-8-bought-whos-right?ref=yahoofinance&amp;tlnk=yf-261127-5wccm654&amp;.tsrc=rss",
       "src": "yahoo-rss"
     },
     {
@@ -110,10 +110,10 @@
       "src": "yahoo-rss"
     },
     {
-      "title": "Don’t Panic, Buy These Instead: Jim Cramer’s Emergency 5-Stock Portfolio",
+      "title": "Black Friday Deals, Record Online Sales Put These ETFs in Focus",
       "publisher": "Yahoo Finance",
-      "published": "Tue, 24 Nov 2026 14:22:22 +0000",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/don-t-panic-buy-instead-142222405.html?.tsrc=rss",
+      "published": "Fri, 27 Nov 2026 12:00:00 +0000",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/black-friday-deals-record-online-120000267.html?.tsrc=rss",
       "src": "yahoo-rss"
     }
   ],
